@@ -81,33 +81,12 @@ export default class Dashboard extends React.Component {
 
   render() {    
     return (
-      <div className="Dashboard">
+      <div >
 
-        <PageNavbar active="dashboard" />
+        <PageNavbar active="summary" />
 
         <br />
-        <div className="container movies-container">
-          <div className="jumbotron">
-            <div className="h5">Keywords</div>
-            <div className="keywords-container">
-              {this.state.keywords}
-            </div>
-          </div>
-
-          <br />
-          <div className="jumbotron">
-            <div className="movies-container">
-              <div className="movies-header">
-                <div className="header-lg"><strong>Title</strong></div>
-                <div className="header"><strong>Rating</strong></div>
-                <div className="header"><strong>Vote Count</strong></div>
-              </div>
-              <div className="results-container" id="results">
-                {this.state.movies}
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     );
   };

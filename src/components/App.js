@@ -20,8 +20,8 @@ export default class App extends React.Component {
 					<Switch>
 						<Route
 							exact
-							path="/dashboard"
-							render={() => <Dashboard />}
+							path="/"
+							render={() => <Summary />}
 						/>
 						<Route
 							exact
