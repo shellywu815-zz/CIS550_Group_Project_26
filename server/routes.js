@@ -177,5 +177,17 @@ const getIndustryStartup = (req, res) => {
 
 module.exports = {
 	getTopInvestors: getTopInvestors,
+  getTopStartups: getTopStartups,
+  selectYearVC: selectYearVC,
+  selectYearStartup: selectYearStartup,
+  selectYearIndustry: selectYearIndustry,
+  selectStartups: selectStartups,
+  searchVC: searchVC,
+  searchStartup: searchStartup,
+  searchIndustry: searchIndustry,
+  getVcInfo: getVcInfo,
+  getStartupInfo: getStartupInfo,
+  getIndustryVC: getIndustryVC,
+  getIndustryStartup: getIndustryStartup,
   //TODO: Finish this
 };

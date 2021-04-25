@@ -33,7 +33,7 @@ app.get('/startups/:minAmount/:maxAmount', routes.selectStartups);
 //Searching by name
 app.get('/searchVC/:name', routes.searchVC);
 app.get('/searchStartup/:name', routes.searchStartup);
-app.get('/searchIndustry/:keyword', routes.SearchIndustry);
+app.get('/searchIndustry/:keyword', routes.searchIndustry);
 
 //Getting information about one VC/Startup/Industry
 app.get('/VcInfo/:id', routes.getVcInfo);
