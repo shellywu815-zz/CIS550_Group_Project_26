@@ -16,7 +16,9 @@ app.use(bodyParser.urlencoded({extended: false}));
 /* ---- Summary data ---- */
 app.get('/topInvestors', routes.getTopInvestors);
 app.get('/topStartups', routes.getTopStartups);
-
+app.get('/recentInvestments', routes.getRecentInvestments);
+app.get('/foundersSchools', routes.getFoundersSchools);
+app.get('/investmentYears', routes.getInvestmentYears);
 
 /* ---- Select Routes ---- */
 
