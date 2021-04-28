@@ -144,14 +144,14 @@ const searchVC = (req, res) => {
   const query = `
   WITH vc AS (
     SELECT id
-    FROM Fund
+    FROM FinOrg
     WHERE name LIKE '%` + searchString + `%'
     ORDER BY LENGTH(name) - LENGTH(` + searchString + `) ASC
   )
   SELECT c.id, c.name, c.industry, i.round, i.amount, i.date
-  FROM InvestIn i JOIN Company c ON i.c_id = c.id
+  FROM FinOrgInvestIn i JOIN Company c ON i.c_id = c.id
   WHERE i.f_id = (SELECT id FROM vc LIMIT 1) 
-  ORDER BY date DESC;  
+  ORDER BY amount DESC;  
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
