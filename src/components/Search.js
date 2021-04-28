@@ -105,8 +105,8 @@ export default class Dashboard extends React.Component {
 						<div className="h5">Search</div>
 						<br></br>
 						<div className="input-container">
-							<input type='text' placeholder="" value={this.state.movieName} onChange={this.handleMovieNameChange} id="movieName" className="movie-input"/>
-							<button id="submitMovieBtn" className="submit-btn" onClick={this.submitMovie}>Search</button>
+							<input type='text' placeholder="" value={this.state.searchString} onChange={this.handleSearchStringChange} id="searchString" className="search-input"/>
+							<button id="submitMovieBtn" className="submit-btn" onClick={this.submitSearch}>Search</button>
 						</div>
 						<div className="header-container">
 							<div className="h6">Investments of: </div>
