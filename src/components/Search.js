@@ -28,6 +28,7 @@ export default class Dashboard extends React.Component {
 	};
 
   submitSearch() {
+    console.log("Search submitted: " + this.searchString);
     if (this.searchMode == "VC") {
       this.showVC();
     }
