@@ -25,10 +25,11 @@ export default class Dashboard extends React.Component {
 		this.setState({
 			searchString: e.target.value
 		});
+    console.log("Search String updated:" + this.state.searchString);
 	};
 
   submitSearch() {
-    console.log("Search submitted: " + this.searchString);
+    console.log("Search submitted: " +  this.state.searchString);
     if (this.searchMode == "VC") {
       this.showVC();
     }
@@ -71,7 +72,7 @@ export default class Dashboard extends React.Component {
   /* ---- VC Search ---- */
 
   showVC() {
-    fetch("http://localhost:8081/searchVC/" + this.searchString, {
+    fetch("http://localhost:8081/searchVC/" +  this.state.searchString, {
 			method: "GET"
 		})
 			.then(res => res.json())
