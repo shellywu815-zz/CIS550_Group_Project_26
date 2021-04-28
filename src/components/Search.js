@@ -30,7 +30,7 @@ export default class Dashboard extends React.Component {
 
   submitSearch() {
     console.log("Search submitted: " +  this.state.searchString);
-    if (this.searchMode == "VC") {
+    if (this.state.searchMode == "VC") {
       this.showVC();
     }
     else {
@@ -72,12 +72,13 @@ export default class Dashboard extends React.Component {
   /* ---- VC Search ---- */
 
   showVC() {
+    console.log("Query started: this.state.searchString" );
     fetch("http://localhost:8081/searchVC/" +  this.state.searchString, {
 			method: "GET"
 		})
 			.then(res => res.json())
 			.then(companiesList => {
-				//console.log(companiesList); //displays your JSON object in the console
+				console.log(companiesList); //displays your JSON object in the console
         const companiesDivs = companiesList.map((com, i) =>
         <SearchVCRow
           key={i}

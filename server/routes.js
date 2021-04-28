@@ -146,7 +146,7 @@ const searchVC = (req, res) => {
     SELECT id
     FROM FinOrg
     WHERE name LIKE '%` + searchString + `%'
-    ORDER BY LENGTH(name) - LENGTH(` + searchString + `) ASC
+    ORDER BY LENGTH(name) - LENGTH("` + searchString + `") ASC
   )
   SELECT c.id, c.name, c.industry, i.round, i.amount, i.date
   FROM FinOrgInvestIn i JOIN Company c ON i.c_id = c.id
