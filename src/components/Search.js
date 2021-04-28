@@ -75,7 +75,7 @@ export default class Dashboard extends React.Component {
 		})
 			.then(res => res.json())
 			.then(companiesList => {
-				//console.log(DashboardMovieRow); //displays your JSON object in the console
+				//console.log(companiesList); //displays your JSON object in the console
         const companiesDivs = companiesList.map((com, i) =>
         <SearchVCRow
           key={i}
@@ -119,7 +119,7 @@ export default class Dashboard extends React.Component {
 							</div>
 						</div>
 						<div className="results-container" id="results">
-							{this.state.recMovies}
+							{this.state.searchResult}
 						</div>
 					</div>
 				</div>
