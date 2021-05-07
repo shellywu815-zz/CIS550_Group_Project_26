@@ -12,7 +12,12 @@ const connection = mysql.createPool(config);
 /* ---- Summary Queries ---- */
 const getTopInvestors = (req, res) => {
   const query = `
-
+  SELECT d.subject, SUM(i.amount)
+  FROM Degree d JOIN Affiliates a ON d.receiver = a.p_id 
+  JOIN InvestIn ON a.c_id  = i.c_id
+  WHERE a.title LIKE '%Founder%’
+  GROUP BY d.subject;
+  
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
@@ -24,7 +29,13 @@ const getTopInvestors = (req, res) => {
 
 const getTopStartups = (req, res) => {
   const query = `
-
+  SELECT c.name, SUM(i.amount)
+  FROM Company c JOIN InvestIn i ON c.c_id=i.c_id
+  WHERE c.c_id NOT IN 
+  (SELECT acquired_c_id FROM Acquires)
+  GROUP BY c.name
+  LIMIT 10;
+  
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
