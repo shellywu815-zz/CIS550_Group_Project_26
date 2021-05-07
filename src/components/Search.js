@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Dashboard.css';
+import '../style/Search.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PageNavbar from './PageNavbar';
 import KeywordButton from './KeywordButton';
@@ -9,8 +9,6 @@ export default class Dashboard extends React.Component {
   constructor(props) {
     super(props);
 
-    // The state maintained by this React Component. This component maintains the list of keywords,
-    // and a list of movies for a specified keyword.
     this.state = {
       searchMode: "VC",
       searchString: "",
@@ -25,11 +23,11 @@ export default class Dashboard extends React.Component {
 		this.setState({
 			searchString: e.target.value
 		});
-    console.log("Search String updated:" + this.state.searchString);
+    //console.log("Search String updated:" + this.state.searchString);
 	};
 
   submitSearch() {
-    console.log("Search submitted: " +  this.state.searchString);
+    //console.log("Search submitted: " +  this.state.searchString);
     if (this.state.searchMode == "VC") {
       this.showVC();
     }
@@ -94,6 +92,7 @@ export default class Dashboard extends React.Component {
 				this.setState({
 					searchResult: companiesDivs
 				});
+        console.log(this.state.searchResult);
 			})
 			.catch(err => console.log(err))
   };
@@ -109,7 +108,7 @@ export default class Dashboard extends React.Component {
 						<br></br>
 						<div className="input-container">
 							<input type='text' placeholder="" value={this.state.searchString} onChange={this.handleSearchStringChange} id="searchString" className="search-input"/>
-							<button id="submitMovieBtn" className="submit-btn" onClick={this.submitSearch}>Search</button>
+							<button id="submitBtn" className="submit-btn" onClick={this.submitSearch}>Search</button>
 						</div>
 						<div className="header-container">
 							<div className="h6">Investments of: </div>

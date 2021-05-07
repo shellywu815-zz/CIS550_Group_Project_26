@@ -10,6 +10,6 @@
   height: 40px;
 }
 
-.movieResults .title, .movieResults .id, .movieResults .rating, .movieResults .votes, .headers .header {
-  flex: 1 0 25%;
+.headers .header, .movieResults .name, .movieResults .industry, .movieResults .round, .movieResults .amount, .movieResults .date{
+  flex: 1 1 25%;
 }
