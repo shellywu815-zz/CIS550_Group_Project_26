@@ -3,13 +3,19 @@
   flex-flow: column wrap;
 }
 
-.header-container .headers, .results-container .movieResults {
+.header-container .headers, .results-container .VCMatches{
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   height: 40px;
 }
 
-.headers .header, .movieResults .name, .movieResults .industry, .movieResults .round, .movieResults .amount, .movieResults .date{
+.headers .header,.VCMatches .name, .VCMatches .founded,  .VCMatches .total, .VCMatches .number, .VCMatches .industry{
   flex: 1 1 25%;
+}
+
+mode-container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
 }
