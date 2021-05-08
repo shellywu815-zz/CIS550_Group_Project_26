@@ -23,8 +23,8 @@ const getTopInvestors = (req, res) => {
       WHERE a.title LIKE "%Founder%"
     )
     SELECT d.subject AS major, SUM(f.amount) AS investments
-    FROM fund_amount f JOIN degree_received d ON f.companyId = d.cid
-    GROUP BY d.subject ORDER BY SUM(f.amount) DESC LIMIT 10;
+    FROM fund_amount f JOIN degree_received d ON f.companyId = d.cid 
+    GROUP BY d.subject HAVING major<> "unknown" ORDER BY SUM(f.amount) DESC LIMIT 10;
     
   
   `;
@@ -42,7 +42,7 @@ const getTopStartups = (req, res) => {
 FROM Company c JOIN CompanyInvestIn i ON c.id=i.investor_id
 WHERE c.id NOT IN 
 (SELECT acquired_id FROM Acquired)
-GROUP BY c.name
+GROUP BY c.name ORDER BY SUM(i.amount) DESC
 LIMIT 10;
 
   
