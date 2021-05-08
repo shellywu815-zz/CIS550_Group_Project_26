@@ -4,14 +4,13 @@ import {
 	Route,
 	Switch
 } from 'react-router-dom';
-import Dashboard from './Dashboard';
-import Recommendations from './Recommendations';
-import BestMovies from './BestMovies';
 import Summary from './Summary'
 import Select from './Select'
 import Search from './Search'
+import VCProfile from './VCProfile'
 
 export default class App extends React.Component {
+vcpath = new URLSearchParams("/vc/:fid");
 
 	render() {
 		return (
@@ -24,20 +23,6 @@ export default class App extends React.Component {
 							render={() => <Summary />}
 						/>
 						<Route
-							exact
-							path="/dashboard"
-							render={() => <Dashboard />}
-						/>
-						<Route
-							path="/recommendations"
-							render={() => <Recommendations />}
-						/>
-						<Route
-							path="/bestmovies"
-							render={() => <BestMovies />}
-						/>
-
-						<Route
 							path="/summary"
 							render={() => <Summary />}
 						/>
@@ -49,6 +34,10 @@ export default class App extends React.Component {
 						<Route
 							path="/search"
 							render={() => <Search />}
+						/>
+						<Route
+							path={this.vcpath}
+							render={() => <VCProfile fid = {this.vcpath.get("fid")}/>}
 						/>
 					</Switch>
 				</Router>
