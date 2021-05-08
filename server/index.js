@@ -47,6 +47,7 @@ app.get('/searchIndustry/:keyword', routes.searchIndustry);
 app.get('/VcInfo/:id', routes.getVcInfo);
 app.get('/VcInvests/:id', routes.getVcInvests);
 app.get('/StartupInfo/:id', routes.getStartupInfo);
+app.get('/StartupFunds/:id', routes.getStartupFunds);
 app.get('/IndustryVC/:name', routes.getIndustryVC);
 app.get('/IndustryStartup/:name', routes.getIndustryStartup);
 

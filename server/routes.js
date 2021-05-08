@@ -350,6 +350,18 @@ const getStartupInfo = (req, res) => {
   });
 };
 
+const getStartupFunds = (req, res) => {
+  const query = `
+
+  `;
+  connection.query(query, function(err, rows, fields) {
+    if (err) console.log(err);
+    else {
+      res.json(rows);
+    }
+  });
+};
+
 const getIndustryVC = (req, res) => {
   const query = `
 
@@ -393,6 +405,7 @@ module.exports = {
   getStartupInfo: getStartupInfo,
   getIndustryVC: getIndustryVC,
   getIndustryStartup: getIndustryStartup,
-  getVcInvests: getVcInvests
+  getVcInvests: getVcInvests,
+  getStartupFunds: getStartupFunds
   //TODO: Finish this
 };
