@@ -156,15 +156,28 @@ const searchVC = (req, res) => {
   const searchString = req.params.name;
   const query = `
   WITH vc AS (
-    SELECT id
+    SELECT id, name, founded_at
     FROM FinOrg
     WHERE name LIKE '%` + searchString + `%'
-    ORDER BY LENGTH(name) - LENGTH("` + searchString + `") ASC
+  ),
+  vci AS (
+    SELECT vc.id, vc.name, vc.founded_at, c.industry, i.amount
+    FROM vc JOIN FinOrgInvestIn i ON i.f_id = vc.id JOIN Company c ON i.c_id = c.id
+  ),
+  ag AS (
+    SELECT id, name, founded_at AS founded, SUM(amount) AS size, COUNT(amount) AS number
+    FROM vci
+    GROUP BY id, name, founded_at
+  ),
+  ind AS (
+    SELECT id, industry, sum(amount) AS total
+    FROM vci
+    GROUP BY id, industry
   )
-  SELECT c.id, c.name, c.industry, i.round, i.amount, i.date
-  FROM FinOrgInvestIn i JOIN Company c ON i.c_id = c.id
-  WHERE i.f_id = (SELECT id FROM vc LIMIT 1) 
-  ORDER BY amount DESC;  
+  SELECT id, name, founded, size AS total, number, (SELECT industry FROM ag NATURAL JOIN ind WHERE ind.id = id ORDER BY total DESC LIMIT 1) AS industry
+    FROM ag
+    ORDER BY LENGTH(name) - LENGTH("` + searchString + `") ASC
+    LIMIT 100;
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
