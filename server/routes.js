@@ -100,53 +100,87 @@ const getInvestmentYears = (req, res) => {
 };
 /* ---- Select Queries ---- */
 
-const selectYearVC = (req, res) => {
+const selectAmounts = (req, res) => {
   const query = `
-
+  SELECT decade FROM amountDropDown;
   `;
-  connection.query(query, function(err, rows, fields) {
+
+  connection.query(query, (err, rows, fields) => {
     if (err) console.log(err);
     else {
       res.json(rows);
-    }
+      console.log(rows);}
   });
 };
 
-const selectYearStartup = (req, res) => {
+const selectFunds = (req, res) => {
   const query = `
-
+  SELECT DISTINCT name FROM FinOrg LIMIT 20;
   `;
-  connection.query(query, function(err, rows, fields) {
+
+  connection.query(query, (err, rows, fields) => {
     if (err) console.log(err);
     else {
       res.json(rows);
-    }
+      console.log(rows);}
   });
 };
 
-const selectYearIndustry = (req, res) => {
+const selectAmountsBig = (req, res) => {
   const query = `
-
+  SELECT name FROM amountDropDownTwo;
   `;
-  connection.query(query, function(err, rows, fields) {
+  connection.query(query, (err, rows, fields) => {
     if (err) console.log(err);
     else {
       res.json(rows);
-    }
+      console.log(rows);}
   });
 };
 
 const selectStartups = (req, res) => {
+  var inputgenre = req.query.selectedGenre;
+  var inputdecade = req.query.selectedDecade;
   const query = `
-
+  WITH qualified_fund_id AS (
+    SELECT f_id, amount, round
+    FROM FinOrgInvestIn 
+    WHERE amount >= ${inputdecade} AND amount <= ${inputgenre})
+    SELECT DISTINCT FinOrg.name AS title, qualified_fund_id.amount AS movie_id, qualified_fund_id.round as rating
+    FROM  FinOrg INNER JOIN qualified_fund_id 
+    WHERE FinOrg.id = qualified_fund_id.f_id
+    LIMIT 250
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
     else {
       res.json(rows);
+      console.log(rows);
     }
   });
 };
+
+
+const selectIPO = (req, res) => {
+  var inputcompany = req.query.selectedFund;
+  const query = `
+  WITH fund_id AS
+  (SELECT id FROM FinOrg WHERE name = "${inputcompany}"), 
+  qualified_c_f AS
+  (SELECT c_id, f_id FROM FinOrgInvestIn JOIN fund_id ON 
+  FinOrgInvestIn.f_id = fund_id.id)
+  SELECT qualified_c_f.c_id AS title, qualified_c_f.f_id AS movie_id, IPO.raised_amount AS rating FROM qualified_c_f
+  INNER JOIN IPO ON qualified_c_f.c_id = IPO.c_id
+  `;
+  connection.query(query, function(err, rows, fields) {
+    if (err) console.log(err);
+    else {
+      res.json(rows);
+      console.log(rows);
+    }
+  });
+};
+
 
 
 /* ---- Search Queries ---- */
