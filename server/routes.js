@@ -265,8 +265,37 @@ LIMIT 100;
 };
 
 const searchIndustry = (req, res) => {
+  const searchString = req.params.keyword;
   const query = `
-
+  WITH com AS (
+    SELECT id, name, found_date, industry
+    FROM Company
+    WHERE (industry LIKE '%` + searchString + `%')
+  ),
+  foi AS (
+    SELECT id, industry, f_id AS investor, round, amount
+    FROM com JOIN FinOrgInvestIn fi ON com.id = fi.c_id
+  ),
+  coi AS (
+    SELECT id, industry, investor_id AS investor, round, amount
+    FROM com JOIN CompanyInvestIn ci ON com.id = ci.invested_id
+  ),
+  poi AS (
+    SELECT id, industry, investor_id AS investor, round, amount
+    FROM com JOIN PersonInvestIn pi ON com.id = pi.invested_id
+  ),
+  allinvs AS (
+    SELECT * FROM foi
+    UNION
+    SELECT * FROM coi
+    UNION
+    SELECT * FROM poi
+  )
+SELECT industry AS name, count(round) AS number, sum(amount) AS total
+FROM allinvs
+GROUP BY industry
+ORDER BY LENGTH(name) - LENGTH("` + searchString + `") ASC
+LIMIT 100;
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
