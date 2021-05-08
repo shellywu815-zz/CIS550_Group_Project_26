@@ -375,8 +375,18 @@ const getStartupFunds = (req, res) => {
 };
 
 const getIndustryVC = (req, res) => {
+  const ind = req.params.name;
   const query = `
-
+  WITH vci AS (
+    SELECT vc.id, vc.name, vc.founded_at, i.amount
+    FROM FinOrg vc JOIN FinOrgInvestIn i ON i.f_id = vc.id JOIN Company c ON i.c_id = c.id
+    WHERE c.industry = "` + ind + `"
+  )
+SELECT id, name, founded_at AS founded, sum(amount) AS total, count(amount) AS number
+FROM vci
+GROUP BY id
+ORDER BY total DESC
+LIMIT 200;
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);

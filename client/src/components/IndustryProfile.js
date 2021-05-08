@@ -1,9 +1,9 @@
 import React from 'react';
-import '../style/VCProfile.css';
+import '../style/IndustryProfile.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PageNavbar from './PageNavbar';
-//import KeywordButton from './KeywordButton';
-import VCInvestsRow from './VCInvestsRow';
+import SearchComRow from './SearchComRow';
+import SearchVCRow from './SearchVCRow';
 
 export default class VCProfile extends React.Component {
   constructor(props) {
@@ -12,8 +12,9 @@ export default class VCProfile extends React.Component {
     this.state = {
       //searchMode: "VC",
       info: {},
-      investments: [],
-      fid: ""
+      vcs: [],
+      companies: [],
+      industry: ""
     };
 
 		//this.handleSearchStringChange = this.handleSearchStringChange.bind(this);
@@ -47,66 +48,68 @@ export default class VCProfile extends React.Component {
     //this.setState( {
     //  fid: this.props.match.params.fid
     //});
-    this.state.fid = this.props.match.params.fid;
-    console.log("fid changed to: " + this.state.fid);
+    this.state.ind = this.props.match.params.ind;
+    console.log("ind changed to: " + this.state.ind);
     //this.showInfo();
-    this.showInvestments();
+    this.showCompanies();
+    this.showVCs();
   };
   
-  // VC info
+  // Industry info
   showInfo() {
-    console.log("Query started: this.state.searchString" );
-    fetch("http://localhost:8081/VcInvests/" +  this.state.fid, {
+
+  };
+
+
+  // Top Companies
+  showCompanies() {
+    //console.log("Query started: " + this.state.fid);
+    fetch("http://localhost:8081/IndustryStartup/" +  this.state.industry, {
 			method: "GET"
 		})
 			.then(res => res.json())
 			.then(companiesList => {
 				console.log(companiesList); //displays your JSON object in the console
         const companiesDivs = companiesList.map((com, i) =>
-        <VCInvestsRow
+        <SearchComRow
           key={i}
           name={com.name}
+          founded={com.founded}
           industry={com.industry} 
-          round={com.round}
-          amount={com.amount}
-          date={com.date} 
+          total={com.total}
+          number={com.number}
         /> 
         );
         
-				//This saves our HTML representation of the data into the state, which we can call in our render function
 				this.setState({
-					searchResult: companiesDivs
+					companies: companiesDivs
 				});
-        console.log(this.state.searchResult);
+        //console.log(this.state.searchResult);
 			})
 			.catch(err => console.log(err))
   };
 
-
-  // VC investments
-  showInvestments() {
-    console.log("Query started: " + this.state.fid);
-    fetch("http://localhost:8081/VcInvests/" +  this.state.fid, {
+  showVCs() {
+    fetch("http://localhost:8081/IndustryVC/" +  this.state.industry, {
 			method: "GET"
 		})
 			.then(res => res.json())
 			.then(companiesList => {
 				console.log(companiesList); //displays your JSON object in the console
         const companiesDivs = companiesList.map((com, i) =>
-        <VCInvestsRow
+        <SearchVCRow
           key={i}
           name={com.name}
-          industry={com.industry} 
-          round={com.round}
-          amount={com.amount}
-          date={com.date} 
+          founded={com.founded}
+          total={com.total}
+          number={com.number}
         /> 
         );
         
 				this.setState({
-					searchResult: companiesDivs
+					companies: companiesDivs
 				});
-        console.log(this.state.searchResult);
+        //console.log(this.state.searchResult);
 			})
 			.catch(err => console.log(err))
   };
@@ -118,20 +121,35 @@ export default class VCProfile extends React.Component {
         <PageNavbar active="Search" />
         <div className="container VCProfile-container">
 					<div className="jumbotron">
-						<div className="h5">Search {this.state.fid}</div>
+						<div className="h5">Industry: {this.state.industry}</div>
 						<br></br>
+          </div>
+          <div className="jumbotron">
 						<div className="header-container">
-							<div className="h6">Investments: </div>
-							<div className="headers">
+							<div className="h6">Companies: </div>
+							<div className="comheaders">
 								<div className="header"><strong>Company Name</strong></div>
-								<div className="header"><strong>Industry</strong></div>
-								<div className="header"><strong>Financing Round</strong></div>
-								<div className="header"><strong>Amount Invested</strong></div>
-                <div className="header"><strong>Date</strong></div>
+								<div className="header"><strong>Date Founded</strong></div>
+								<div className="header"><strong>Total Funding</strong></div>
+                <div className="header"><strong>Number of Rounds</strong></div>
 							</div>
 						</div>
-						<div className="results-container" id="results">
-							{this.state.searchResult}
+						<div className="results-container" id="comresults">
+							{this.state.companies}
+						</div>
+          </div>
+          <div className="jumbotron">
+          <div className="header-container">
+							<div className="h6">Investors: </div>
+							<div className="vcheaders">
+								<div className="header"><strong>Investor Name</strong></div>
+								<div className="header"><strong>Date Founded</strong></div>
+								<div className="header"><strong>Total Invested</strong></div>
+                <div className="header"><strong>Number of Investments</strong></div>
+							</div>
+						</div>
+						<div className="results-container" id="vcresults">
+							{this.state.companies}
 						</div>
 					</div>
 				</div>
