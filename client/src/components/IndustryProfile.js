@@ -48,8 +48,8 @@ export default class VCProfile extends React.Component {
     //this.setState( {
     //  fid: this.props.match.params.fid
     //});
-    this.state.ind = this.props.match.params.ind;
-    console.log("ind changed to: " + this.state.ind);
+    this.state.industry = this.props.match.params.ind;
+    console.log("ind changed to: " + this.state.industry);
     //this.showInfo();
     this.showCompanies();
     this.showVCs();
@@ -73,6 +73,7 @@ export default class VCProfile extends React.Component {
         const companiesDivs = companiesList.map((com, i) =>
         <SearchComRow
           key={i}
+          id={com.id}
           name={com.name}
           founded={com.founded}
           industry={com.industry} 
@@ -90,15 +91,17 @@ export default class VCProfile extends React.Component {
   };
 
   showVCs() {
+    console.log("querying VC:" + this.state.industry);
     fetch("http://localhost:8081/IndustryVC/" +  this.state.industry, {
 			method: "GET"
 		})
 			.then(res => res.json())
 			.then(companiesList => {
-				console.log(companiesList); //displays your JSON object in the console
+				//console.log(companiesList); //displays your JSON object in the console
         const companiesDivs = companiesList.map((com, i) =>
         <SearchVCRow
           key={i}
+          id={com.id}
           name={com.name}
           founded={com.founded}
           total={com.total}
@@ -107,7 +110,7 @@ export default class VCProfile extends React.Component {
         );
         
 				this.setState({
-					companies: companiesDivs
+					vcs: companiesDivs
 				});
         //console.log(this.state.searchResult);
 			})
@@ -121,12 +124,12 @@ export default class VCProfile extends React.Component {
         <PageNavbar active="Search" />
         <div className="container VCProfile-container">
 					<div className="jumbotron">
-						<div className="h5">Industry: {this.state.industry}</div>
+						<div className="h3">Industry: {this.state.industry}</div>
 						<br></br>
           </div>
           <div className="jumbotron">
 						<div className="header-container">
-							<div className="h6">Companies: </div>
+							<div className="h4">Top Companies: </div>
 							<div className="comheaders">
 								<div className="header"><strong>Company Name</strong></div>
 								<div className="header"><strong>Date Founded</strong></div>
@@ -140,16 +143,16 @@ export default class VCProfile extends React.Component {
           </div>
           <div className="jumbotron">
           <div className="header-container">
-							<div className="h6">Investors: </div>
+							<div className="h4">Top Investors: </div>
 							<div className="vcheaders">
 								<div className="header"><strong>Investor Name</strong></div>
 								<div className="header"><strong>Date Founded</strong></div>
-								<div className="header"><strong>Total Invested</strong></div>
-                <div className="header"><strong>Number of Investments</strong></div>
+								<div className="header"><strong>Total Invested in Industry</strong></div>
+                <div className="header"><strong>Number of Investments in Industry</strong></div>
 							</div>
 						</div>
 						<div className="results-container" id="vcresults">
-							{this.state.companies}
+							{this.state.vcs}
 						</div>
 					</div>
 				</div>

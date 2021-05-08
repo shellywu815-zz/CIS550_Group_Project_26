@@ -22,5 +22,5 @@
 }
 
 .vcheaders .header,.VCMatches .name, .VCMatches .founded, .VCMatches .total, .VCMatches .number{
-  flex: 1 1 25%;
+  flex: 1 0 25%;
 }

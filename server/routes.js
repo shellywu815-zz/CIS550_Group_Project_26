@@ -397,8 +397,37 @@ LIMIT 200;
 };
 
 const getIndustryStartup = (req, res) => {
+  const ind = req.params.name;
   const query = `
-
+  WITH com AS (
+    SELECT id, name, found_date, industry
+    FROM Company
+    WHERE industry = "` + ind + `"
+  ),
+  foi AS (
+    SELECT id, round, amount
+    FROM com JOIN FinOrgInvestIn fi ON com.id = fi.c_id
+  ),
+  coi AS (
+    SELECT id, round, amount
+    FROM com JOIN CompanyInvestIn ci ON com.id = ci.invested_id
+  ),
+  poi AS (
+    SELECT id, round, amount
+    FROM com JOIN PersonInvestIn pi ON com.id = pi.invested_id
+  ),
+  allinvs AS (
+    SELECT * FROM foi
+    UNION
+    SELECT * FROM coi
+    UNION
+    SELECT * FROM poi
+  )
+SELECT id, name, count(DISTINCT round) AS number, sum(amount) AS total
+FROM allinvs NATURAL JOIN com
+GROUP BY id
+ORDER BY total DESC
+LIMIT 200;
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
