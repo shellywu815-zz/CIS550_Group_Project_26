@@ -3,7 +3,7 @@ import '../style/VCProfile.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PageNavbar from './PageNavbar';
 //import KeywordButton from './KeywordButton';
-import VCInvestsRow from './VCInvestsRow';
+import StartupFundingRow from './StartupFundingRow';
 
 export default class StartupProfile extends React.Component {
   constructor(props) {
@@ -25,55 +25,30 @@ export default class StartupProfile extends React.Component {
     //  fid: this.props.match.params.fid
     //});
     this.state.cid = this.props.match.params.cid;
-    console.log("fid changed to: " + this.state.cid);
+    //console.log("cid changed to: " + this.state.cid);
     //this.showInfo();
     this.showInvestments();
   };
   
-  // VC info
+  // Company info
   showInfo() {
-    console.log("Query started: this.state.searchString" );
-    fetch("http://localhost:8081/VcInvests/" +  this.state.fid, {
-			method: "GET"
-		})
-			.then(res => res.json())
-			.then(companiesList => {
-				console.log(companiesList); //displays your JSON object in the console
-        const companiesDivs = companiesList.map((com, i) =>
-        <VCInvestsRow
-          key={i}
-          name={com.name}
-          industry={com.industry} 
-          round={com.round}
-          amount={com.amount}
-          date={com.date} 
-        /> 
-        );
-        
-				//This saves our HTML representation of the data into the state, which we can call in our render function
-				this.setState({
-					searchResult: companiesDivs
-				});
-        console.log(this.state.searchResult);
-			})
-			.catch(err => console.log(err))
+
   };
 
 
-  // VC investments
+  // investments received
   showInvestments() {
-    console.log("Query started: " + this.state.fid);
-    fetch("http://localhost:8081/VcInvests/" +  this.state.fid, {
+    //console.log("Query started: " + this.state.cid);
+    fetch("http://localhost:8081/VcInvests/" +  this.state.cid, {
 			method: "GET"
 		})
 			.then(res => res.json())
-			.then(companiesList => {
-				console.log(companiesList); //displays your JSON object in the console
-        const companiesDivs = companiesList.map((com, i) =>
-        <VCInvestsRow
+			.then(fundsList => {
+				//console.log(fundsList); //displays your JSON object in the console
+        const fundsDivs = fundsList.map((com, i) =>
+        <StartupFundingRow
           key={i}
           name={com.name}
-          industry={com.industry} 
           round={com.round}
           amount={com.amount}
           date={com.date} 
@@ -81,34 +56,35 @@ export default class StartupProfile extends React.Component {
         );
         
 				this.setState({
-					searchResult: companiesDivs
+					investments: fundsDivs
 				});
-        console.log(this.state.searchResult);
+        //console.log(this.state.investments);
 			})
 			.catch(err => console.log(err))
   };
 
   render() {    
     return (
-      <div className="Search">
+      <div className="Startup Profile">
 
         <PageNavbar active="Search" />
-        <div className="container VCProfile-container">
+        <div className="container StartupProfile-container">
 					<div className="jumbotron">
-						<div className="h5">Search {this.state.fid}</div>
+						<div className="h5">Startup {this.state.cid}</div>
 						<br></br>
+          </div>
+          <div className="jumbotron">
 						<div className="header-container">
-							<div className="h6">Investments: </div>
+							<div className="h6">Investments received: </div>
 							<div className="headers">
-								<div className="header"><strong>Company Name</strong></div>
-								<div className="header"><strong>Industry</strong></div>
 								<div className="header"><strong>Financing Round</strong></div>
-								<div className="header"><strong>Amount Invested</strong></div>
+								<div className="header"><strong>Investor name</strong></div>
+								<div className="header"><strong>Amount Received</strong></div>
                 <div className="header"><strong>Date</strong></div>
 							</div>
 						</div>
 						<div className="results-container" id="results">
-							{this.state.searchResult}
+							{this.state.investments}
 						</div>
 					</div>
 				</div>

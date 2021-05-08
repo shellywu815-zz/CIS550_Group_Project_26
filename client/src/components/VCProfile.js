@@ -61,7 +61,7 @@ export default class VCProfile extends React.Component {
 		})
 			.then(res => res.json())
 			.then(companiesList => {
-				console.log(companiesList); //displays your JSON object in the console
+				//console.log(companiesList); //displays your JSON object in the console
         const companiesDivs = companiesList.map((com, i) =>
         <VCInvestsRow
           key={i}
@@ -77,7 +77,7 @@ export default class VCProfile extends React.Component {
 				this.setState({
 					searchResult: companiesDivs
 				});
-        console.log(this.state.searchResult);
+        //console.log(this.state.searchResult);
 			})
 			.catch(err => console.log(err))
   };
@@ -85,7 +85,7 @@ export default class VCProfile extends React.Component {
 
   // VC investments
   showInvestments() {
-    console.log("Query started: " + this.state.fid);
+    //console.log("Query started: " + this.state.fid);
     fetch("http://localhost:8081/VcInvests/" +  this.state.fid, {
 			method: "GET"
 		})
@@ -106,22 +106,24 @@ export default class VCProfile extends React.Component {
 				this.setState({
 					searchResult: companiesDivs
 				});
-        console.log(this.state.searchResult);
+        //console.log(this.state.searchResult);
 			})
 			.catch(err => console.log(err))
   };
 
   render() {    
     return (
-      <div className="Search">
+      <div className="VC Profile">
 
         <PageNavbar active="Search" />
         <div className="container VCProfile-container">
 					<div className="jumbotron">
-						<div className="h5">Search {this.state.fid}</div>
+						<div className="h5">Venture Capital {this.state.fid}</div>
 						<br></br>
+          </div>
+          <div className="jumbotron">
 						<div className="header-container">
-							<div className="h6">Investments: </div>
+							<div className="h6">Investments made: </div>
 							<div className="headers">
 								<div className="header"><strong>Company Name</strong></div>
 								<div className="header"><strong>Industry</strong></div>
