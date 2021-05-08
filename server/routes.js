@@ -352,7 +352,18 @@ const getStartupInfo = (req, res) => {
 
 const getStartupFunds = (req, res) => {
   const query = `
-
+  WITH fundings AS (  
+    (SELECT f.id, f.name, fi.round, fi.amount, fi.date
+    FROM FinOrgInvestIn fi JOIN FinOrg f ON fi.f_id = f.id
+    WHERE fi.c_id = "")
+    UNION
+    (SELECT c.id, c.name, ci.round, ci.amount, ci.date
+    FROM CompanyInvestIn ci JOIN Company c ON ci.investor_id = c.id
+    WHERE ci.invested_id = "` + fid + `")
+  )
+  SELECT name, round, amount, date
+  FROM fundings
+  ORDER BY round DESC;
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);

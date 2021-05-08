@@ -25,7 +25,7 @@ export default class StartupProfile extends React.Component {
     //  fid: this.props.match.params.fid
     //});
     this.state.cid = this.props.match.params.cid;
-    //console.log("cid changed to: " + this.state.cid);
+    console.log("cid changed to: " + this.state.cid);
     //this.showInfo();
     this.showInvestments();
   };
@@ -39,7 +39,7 @@ export default class StartupProfile extends React.Component {
   // investments received
   showInvestments() {
     //console.log("Query started: " + this.state.cid);
-    fetch("http://localhost:8081/VcInvests/" +  this.state.cid, {
+    fetch("http://localhost:8081/StartupFunds/" +  this.state.cid, {
 			method: "GET"
 		})
 			.then(res => res.json())
