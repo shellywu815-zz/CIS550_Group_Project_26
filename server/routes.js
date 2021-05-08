@@ -351,15 +351,16 @@ const getStartupInfo = (req, res) => {
 };
 
 const getStartupFunds = (req, res) => {
+  const cid = req.params.id;
   const query = `
   WITH fundings AS (  
     (SELECT f.id, f.name, fi.round, fi.amount, fi.date
     FROM FinOrgInvestIn fi JOIN FinOrg f ON fi.f_id = f.id
-    WHERE fi.c_id = "")
+    WHERE fi.c_id = "` + cid + `")
     UNION
     (SELECT c.id, c.name, ci.round, ci.amount, ci.date
     FROM CompanyInvestIn ci JOIN Company c ON ci.investor_id = c.id
-    WHERE ci.invested_id = "` + fid + `")
+    WHERE ci.invested_id = "` + cid + `")
   )
   SELECT name, round, amount, date
   FROM fundings
