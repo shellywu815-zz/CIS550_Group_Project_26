@@ -180,6 +180,8 @@ export default class Search extends React.Component {
                 options={options}
                 />
               </div>
+            </div>
+            <div className="jumbotron">  
               <div className="header-container">
                 <div className="headers">
                   <div className="header"><strong>VC Name</strong></div>
@@ -219,6 +221,8 @@ export default class Search extends React.Component {
                 options={options}
                 />
               </div>
+            </div>
+            <div className="jumbotron">
               <div className="header-container">
                 <div className="headers">
                   <div className="header"><strong>Company Name</strong></div>
@@ -228,10 +232,11 @@ export default class Search extends React.Component {
                   <div className="header"><strong>Number of Rounds</strong></div>
                 </div>
               </div>
-              <div className="results-container" id="results">
-                {this.state.searchResult}
-              </div>
+                <div className="results-container" id="results">
+                  {this.state.searchResult}
+                </div>
             </div>
+            
           </div>
         </div>
       );
@@ -257,6 +262,8 @@ export default class Search extends React.Component {
                 options={options}
                 />
               </div>
+            </div>
+            <div className="jumbotron">  
               <div className="header-container">
                 <div className="headers">
                   <div className="header"><strong>Industry</strong></div>
