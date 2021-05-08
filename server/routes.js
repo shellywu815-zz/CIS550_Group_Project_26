@@ -47,7 +47,7 @@ const getTopStartups = (req, res) => {
 
 const getRecentInvestments = (req, res) => {
   const query = `
-  SELECT COUNT(*) AS number, YEAR(date) as year
+  SELECT YEAR(date) as year, COUNT(*) AS number
   FROM CompanyInvestIn
   GROUP BY YEAR(date)
   ORDER BY YEAR(date) DESC;
