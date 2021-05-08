@@ -87,7 +87,9 @@ WITH total_fund AS (
 
 const getInvestmentYears = (req, res) => {
   const query = `
-  SELECT SUM(i.amount) FROM InvestsIn i GROUP BY YEAR(i.date);
+  SELECT YEAR(i.date), SUM(i.amount)
+  FROM InvestsIn i
+  GROUP BY YEAR(i.date);
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
