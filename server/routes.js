@@ -214,7 +214,7 @@ const getVcInvests = (req, res) => {
   const query = `
   SELECT c.id, c.name, c.industry, i.round, i.amount, i.date
   FROM FinOrgInvestIn i JOIN Company c ON i.c_id = c.id
-  WHERE i.f_id = ` + fid + ` 
+  WHERE i.f_id = "` + fid + `" 
   ORDER BY amount DESC;  
   `;
   connection.query(query, function(err, rows, fields) {
