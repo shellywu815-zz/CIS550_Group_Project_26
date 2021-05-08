@@ -27,10 +27,11 @@ app.get('/investmentYears', routes.getInvestmentYears);
 
 /* ---- Select Routes ---- */
 
-app.get('/yearVC/:yr/:minAmount', routes.selectYearVC);
-app.get('/yearStartup/:yr/:minAmount', routes.selectYearStartup);
-app.get('/yearIndustry/:yr/:minAmount', routes.selectYearIndustry);
-app.get('/startups/:minAmount/:maxAmount', routes.selectStartups);
+app.get('/amounts', routes.selectAmounts);
+app.get('/amountstwo', routes.selectAmountsBig);
+app.get('/selectfunds', routes.selectFunds);
+app.get('/select', routes.selectStartups);
+app.get('/selectt', routes.selectIPO);
 
 
 
