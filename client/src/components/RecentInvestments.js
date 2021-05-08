@@ -47,8 +47,9 @@ render() {
       <div >
 
         <div className="RecentInvestments">
-             <div className="h5">Recent Investments</div>
+             
                 <div className="jumbotron">
+                <div className="h5">Recent Investments</div>
                   <div className="header-container">
                     <div className="headers">
                       <div className="header"><strong>Year</strong></div>

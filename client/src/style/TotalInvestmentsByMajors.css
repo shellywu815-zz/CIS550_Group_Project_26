@@ -1,0 +1,15 @@
+.header-container, .results-container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .header-container .headers, .results-container .TotalInvestmentsByMajorsRow {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .TotalInvestmentsByMajorsRow .major, .TotalInvestmentsByMajorsRow .investments, .headers .header {
+    flex: 1 0 25%;
+  }

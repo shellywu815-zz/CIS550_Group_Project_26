@@ -1,7 +1,8 @@
 import React from 'react';
-import '../style/Dashboard.css'; //NEED TO IMPLEMENT THE CORRESPONDING CSS FILE
+//import '../style/Dashboard.css'; //NEED TO IMPLEMENT THE CORRESPONDING CSS FILE
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TotalInvestmentsByMajorsRow from './TotalInvestmentsByMajorsRow';
+import '../style/TotalInvestmentsByMajors.css'; 
 
 
 export default class TotalInvestmentsByMajors extends React.Component {
@@ -11,7 +12,6 @@ export default class TotalInvestmentsByMajors extends React.Component {
         super(props);
         this.state = {
             investments: [],
-            searchResult: []
         };
         this.submitInvestments = this.submitInvestments.bind(this);
     }
@@ -36,9 +36,9 @@ export default class TotalInvestmentsByMajors extends React.Component {
           
           //This saves our HTML representation of the data into the state, which we can call in our render function
           this.setState({
-            searchResult: investmentsDivs
+            investments: investmentsDivs
           });
-          console.log(this.state.searchResult);
+          console.log(this.state.investments);
         })
         .catch(err => console.log(err))
     };
@@ -53,26 +53,28 @@ export default class TotalInvestmentsByMajors extends React.Component {
 
     render() {
         return (
-            <div className="TotalInvestmentsByMajors">
-      
-      
-              <div className="container startups-container">
-                
-      
+          <div>
+
+        <div className="TotalInvestmentsByMajors">
+             
                 <div className="jumbotron">
-                  <div className="startups-container">
-                    <div className="startups-header">
-                      <div className="header-lg"><strong>major</strong></div>
-                      <div className="header"><strong>investments</strong></div>
+                <div className="h5">Total Investments By Majors</div>
+                  <div className="header-container">
+                    <div className="headers">
+                      <div className="header"><strong>Major</strong></div>
+                      <div className="header"><strong>Number of Investments Received</strong></div>
                       
                     </div>
                     <div className="results-container" id="results">
-                      {this.state.searchResult}
+                      {this.state.investments}
                     </div>
                   </div>
-                </div>
-              </div>
+                
+             </div>
             </div>
+        
+        </div>
+           
           );
     }
 }

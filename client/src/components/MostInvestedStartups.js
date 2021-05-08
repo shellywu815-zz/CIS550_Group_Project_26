@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Dashboard.css'; //NEED TO IMPLEMENT THE CORRESPONDING CSS FILE
+import '../style/MostInvestedStartups.css'; //NEED TO IMPLEMENT THE CORRESPONDING CSS FILE
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MostInvestedStartupsRow from './MostInvestedStartupsRow';
 
@@ -11,7 +11,6 @@ export default class MostInvestedStartups extends React.Component {
         super(props);
         this.state = {
             startups: [],
-            searchResult:[]
         };
         this.submitStartups = this.submitStartups.bind(this);
     }
@@ -34,9 +33,9 @@ export default class MostInvestedStartups extends React.Component {
           
           //This saves our HTML representation of the data into the state, which we can call in our render function
           this.setState({
-            searchResult: startupsDivs
+            startups: startupsDivs
           });
-          console.log(this.state.searchResult);
+          console.log(this.state.startups);
         })
         .catch(err => console.log(err))
     };
@@ -51,26 +50,27 @@ export default class MostInvestedStartups extends React.Component {
 
     render() {
         return (
-            <div className="MostInvestedStartups">
-      
-      
-              <div className="container startups-container">
-                
-      
-                <div className="jumbotron">
-                  <div className="startups-container">
-                    <div className="startups-header">
-                      <div className="header-lg"><strong>name</strong></div>
-                      <div className="header"><strong>amount</strong></div>
-                      
+          <div>
+
+          <div className="MostInvestedStartups">
+               
+                  <div className="jumbotron">
+                  <div className="h5">Top 10 Invested Startups</div>
+                    <div className="header-container">
+                      <div className="headers">
+                        <div className="header"><strong>Company</strong></div>
+                        <div className="header"><strong>Number of Investments Received</strong></div>
+                        
+                      </div>
+                      <div className="results-container" id="results">
+                        {this.state.startups}
+                      </div>
                     </div>
-                    <div className="results-container" id="results">
-                      {this.state.searchResult}
-                    </div>
-                  </div>
-                </div>
+                  
+               </div>
               </div>
-            </div>
+          
+          </div>
           );
     }
 }
