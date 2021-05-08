@@ -1,93 +1,224 @@
 import React from 'react';
-import '../style/Dashboard.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import PageNavbar from './PageNavbar';
-import KeywordButton from './KeywordButton';
-//import DashboardMovieRow from './DashboardMovieRow';
+import BestMoviesRow from './BestMoviesRow';
+import '../style/BestMovies.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default class Dashboard extends React.Component {
-  constructor(props) {
-    super(props);
+export default class BestMovies extends React.Component {
+	constructor(props) {
+		super(props);
 
-    // The state maintained by this React Component. This component maintains the list of keywords,
-    // and a list of movies for a specified keyword.
-    this.state = {
-      keywords: [],
-      movies: []
-    };
+		this.state = {
+			selectedDecade: "",
+			selectedGenre: "",
+			decades: [],
+			genres: [],
+			movies: [],
+			selectedFund: "",
+			funds: []
+		};
 
-    this.showMovies = this.showMovies.bind(this);
-  };
+		this.submitDecadeGenre = this.submitDecadeGenre.bind(this);
+		this.handleDecadeChange = this.handleDecadeChange.bind(this);
+		this.handleGenreChange = this.handleGenreChange.bind(this);
+		this.handleFundChange = this.handleFundChange.bind(this);
+		this.submitFund = this.submitFund.bind(this);
+	};
 
-  // React function that is called when the page load.
-  componentDidMount() {
-    fetch("http://localhost:8081/keywords",
-    {
-      method: 'GET' 
-    }).then(res => {
-      return res.json();
-    }, err => {
+	/* ---- Q3a (Best Movies) ---- */
+	componentDidMount() {
+		fetch("http://localhost:8081/amounts",
+		{
+		  method: 'GET' 
+		}).then(res => {
+		  return res.json();
+		}, err => {
+		  console.log(err);
+		}).then(decadesList => {
+		  if (!decadesList) return;
+		  const decadesDivs = decadesList.map((decadeObj, i) =>
+		  <option className="decadesOption" value={decadeObj.decade}>
+			  {decadeObj.decade}
+		  </option>
+		  );
+	
+		  this.setState({
+			decades: decadesDivs
+		  });
+		}, err => {
+		  console.log(err);
+		});
 
-      console.log(err);
-    }).then(keywordsList => {
-      if (!keywordsList) return;
+		fetch("http://localhost:8081/amountstwo",
+		{
+		  method: 'GET' 
+		}).then(res => {
+		  return res.json();
+		}, err => {
+		  console.log(err);
+		}).then(genresList => {
+		  if (!genresList) return;
+		  const genresDivs = genresList.map((genreObj, i) =>
+		  <option className="genresOption" value={genreObj.name}>
+			  {genreObj.name}
+		  </option>
+		  );
+		  this.setState({
+			genres: genresDivs
+		  });
+		}, err => {
+		  console.log(err);
+		});
 
-      const keywordsDivs = keywordsList.map((keywordObj, i) =>
-        <KeywordButton 
-          id={"button-" + keywordObj.kwd_name} 
-          onClick={() => this.showMovies(keywordObj.kwd_name)} 
-          keyword={keywordObj.kwd_name} 
-        /> 
-      );
-      this.setState({
-        keywords: keywordsDivs
-      });
-    }, err => {
-      console.log(err);
-    });
-  };
+		fetch("http://localhost:8081/selectfunds",
+		{
+		  method: 'GET' 
+		}).then(res => {
+		  return res.json();
+		}, err => {
+		  console.log(err);
+		}).then(fundsList => {
+		  if (!fundsList) return;
+		  const FundsDivs = fundsList.map((fundObj, i) =>
+		  <option className="genresOption" value={fundObj.name}>
+			  {fundObj.name}
+		  </option>
+		  );
+		  this.setState({
+			funds: FundsDivs
+		  });
+		}, err => {
+		  console.log(err);
+		});
 
-  /* ---- Q1b (Dashboard) ---- */
-  /* Set this.state.movies to a list of <DashboardMovieRow />'s. 
-  The keyword is passed in as a parameter to this function. 
-  showMovies(keyword) should set this.state.movies to a list of <DashboardMovieRow />s. 
-  The information with which the <DashboardMovieRow />s should be populated will arrive from the server. 
-  When the page is rendered, the <div className=”results-container” id=”results”> in Dashboard.js is populated with the list.
-*/
-  showMovies(keyword) {
-    fetch("http://localhost:8081/keywords/" + keyword, {
+	};
+
+	/* ---- Q3a (Best Movies) ---- */
+	handleDecadeChange(e) {
+		this.setState({
+			selectedDecade: e.target.value
+		});
+	};
+
+	handleGenreChange(e) {
+		this.setState({
+			selectedGenre: e.target.value
+		});
+	};
+
+	handleFundChange(e){
+		this.setState({
+			selectedFund: e.target.value
+		});
+	}
+	/* ---- Q3b (Best Movies) ---- */
+	submitDecadeGenre() {
+		
+	const myUrlWithParams = new URL("http://localhost:8081/select/");
+	myUrlWithParams.searchParams.append('selectedDecade', this.state.selectedDecade);
+	myUrlWithParams.searchParams.append('selectedGenre', this.state.selectedGenre);
+
+		fetch(myUrlWithParams, {
 			method: "GET"
 		})
 			.then(res => res.json())
-			.then(DashboardMovieRow => {
-				console.log(DashboardMovieRow); //displays your JSON object in the console
-				let moviesDivs = DashboardMovieRow.map((movie, i) => 
-					<div className="results-container " id="results">
-						<div key={i} className="movie">
-						<div className="title">{movie.title}</div>
-						<div className="rating">{movie.rating}</div>
-            <div className="votes">{movie.num_ratings}</div>
-				  </div>
-			    </div>
+			.then(BestMoviesRow => {
+				console.log(BestMoviesRow); //displays your JSON object in the console
+				let recDivs = BestMoviesRow.map((rec, i) => 
+					
+					<div className="results-container" id="results">
+						<div key={i} className="movieResults">
+						<div className="title">{rec.title}</div>
+						<div className="id">{rec.movie_id}</div>
+						<div className="rating">{rec.rating}</div>
+				  	</div>
+			    	</div>
 				);
-        
+				
 				//This saves our HTML representation of the data into the state, which we can call in our render function
 				this.setState({
-					movies: moviesDivs
+					movies: recDivs
 				});
 			})
 			.catch(err => console.log(err))
-  };
+	};
 
-  render() {    
-    return (
-      <div className="Dashboard">
+	submitFund(){
+		const myUrlWithParams = new URL("http://localhost:8081/selectt/");
+		myUrlWithParams.searchParams.append('selectedFund', this.state.selectedFund);
+		fetch(myUrlWithParams, {
+			method: "GET"
+		})
+			.then(res => res.json())
+			.then(BestMoviesRow => {
+				console.log(BestMoviesRow); //displays your JSON object in the console
+				let recDivs = BestMoviesRow.map((rec, i) => 
+					
+					<div className="results-container" id="results">
+						<div key={i} className="movieResults">
+						<div className="title">{rec.title}</div>
+						<div className="id">{rec.movie_id}</div>
+						<div className="rating">{rec.rating}</div>
+				  	</div>
+			    	</div>
+				);
+				
+				//This saves our HTML representation of the data into the state, which we can call in our render function
+				this.setState({
+					movies: recDivs
+				});
+			})
+			.catch(err => console.log(err))
+	}
 
-        <PageNavbar active="Select" />
+	render() {
+		return (
+			<div className="BestMovies">
+				
+				<PageNavbar active="select" />
 
-        <br />
-        <b>This is the select page</b>
-      </div>
-    );
-  };
+				<div className="container bestmovies-container">
+					<div className="jumbotron">
+						Lots of startup receive different amount of fundings, and the fundings are from different types of rounds. Explore below!
+					</div>
+					<div className="jumbotron">
+						<div className="h5">Select Funds By Funding</div>
+						<div className="dropdown-container">
+							Startup that received funding between
+							<select value={this.state.selectedDecade} onChange={this.handleDecadeChange} className="dropdown" id="decadesDropdown">
+								{this.state.decades}
+							</select>
+							and
+							<select value={this.state.selectedGenre} onChange={this.handleGenreChange} className="dropdown" id="genresDropdown">
+								{this.state.genres}
+							</select>
+							<button className="submit-btn" id="submitBtn" onClick={this.submitDecadeGenre}>Submit</button>
+							<div>Please make sure you put a smaller amount on the left, and the larger amount on the right</div>
+						</div>
+
+					</div>
+
+					<div className="jumbotron">Please select a fund
+								<select value={this.state.selectedFund} onChange={this.handleFundChange} className="dropdown">
+									{this.state.funds}
+								</select>
+								<button className="submit-btn" id="submitBtn" onClick={this.submitFund}>Submit</button>
+							</div>
+
+					<div className="jumbotron">
+						<div className="movies-container">
+							<div className="movie">
+			          			<div className="header"><strong>Fund</strong></div>
+			          			<div className="header"><strong>Amount Received</strong></div>
+					 			<div className="header"><strong>Round</strong></div>
+			        		</div>
+			        	<div className="movies-container" id="results">
+			          {this.state.movies}
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		);
+	};
 };
