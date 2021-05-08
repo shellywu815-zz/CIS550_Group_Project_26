@@ -11,8 +11,6 @@ export default class PageNavbar extends React.Component {
 	};
 
 	componentDidMount() {
-		const pageList = ['dashboard', 'recommendations', 'bestmovies'];
-
 		const pp = ['summary', 'select', 'search'];
 
 		let navbarDivs = pp.map((page, i) => {

@@ -162,7 +162,7 @@ export default class Search extends React.Component {
       return (
         <div className="search">
   
-          <PageNavbar active="Search" />
+          <PageNavbar active="search" />
           <div className="container VCSearch-container">
             <div className="jumbotron">
               <div className="h3">Search</div>
@@ -203,7 +203,7 @@ export default class Search extends React.Component {
       return (
         <div className="Search">
   
-          <PageNavbar active="Search" />
+          <PageNavbar active="search" />
           <div className="container VCSearch-container">
             <div className="jumbotron">
               <div className="h3">Search</div>
@@ -244,7 +244,7 @@ export default class Search extends React.Component {
       return (
         <div className="Search">
   
-          <PageNavbar active="Search" />
+          <PageNavbar active="search" />
           <div className="container VCSearch-container">
             <div className="jumbotron">
               <div className="h3">Search</div>

@@ -5,7 +5,7 @@ import PageNavbar from './PageNavbar';
 //import KeywordButton from './KeywordButton';
 import VCInvestsRow from './VCInvestsRow';
 
-export default class VCProfile extends React.Component {
+export default class StartupProfile extends React.Component {
   constructor(props) {
     super(props);
 
@@ -13,42 +13,19 @@ export default class VCProfile extends React.Component {
       //searchMode: "VC",
       info: {},
       investments: [],
-      fid: ""
+      cid: ""
     };
 
 		//this.handleSearchStringChange = this.handleSearchStringChange.bind(this);
 		//this.submitSearch = this.submitSearch.bind(this);
   };
-
-  /*
-  handleSearchStringChange(e) {
-		this.setState({
-			searchString: e.target.value
-		});
-    //console.log("Search String updated:" + this.state.searchString);
-	};
-
-  
-  submitSearch() {
-    //console.log("Search submitted: " +  this.state.searchString);
-    if (this.state.searchMode == "VC") {
-      this.showVC();
-    }
-    else {
-      //TODO
-    }
-  };
-  */
-
-
-  // React function that is called when the page load.
   
   componentDidMount() {
     //this.setState( {
     //  fid: this.props.match.params.fid
     //});
-    this.state.fid = this.props.match.params.fid;
-    console.log("fid changed to: " + this.state.fid);
+    this.state.cid = this.props.match.params.cid;
+    console.log("fid changed to: " + this.state.cid);
     //this.showInfo();
     this.showInvestments();
   };
