@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default class SearchVCRow extends React.Component {
+export default class VcInvestsRow extends React.Component {
 	render() {
 		return (
 			<div className="VCInvestments">

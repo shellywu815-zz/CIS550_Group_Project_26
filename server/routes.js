@@ -98,53 +98,87 @@ const getInvestmentYears = (req, res) => {
 };
 /* ---- Select Queries ---- */
 
-const selectYearVC = (req, res) => {
+const selectAmounts = (req, res) => {
   const query = `
-
+  SELECT decade FROM amountDropDown;
   `;
-  connection.query(query, function(err, rows, fields) {
+
+  connection.query(query, (err, rows, fields) => {
     if (err) console.log(err);
     else {
       res.json(rows);
-    }
+      console.log(rows);}
   });
 };
 
-const selectYearStartup = (req, res) => {
+const selectFunds = (req, res) => {
   const query = `
-
+  SELECT DISTINCT name FROM FinOrg LIMIT 20;
   `;
-  connection.query(query, function(err, rows, fields) {
+
+  connection.query(query, (err, rows, fields) => {
     if (err) console.log(err);
     else {
       res.json(rows);
-    }
+      console.log(rows);}
   });
 };
 
-const selectYearIndustry = (req, res) => {
+const selectAmountsBig = (req, res) => {
   const query = `
-
+  SELECT name FROM amountDropDownTwo;
   `;
-  connection.query(query, function(err, rows, fields) {
+  connection.query(query, (err, rows, fields) => {
     if (err) console.log(err);
     else {
       res.json(rows);
-    }
+      console.log(rows);}
   });
 };
 
 const selectStartups = (req, res) => {
+  var inputgenre = req.query.selectedGenre;
+  var inputdecade = req.query.selectedDecade;
   const query = `
-
+  WITH qualified_fund_id AS (
+    SELECT f_id, amount, round
+    FROM FinOrgInvestIn 
+    WHERE amount >= ${inputdecade} AND amount <= ${inputgenre})
+    SELECT DISTINCT FinOrg.name AS title, qualified_fund_id.amount AS movie_id, qualified_fund_id.round as rating
+    FROM  FinOrg INNER JOIN qualified_fund_id 
+    WHERE FinOrg.id = qualified_fund_id.f_id
+    LIMIT 250
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
     else {
       res.json(rows);
+      console.log(rows);
     }
   });
 };
+
+
+const selectIPO = (req, res) => {
+  var inputcompany = req.query.selectedFund;
+  const query = `
+  WITH fund_id AS
+  (SELECT id FROM FinOrg WHERE name = "${inputcompany}"), 
+  qualified_c_f AS
+  (SELECT c_id, f_id FROM FinOrgInvestIn JOIN fund_id ON 
+  FinOrgInvestIn.f_id = fund_id.id)
+  SELECT qualified_c_f.c_id AS title, qualified_c_f.f_id AS movie_id, IPO.raised_amount AS rating FROM qualified_c_f
+  INNER JOIN IPO ON qualified_c_f.c_id = IPO.c_id
+  `;
+  connection.query(query, function(err, rows, fields) {
+    if (err) console.log(err);
+    else {
+      res.json(rows);
+      console.log(rows);
+    }
+  });
+};
+
 
 
 /* ---- Search Queries ---- */
@@ -170,10 +204,10 @@ const searchVC = (req, res) => {
   ind AS (
     SELECT id, industry, sum(amount) AS total
     FROM vci
-    GROUP BY id, industry
+    GROUP BY id
   )
-  SELECT id, name, founded, size AS total, number, (SELECT industry FROM ag NATURAL JOIN ind WHERE ind.id = id ORDER BY total DESC LIMIT 1) AS industry
-    FROM ag
+  SELECT id, name, founded, size AS total, number, industry
+    FROM ag NATURAL JOIN ind
     ORDER BY LENGTH(name) - LENGTH("` + searchString + `") ASC
     LIMIT 100;
   `;
@@ -186,8 +220,41 @@ const searchVC = (req, res) => {
 };
 
 const searchStartup = (req, res) => {
+  const searchString = req.params.name;
   const query = `
-
+  WITH com AS (
+    SELECT id, name, found_date, industry
+    FROM Company
+    WHERE (name LIKE '%` + searchString + `%') OR (normalized_name LIKE '%` + searchString + `%')
+  ),
+  foi AS (
+    SELECT id, f_id AS investor, round, amount
+    FROM com JOIN FinOrgInvestIn fi ON com.id = fi.c_id
+  ),
+  coi AS (
+    SELECT id, investor_id AS investor, round, amount
+    FROM com JOIN CompanyInvestIn ci ON com.id = ci.invested_id
+  ),
+  poi AS (
+    SELECT id, investor_id AS investor, round, amount
+    FROM com JOIN PersonInvestIn pi ON com.id = pi.invested_id
+  ),
+  allinvs AS (
+    SELECT * FROM foi
+    UNION
+    SELECT * FROM coi
+    UNION
+    SELECT * FROM poi
+  ),
+  ag AS (
+    SELECT id, count(DISTINCT round) AS number, sum(amount) AS total
+    FROM allinvs
+    GROUP BY id
+  )
+SELECT id, name, found_date AS founded, industry, number, total
+FROM com NATURAL JOIN ag
+ORDER BY LENGTH(name) - LENGTH("` + searchString + `") ASC
+LIMIT 100;
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
@@ -281,9 +348,10 @@ module.exports = {
   getRecentInvestments: getRecentInvestments,
   getFoundersSchools: getFoundersSchools,
   getInvestmentYears: getInvestmentYears,
-  selectYearVC: selectYearVC,
-  selectYearStartup: selectYearStartup,
-  selectYearIndustry: selectYearIndustry,
+  selectAmounts:selectAmounts,
+  selectAmountsBig:selectAmountsBig,
+  selectFunds:selectFunds,
+  selectIPO:selectIPO,
   selectStartups: selectStartups,
   searchVC: searchVC,
   searchStartup: searchStartup,
