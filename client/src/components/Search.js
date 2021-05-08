@@ -5,6 +5,7 @@ import PageNavbar from './PageNavbar';
 //import KeywordButton from './KeywordButton';
 import SearchVCRow from './SearchVCRow';
 import SearchComRow from './SearchComRow';
+import SearchIndsRow from './SearchIndsRow';
 //import Switch from "react-switch";
 import Select from 'react-select';
 
@@ -90,7 +91,6 @@ export default class Search extends React.Component {
         /> 
         );
         
-				//This saves our HTML representation of the data into the state, which we can call in our render function
 				this.setState({
 					searchResult: vcDivs
 				});
@@ -99,36 +99,60 @@ export default class Search extends React.Component {
 			.catch(err => console.log(err))
   };
 
-    /* ---- Company Search ---- */
-    showComs() {
-      //console.log("Query started: this.state.searchString" );
-      fetch("http://localhost:8081/searchStartup/" +  this.state.searchString, {
-        method: "GET"
+  /* ---- Company Search ---- */
+  showComs() {
+    //console.log("Query started: this.state.searchString" );
+    fetch("http://localhost:8081/searchStartup/" +  this.state.searchString, {
+      method: "GET"
+    })
+      .then(res => res.json())
+      .then(comList => {
+        //console.log(companiesList); //displays your JSON object in the console
+        const comDivs = comList.map((com, i) =>
+        <SearchComRow
+          key={i}
+          id={com.id}
+          name={com.name}
+          founded={com.founded} 
+          industry={com.industry} 
+          total={com.total}
+          number={com.number}
+        /> 
+        );
+        
+        this.setState({
+          searchResult: comDivs
+        });
+        //console.log(this.state.searchResult);
       })
-        .then(res => res.json())
-        .then(comList => {
-          //console.log(companiesList); //displays your JSON object in the console
-          const comDivs = comList.map((com, i) =>
-          <SearchComRow
-            key={i}
-            id={com.id}
-            name={com.name}
-            founded={com.founded} 
-            industry={com.industry} 
-            total={com.total}
-            number={com.number}
-          /> 
-          );
-          
-          //This saves our HTML representation of the data into the state, which we can call in our render function
-          this.setState({
-            searchResult: comDivs
-          });
-          //console.log(this.state.searchResult);
-        })
-        .catch(err => console.log(err))
-    };
+      .catch(err => console.log(err))
+  };
 
+  /* ---- Industry Search ---- */
+  showInds() {
+    //console.log("Query started: this.state.searchString" );
+    fetch("http://localhost:8081/searchIndustry/" +  this.state.searchString, {
+      method: "GET"
+    })
+      .then(res => res.json())
+      .then(comList => {
+        //console.log(companiesList); //displays your JSON object in the console
+        const comDivs = comList.map((com, i) =>
+        <SearchIndsRow
+          key={i}
+          name={com.name}
+          total={com.total}
+          number={com.number}
+        /> 
+        );
+        
+        this.setState({
+          searchResult: comDivs
+        });
+        //console.log(this.state.searchResult);
+      })
+      .catch(err => console.log(err))
+  };
 
 
   render() {    
