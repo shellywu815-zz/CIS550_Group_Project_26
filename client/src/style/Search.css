@@ -10,7 +10,7 @@
   height: 40px;
 }
 
-.headers .header,.VCMatches .name, .VCMatches .founded,  .VCMatches .total, .VCMatches .number, .VCMatches .industry{
+.headers .header, .VCMatches .name, .VCMatches .founded, .VCMatches .total, .VCMatches .number, .VCMatches .industry{
   flex: 1 1 25%;
 }
 
