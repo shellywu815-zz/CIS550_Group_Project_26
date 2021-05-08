@@ -14,6 +14,17 @@
   flex: 1 1 25%;
 }
 
+.header-container .headers, .results-container .ComMatches{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+}
+
+.headers .header,.ComMatches .name, .ComMatches .founded, .ComMatches .industry, .ComMatches .total, .ComMatches .number{
+  flex: 1 1 25%;
+}
+
 mode-container {
   display: flex;
   flex-flow: column wrap;

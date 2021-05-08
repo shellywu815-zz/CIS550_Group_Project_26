@@ -114,9 +114,9 @@ export default class Search extends React.Component {
             id={com.id}
             name={com.name}
             founded={com.founded} 
+            industry={com.industry} 
             total={com.total}
             number={com.number}
-            industry={com.industry} 
           /> 
           );
           
