@@ -8,9 +8,12 @@ import Summary from './Summary'
 import Select from './Select'
 import Search from './Search'
 import VCProfile from './VCProfile'
+import StartupProfile from './StartupProfile'
+import IndustryProfile from './IndustryProfile'
 
 export default class App extends React.Component {
-vcpath = new URLSearchParams("/vc/:fid");
+vcpath = "/vc/:fid"	
+vcurl = new URLSearchParams(this.vcpath);
 
 	render() {
 		return (
@@ -36,8 +39,16 @@ vcpath = new URLSearchParams("/vc/:fid");
 							render={() => <Search />}
 						/>
 						<Route
-							path={this.vcpath}
-							render={() => <VCProfile fid = {this.vcpath.get("fid")}/>}
+							path="/vc/:fid"	
+							component = {VCProfile}
+						/>
+						<Route
+							path="/startup/:cid"	
+							component = {StartupProfile}
+						/>
+						<Route
+							path="/industry/:ind"	
+							component = {IndustryProfile}
 						/>
 					</Switch>
 				</Router>
