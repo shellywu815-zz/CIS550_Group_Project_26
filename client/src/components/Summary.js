@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import PageNavbar from './PageNavbar';
 import RecentInvestmentsRow from './RecentInvestmentsRow';
 import RecentInvestments from './RecentInvestments';
+import TotalInvestmentsByMajors from './TotalInvestmentsByMajors';
+import MostInvestedStartups from './MostInvestedStartups';
 
 
 export default class Summary extends React.Component {
@@ -26,6 +28,8 @@ export default class Summary extends React.Component {
 
         <br />
         <RecentInvestments />
+        <TotalInvestmentsByMajors />
+        <MostInvestedStartups />
       </div>
     );
   };
