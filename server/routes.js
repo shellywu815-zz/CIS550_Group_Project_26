@@ -364,7 +364,7 @@ const getStartupFunds = (req, res) => {
   )
   SELECT name, round, amount, date
   FROM fundings
-  ORDER BY round DESC;
+  ORDER BY round DESC, amount DESC;
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);

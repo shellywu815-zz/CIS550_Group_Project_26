@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/VCProfile.css';
+import '../style/StartupProfile.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PageNavbar from './PageNavbar';
 //import KeywordButton from './KeywordButton';
