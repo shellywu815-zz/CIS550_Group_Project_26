@@ -54,7 +54,9 @@ export default class Search extends React.Component {
     //console.log("Event value: " + e.value)
     //console.log("Before change:" + this.state.searchMode)
 		this.setState({
-			searchMode: e.value
+			searchMode: e.value,
+      searchResult : [], //clear search result and search string on mode change
+      searchString: ""
 		});
     //console.log("Searching:" + this.state.searchMode)
   }
@@ -68,7 +70,6 @@ export default class Search extends React.Component {
   
 
   /* ---- VC Search ---- */
-
   showVC() {
     //console.log("Query started: this.state.searchString" );
     fetch("http://localhost:8081/searchVC/" +  this.state.searchString, {
@@ -99,30 +100,29 @@ export default class Search extends React.Component {
   };
 
     /* ---- Company Search ---- */
-
     showComs() {
       //console.log("Query started: this.state.searchString" );
       fetch("http://localhost:8081/searchStartup/" +  this.state.searchString, {
         method: "GET"
       })
         .then(res => res.json())
-        .then(vcList => {
+        .then(comList => {
           //console.log(companiesList); //displays your JSON object in the console
-          const vcDivs = vcList.map((vc, i) =>
-          <SearchVCRow
+          const comDivs = comList.map((com, i) =>
+          <SearchComRow
             key={i}
-            id={vc.id}
-            name={vc.name}
-            founded={vc.founded} 
-            total={vc.total}
-            number={vc.number}
-            industry={vc.industry} 
+            id={com.id}
+            name={com.name}
+            founded={com.founded} 
+            total={com.total}
+            number={com.number}
+            industry={com.industry} 
           /> 
           );
           
           //This saves our HTML representation of the data into the state, which we can call in our render function
           this.setState({
-            searchResult: vcDivs
+            searchResult: comDivs
           });
           //console.log(this.state.searchResult);
         })

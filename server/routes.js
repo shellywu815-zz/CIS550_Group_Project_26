@@ -188,8 +188,41 @@ const searchVC = (req, res) => {
 };
 
 const searchStartup = (req, res) => {
+  const searchString = req.params.name;
   const query = `
-
+  WITH com AS (
+    SELECT id, name, found_date, industry
+    FROM Company
+    WHERE (name LIKE '%` + searchString + `%') OR (normalized_name LIKE '%` + searchString + `%')
+  ),
+  foi AS (
+    SELECT id, f_id AS investor, round, amount
+    FROM com JOIN FinOrgInvestIn fi ON com.id = fi.c_id
+  ),
+  coi AS (
+    SELECT id, investor_id AS investor, round, amount
+    FROM com JOIN CompanyInvestIn ci ON com.id = ci.invested_id
+  ),
+  poi AS (
+    SELECT id, investor_id AS investor, round, amount
+    FROM com JOIN PersonInvestIn pi ON com.id = pi.invested_id
+  ),
+  allinvs AS (
+    SELECT * FROM foi
+    UNION
+    SELECT * FROM coi
+    UNION
+    SELECT * FROM poi
+  ),
+  ag AS (
+    SELECT id, count(DISTINCT round) AS number, sum(amount) AS total
+    FROM allinvs
+    GROUP BY id
+  )
+SELECT id, name, found_date AS founded, industry, number, total
+FROM com NATURAL JOIN ag
+ORDER BY LENGTH(name) - LENGTH("` + searchString + `") ASC
+LIMIT 100;
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
