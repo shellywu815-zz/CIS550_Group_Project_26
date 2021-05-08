@@ -170,10 +170,10 @@ const searchVC = (req, res) => {
   ind AS (
     SELECT id, industry, sum(amount) AS total
     FROM vci
-    GROUP BY id, industry
+    GROUP BY id
   )
-  SELECT id, name, founded, size AS total, number, (SELECT industry FROM ag NATURAL JOIN ind WHERE ind.id = id ORDER BY total DESC LIMIT 1) AS industry
-    FROM ag
+  SELECT id, name, founded, size AS total, number, industry
+    FROM ag NATURAL JOIN ind
     ORDER BY LENGTH(name) - LENGTH("` + searchString + `") ASC
     LIMIT 100;
   `;
