@@ -12,11 +12,20 @@ const connection = mysql.createPool(config);
 /* ---- Summary Queries ---- */
 const getTopInvestors = (req, res) => {
   const query = `
-  SELECT d.subject, SUM(i.amount)
-  FROM Degree d JOIN Affiliates a ON d.receiver = a.p_id 
-  JOIN InvestIn ON a.c_id  = i.c_id
-  WHERE a.title LIKE '%Founder%’
-  GROUP BY d.subject;
+  WITH fund_amount AS (
+    SELECT c.id AS companyId, SUM(f.amount) AS amount
+    FROM Company c JOIN FinOrgInvestIn f ON c.id = f.c_id
+    GROUP BY c.id
+    ),
+    degree_received AS (
+      SELECT d.subject AS subject, a.c_id AS cid
+      FROM Affiliates a JOIN Degree d ON a.p_id = d.receiver
+      WHERE a.title LIKE "%Founder%"
+    )
+    SELECT d.subject AS major, SUM(f.amount) AS investments
+    FROM fund_amount f JOIN degree_received d ON f.companyId = d.cid
+    GROUP BY d.subject ORDER BY SUM(f.amount) DESC LIMIT 10;
+    
   
   `;
   connection.query(query, function(err, rows, fields) {
@@ -29,12 +38,16 @@ const getTopInvestors = (req, res) => {
 
 const getTopStartups = (req, res) => {
   const query = `
-  SELECT c.name, SUM(i.amount)
-  FROM Company c JOIN InvestIn i ON c.c_id=i.c_id
-  WHERE c.c_id NOT IN 
-  (SELECT acquired_c_id FROM Acquires)
-  GROUP BY c.name
-  LIMIT 10;
+  SELECT c.name, SUM(i.amount) AS amount
+FROM Company c JOIN CompanyInvestIn i ON c.id=i.investor_id
+WHERE c.id NOT IN 
+(SELECT acquired_id FROM Acquired)
+GROUP BY c.name
+LIMIT 10;
+
+  
+  
+
   
   `;
   connection.query(query, function(err, rows, fields) {
