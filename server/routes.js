@@ -10,6 +10,36 @@ const connection = mysql.createPool(config);
 
 
 /* ---- Summary Queries ---- */
+const getMostFundedPerson = (req, res) => {
+  const query = `
+
+    
+  
+  `;
+  connection.query(query, function(err, rows, fields) {
+    if (err) console.log(err);
+    else {
+      res.json(rows);
+    }
+  });
+};
+
+
+const getAverageFundReceived = (req, res) => {
+  const query = `
+
+    
+  
+  `;
+  connection.query(query, function(err, rows, fields) {
+    if (err) console.log(err);
+    else {
+      res.json(rows);
+    }
+  });
+};
+
+
 const getTopInvestors = (req, res) => {
   const query = `
   WITH fund_amount AS (
