@@ -15,7 +15,8 @@ export default class BestMovies extends React.Component {
 			genres: [],
 			movies: [],
 			selectedFund: "",
-			funds: []
+			funds: [],
+			btn: ""
 		};
 
 		this.submitDecadeGenre = this.submitDecadeGenre.bind(this);
@@ -117,7 +118,9 @@ export default class BestMovies extends React.Component {
 	const myUrlWithParams = new URL("http://localhost:8081/select/");
 	myUrlWithParams.searchParams.append('selectedDecade', this.state.selectedDecade);
 	myUrlWithParams.searchParams.append('selectedGenre', this.state.selectedGenre);
-
+		this.setState({
+			btn: "1"
+		});
 		fetch(myUrlWithParams, {
 			method: "GET"
 		})
@@ -146,6 +149,9 @@ export default class BestMovies extends React.Component {
 	submitFund(){
 		const myUrlWithParams = new URL("http://localhost:8081/selectt/");
 		myUrlWithParams.searchParams.append('selectedFund', this.state.selectedFund);
+		this.setState({
+			btn: "2"
+		});
 		fetch(myUrlWithParams, {
 			method: "GET"
 		})
@@ -172,53 +178,109 @@ export default class BestMovies extends React.Component {
 	}
 
 	render() {
-		return (
-			<div className="BestMovies">
-				
-				<PageNavbar active="select" />
-
-				<div className="container bestmovies-container">
-					<div className="jumbotron">
-						Lots of startup receive different amount of fundings, and the fundings are from different types of rounds. Explore below!
-					</div>
-					<div className="jumbotron">
-						<div className="h5">Select Funds By Funding</div>
-						<div className="dropdown-container">
-							Startup that received funding between
-							<select value={this.state.selectedDecade} onChange={this.handleDecadeChange} className="dropdown" id="decadesDropdown">
-								{this.state.decades}
-							</select>
-							and
-							<select value={this.state.selectedGenre} onChange={this.handleGenreChange} className="dropdown" id="genresDropdown">
-								{this.state.genres}
-							</select>
-							<button className="submit-btn" id="submitBtn" onClick={this.submitDecadeGenre}>Submit</button>
-							<div>Please make sure you put a smaller amount on the left, and the larger amount on the right</div>
+		if (this.state.btn == "1"){
+			return (
+				<div className="BestMovies">
+					
+					<PageNavbar active="select" />
+	
+					<div className="container bestmovies-container">
+						<div className="jumbotron">
+							Lots of startup receive different amount of fundings, and the fundings are from different types of rounds. Explore below!
 						</div>
-
-					</div>
-
-					<div className="jumbotron">Please select a fund
-								<select value={this.state.selectedFund} onChange={this.handleFundChange} className="dropdown">
-									{this.state.funds}
+						<div className="jumbotron">
+							<div className="h5">Select Funds By Funding</div>
+							<div className="dropdown-container">
+								Startup that received funding between
+								<select value={this.state.selectedDecade} onChange={this.handleDecadeChange} className="dropdown" id="decadesDropdown">
+									{this.state.decades}
 								</select>
-								<button className="submit-btn" id="submitBtn" onClick={this.submitFund}>Submit</button>
+								and
+								<select value={this.state.selectedGenre} onChange={this.handleGenreChange} className="dropdown" id="genresDropdown">
+									{this.state.genres}
+								</select>
+								<button className="submit-btn" id="submitBtn" onClick={this.submitDecadeGenre}>Submit</button>
+								<div>Please make sure you put a smaller amount on the left, and the larger amount on the right</div>
 							</div>
-
-					<div className="jumbotron">
-						<div className="movies-container">
-							<div className="movie">
-			          			<div className="header"><strong>Fund</strong></div>
-			          			<div className="header"><strong>Amount Received</strong></div>
-					 			<div className="header"><strong>Round</strong></div>
-			        		</div>
-			        	<div className="movies-container" id="results">
-			          {this.state.movies}
-			        </div>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-		);
+	
+						</div>
+	
+						<div className="jumbotron">
+						<div className="h5">Select Companies Invested by a Fund that went to IPO</div>
+							Please select a fund
+									<select value={this.state.selectedFund} onChange={this.handleFundChange} className="dropdown">
+										{this.state.funds}
+									</select>
+									<button className="submit-btn" id="submitBtn" onClick={this.submitFund}>Submit</button>
+								</div>
+	
+						<div className="jumbotron">
+							<div className="movies-container">
+								<div className="movie">
+									  <div className="header"><strong>Fund</strong></div>
+									  <div className="header"><strong>Amount Received</strong></div>
+									 <div className="header"><strong>Round</strong></div>
+								</div>
+							<div className="movies-container" id="results">
+						  {this.state.movies}
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			);
+		} else {
+			return (
+				<div className="BestMovies">
+					
+					<PageNavbar active="select" />
+	
+					<div className="container bestmovies-container">
+						<div className="jumbotron">
+							Lots of startup receive different amount of fundings, and the fundings are from different types of rounds. Explore below!
+						</div>
+						<div className="jumbotron">
+							<div className="h5">Select Funds By Funding</div>
+							<div className="dropdown-container">
+								Startup that received funding between
+								<select value={this.state.selectedDecade} onChange={this.handleDecadeChange} className="dropdown" id="decadesDropdown">
+									{this.state.decades}
+								</select>
+								and
+								<select value={this.state.selectedGenre} onChange={this.handleGenreChange} className="dropdown" id="genresDropdown">
+									{this.state.genres}
+								</select>
+								<button className="submit-btn" id="submitBtn" onClick={this.submitDecadeGenre}>Submit</button>
+								<div>Please make sure you put a smaller amount on the left, and the larger amount on the right</div>
+							</div>
+	
+						</div>
+	
+						<div className="jumbotron">
+						<div className="h5">Select Companies Invested by a Fund that went to IPO</div>
+							Please select a fund
+									<select value={this.state.selectedFund} onChange={this.handleFundChange} className="dropdown">
+										{this.state.funds}
+									</select>
+									<button className="submit-btn" id="submitBtn" onClick={this.submitFund}>Submit</button>
+								</div>
+	
+						<div className="jumbotron">
+							<div className="movies-container">
+								<div className="movie">
+									  <div className="header"><strong>Fund</strong></div>
+									  <div className="header"><strong>Amount</strong></div>
+									 <div className="header"><strong>Startup</strong></div>
+								</div>
+							<div className="movies-container" id="results">
+						  {this.state.movies}
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			);
+		}
+		
 	};
 };
