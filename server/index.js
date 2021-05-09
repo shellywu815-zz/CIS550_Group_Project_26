@@ -18,8 +18,11 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.get('/topStartups', routes.getTopStartups);
 //3
 app.get('/topInvestors', routes.getTopInvestors);
-//5
-//app.get('/yieldCurve', routes.getYieldCurve);
+
+
+app.get('/mostFundedPerson', routes.getMostFundedPerson);
+
+app.get('/averageFundReceived', routes.getAverageFundReceived);
 
 app.get('/recentInvestments', routes.getRecentInvestments);
 app.get('/foundersSchools', routes.getFoundersSchools);
