@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/InvestmentYears.css'; //NEED TO IMPLEMENT THE CORRESPONDING CSS FILE
 import 'bootstrap/dist/css/bootstrap.min.css';
 import InvestmentYearsRow from './InvestmentYearsRow';
-import {Chart} from 'chart.js';
+//import {Chart} from 'chart.js';
 
 
 export default class InvestmentYears extends React.Component {
