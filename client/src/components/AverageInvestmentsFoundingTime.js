@@ -59,7 +59,7 @@ export default class AverageInvestmentsFoundingTime extends React.Component {
                 <div className="h5">Average Investments Received by Companies Based On Founding Time</div>
                   <div className="header-container">
                     <div className="headers">
-                      <div className="header"><strong>Companies</strong></div>
+                      <div className="header"><strong>Inverted</strong></div>
                       <div className="header"><strong>Average Total Investments</strong></div>
                       <div className="header"><strong>Number</strong></div>
                       

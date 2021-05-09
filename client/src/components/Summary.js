@@ -31,9 +31,9 @@ export default class Summary extends React.Component {
 
         <br />
         <RecentInvestments />
-        <TotalInvestmentsByMajors />
         <MostInvestedStartups />
         <InvestmentYears />
+        <TotalInvestmentsByMajors />
         <FoundersSchools />
         <AverageInvestmentsFoundingTime />
       </div>
