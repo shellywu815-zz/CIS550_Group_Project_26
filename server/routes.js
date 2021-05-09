@@ -194,7 +194,7 @@ const selectAmounts = (req, res) => {
 
 const selectFunds = (req, res) => {
   const query = `
-  SELECT DISTINCT name FROM FinOrg LIMIT 20;
+  SELECT DISTINCT name FROM ssFund;
   `;
 
   connection.query(query, (err, rows, fields) => {
