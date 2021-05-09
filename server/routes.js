@@ -482,6 +482,8 @@ LIMIT 200;
 
 
 module.exports = {
+  getMostFundedPerson: getMostFundedPerson,
+  getAverageFundReceived: getAverageFundReceived,
 	getTopInvestors: getTopInvestors,
   getTopStartups: getTopStartups,
   getRecentInvestments: getRecentInvestments,
