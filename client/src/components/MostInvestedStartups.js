@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/MostInvestedStartups.css'; //NEED TO IMPLEMENT THE CORRESPONDING CSS FILE
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MostInvestedStartupsRow from './MostInvestedStartupsRow';
-
+import graph from '../t.PNG';
 
 export default class MostInvestedStartups extends React.Component {
 
@@ -65,6 +65,9 @@ export default class MostInvestedStartups extends React.Component {
                       <div className="results-container" id="results">
                         {this.state.startups}
                       </div>
+                      <div className="results-container">
+                       <img src={graph} width="700" height="500" />
+                       </div>
                     </div>
                   
                </div>

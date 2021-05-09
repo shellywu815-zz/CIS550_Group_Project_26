@@ -3,7 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TotalInvestmentsByMajorsRow from './TotalInvestmentsByMajorsRow';
 import '../style/TotalInvestmentsByMajors.css'; 
-
+import graph from '../m.PNG';
 
 export default class TotalInvestmentsByMajors extends React.Component {
 
@@ -67,6 +67,9 @@ export default class TotalInvestmentsByMajors extends React.Component {
                     </div>
                     <div className="results-container" id="results">
                       {this.state.investments}
+                    </div>
+                    <div className="results-container">
+                      <img src={graph} width="700" height="500" />
                     </div>
                   </div>
                 
