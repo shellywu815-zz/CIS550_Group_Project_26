@@ -23,6 +23,7 @@ export default class Search extends React.Component {
       searchMode: "",
       searchString: "",
       searchResult: [],
+      searchMessage: "",
     };
 
 		this.handleSearchStringChange = this.handleSearchStringChange.bind(this);
@@ -57,7 +58,8 @@ export default class Search extends React.Component {
 		this.setState({
 			searchMode: e.value,
       searchResult : [], //clear search result and search string on mode change
-      searchString: ""
+      searchString: "",
+      searchMessage: ""
 		});
     //console.log("Searching:" + this.state.searchMode)
   }
@@ -95,6 +97,7 @@ export default class Search extends React.Component {
 					searchResult: vcDivs
 				});
         //console.log(this.state.searchResult);
+        this.resultStats();
 			})
 			.catch(err => console.log(err))
   };
@@ -124,6 +127,7 @@ export default class Search extends React.Component {
           searchResult: comDivs
         });
         //console.log(this.state.searchResult);
+        this.resultStats();
       })
       .catch(err => console.log(err))
   };
@@ -150,10 +154,31 @@ export default class Search extends React.Component {
           searchResult: comDivs
         });
         //console.log(this.state.searchResult);
+        this.resultStats();
       })
       .catch(err => console.log(err))
   };
 
+  /* ---- Display result stats ---- */
+  resultStats() {
+    var resultSize = this.state.searchResult.length;
+    //console.log("Result size: " + resultSize);
+    if (resultSize == 0) {
+      this.setState ({
+        searchMessage: "The search didn't match anything in our database. Please try a different search."
+      });  
+    } else if (resultSize >= 100) {
+      this.setState ({
+        searchMessage: "Found more than 100 results. Showing the best matching 100 results."
+      });  
+    } else {
+      //console.log("Result size in else: " + resultSize);
+      this.setState ({
+        searchMessage: "Found " + resultSize + " results."
+      }); 
+    }
+    //console.log("Search message: " + this.state.searchMessage);
+  };
 
   render() {    
     //console.log("Search mode:" + this.state.searchMode);
@@ -181,7 +206,10 @@ export default class Search extends React.Component {
                 />
               </div>
             </div>
-            <div className="jumbotron">  
+            <div className="jumbotron">
+              <div className = "message-container">
+                <div className = "search-message"> {this.state.searchMessage}</div>
+              </div>  
               <div className="header-container">
                 <div className="headers">
                   <div className="header"><strong>VC Name</strong></div>
@@ -223,6 +251,9 @@ export default class Search extends React.Component {
               </div>
             </div>
             <div className="jumbotron">
+              <div className = "message-container">
+                <div className = "search-message"> {this.state.searchMessage}</div>
+              </div>  
               <div className="header-container">
                 <div className="headers">
                   <div className="header"><strong>Company Name</strong></div>
@@ -263,7 +294,10 @@ export default class Search extends React.Component {
                 />
               </div>
             </div>
-            <div className="jumbotron">  
+            <div className="jumbotron">
+              <div className = "message-container">
+                <div className = "search-message"> {this.state.searchMessage}</div>
+              </div>    
               <div className="header-container">
                 <div className="headers">
                   <div className="header"><strong>Industry</strong></div>
