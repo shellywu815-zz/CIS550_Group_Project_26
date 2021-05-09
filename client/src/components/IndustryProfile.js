@@ -2,8 +2,8 @@ import React from 'react';
 import '../style/IndustryProfile.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PageNavbar from './PageNavbar';
-import SearchComRow from './SearchComRow';
-import SearchVCRow from './SearchVCRow';
+import IndComRow from './IndComRow';
+import IndVCRow from './IndVCRow';
 
 export default class VCProfile extends React.Component {
   constructor(props) {
@@ -71,12 +71,11 @@ export default class VCProfile extends React.Component {
 			.then(companiesList => {
 				console.log(companiesList); //displays your JSON object in the console
         const companiesDivs = companiesList.map((com, i) =>
-        <SearchComRow
+        <IndComRow
           key={i}
           id={com.id}
           name={com.name}
           founded={com.founded}
-          industry={com.industry} 
           total={com.total}
           number={com.number}
         /> 
@@ -99,7 +98,7 @@ export default class VCProfile extends React.Component {
 			.then(companiesList => {
 				//console.log(companiesList); //displays your JSON object in the console
         const companiesDivs = companiesList.map((com, i) =>
-        <SearchVCRow
+        <IndVCRow
           key={i}
           id={com.id}
           name={com.name}

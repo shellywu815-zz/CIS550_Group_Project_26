@@ -3,24 +3,24 @@
   flex-flow: column wrap;
 }
 
-.header-container .comheaders, .results-container .ComMatches{
+.header-container .comheaders, .results-container .IndComs{
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   height: 40px;
 }
 
-.comheaders .header,.ComMatches .name, .ComMatches .founded, .ComMatches .total, .ComMatches .number{
+.comheaders .header,.IndComs .name, .IndComs .founded, .IndComs .total, .IndComs .number{
   flex: 1 1 25%;
 }
 
-.header-container .vcheaders, .results-container .VCMatches{
+.header-container .vcheaders, .results-container .IndVCs{
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   height: 40px;
 }
 
-.vcheaders .header,.VCMatches .name, .VCMatches .founded, .VCMatches .total, .VCMatches .number{
+.vcheaders .header,.IndVCs .name, .IndVCs .founded, .IndVCs .total, .IndVCs .number{
   flex: 1 0 25%;
 }
