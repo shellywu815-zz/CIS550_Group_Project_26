@@ -1,0 +1,15 @@
+.header-container, .results-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.header-container .headers, .results-container .foundersSchools {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+}
+
+.foundersSchools .institution, .foundersSchools .i_amount, .headers .header {
+  flex: 1 0 25%;
+}

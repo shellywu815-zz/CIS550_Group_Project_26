@@ -6,6 +6,8 @@ import RecentInvestmentsRow from './RecentInvestmentsRow';
 import RecentInvestments from './RecentInvestments';
 import TotalInvestmentsByMajors from './TotalInvestmentsByMajors';
 import MostInvestedStartups from './MostInvestedStartups';
+import FoundersSchools from './FoundersSchools';
+import InvestmentYears from './InvestmentYears';
 
 
 export default class Summary extends React.Component {
@@ -30,6 +32,8 @@ export default class Summary extends React.Component {
         <RecentInvestments />
         <TotalInvestmentsByMajors />
         <MostInvestedStartups />
+        <InvestmentYears />
+        <FoundersSchools />
       </div>
     );
   };
