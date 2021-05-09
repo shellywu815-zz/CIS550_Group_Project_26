@@ -436,7 +436,7 @@ const getIndustryStartup = (req, res) => {
     UNION
     SELECT * FROM poi
   )
-SELECT id, name, count(DISTINCT round) AS number, sum(amount) AS total
+SELECT id, name, found_date AS founded, count(DISTINCT round) AS number, sum(amount) AS total
 FROM allinvs NATURAL JOIN com
 GROUP BY id
 ORDER BY total DESC

@@ -20,28 +20,6 @@ export default class VCProfile extends React.Component {
 		//this.handleSearchStringChange = this.handleSearchStringChange.bind(this);
 		//this.submitSearch = this.submitSearch.bind(this);
   };
-
-  /*
-  handleSearchStringChange(e) {
-		this.setState({
-			searchString: e.target.value
-		});
-    //console.log("Search String updated:" + this.state.searchString);
-	};
-
-  
-  submitSearch() {
-    //console.log("Search submitted: " +  this.state.searchString);
-    if (this.state.searchMode == "VC") {
-      this.showVC();
-    }
-    else {
-      //TODO
-    }
-  };
-  */
-
-
   // React function that is called when the page load.
   
   componentDidMount() {
