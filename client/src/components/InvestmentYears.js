@@ -2,10 +2,7 @@ import React from 'react';
 import '../style/InvestmentYears.css'; //NEED TO IMPLEMENT THE CORRESPONDING CSS FILE
 import 'bootstrap/dist/css/bootstrap.min.css';
 import InvestmentYearsRow from './InvestmentYearsRow';
-<<<<<<< Updated upstream
-=======
 import graph from '../g.PNG';
->>>>>>> Stashed changes
 //import {Chart} from 'chart.js';
 
 
