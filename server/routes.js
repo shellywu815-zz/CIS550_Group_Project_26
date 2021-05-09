@@ -59,13 +59,13 @@ const getAverageFundReceived = (req, res) => {
     FROM comreg c JOIN FinOrgInvestIn fi ON c.id = fi.c_id
     GROUP BY id
    ), avginvs AS (
-    SELECT avg(total) AS average, 0 AS inverted FROM reginvs
+    SELECT avg(total) AS average_total_inv, 0 AS inverted FROM reginvs
     UNION
-    SELECT avg(total) AS average, 1 AS inverted FROM invinvs
+    SELECT avg(total) AS average_total_inv, 1 AS inverted FROM invinvs
    ), counts AS (
-    SELECT count(*) AS number, 0 AS inverted FROM comreg
+    SELECT count(*) AS num_founded, 0 AS inverted FROM comreg
     UNION
-    SELECT count(*) AS number, 1 AS inverted FROM cominv
+    SELECT count(*) AS num_founded, 1 AS inverted FROM cominv
    ) SELECT * 
    FROM avginvs NATURAL JOIN counts;
   `;
@@ -107,7 +107,7 @@ const getTopInvestors = (req, res) => {
 const getTopStartups = (req, res) => {
   const query = `
   SELECT c.name, SUM(i.amount) AS amount
-FROM Company c JOIN CompanyInvestIn i ON c.id=i.investor_id
+FROM Company c JOIN CompanyInvestIn i ON c.id=i.invested_id
 WHERE c.id NOT IN 
 (SELECT acquired_id FROM Acquired)
 GROUP BY c.name ORDER BY SUM(i.amount) DESC

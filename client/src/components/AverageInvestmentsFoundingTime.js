@@ -12,10 +12,10 @@ export default class AverageInvestmentsFoundingTime extends React.Component {
         this.state = {
             companies: [],
         };
-        this.submitCompanies = this.submitCompanies.bind(this);
+        this.submitInvestments = this.submitInvestments.bind(this);
     }
     componentDidMount() {
-      this.submitCompanies();
+      this.submitInvestments();
     }
     submitInvestments() {
       fetch("http://localhost:8081/averageFundReceived", {  
@@ -61,6 +61,7 @@ export default class AverageInvestmentsFoundingTime extends React.Component {
                     <div className="headers">
                       <div className="header"><strong>Companies</strong></div>
                       <div className="header"><strong>Average Total Investments</strong></div>
+                      <div className="header"><strong>Number</strong></div>
                       
                     </div>
                     <div className="results-container" id="results">

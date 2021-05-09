@@ -8,6 +8,7 @@ import TotalInvestmentsByMajors from './TotalInvestmentsByMajors';
 import MostInvestedStartups from './MostInvestedStartups';
 import FoundersSchools from './FoundersSchools';
 import InvestmentYears from './InvestmentYears';
+import AverageInvestmentsFoundingTime from './AverageInvestmentsFoundingTime';
 
 
 export default class Summary extends React.Component {
@@ -34,6 +35,7 @@ export default class Summary extends React.Component {
         <MostInvestedStartups />
         <InvestmentYears />
         <FoundersSchools />
+        <AverageInvestmentsFoundingTime />
       </div>
     );
   };
