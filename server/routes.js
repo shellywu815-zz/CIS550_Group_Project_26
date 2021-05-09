@@ -27,9 +27,47 @@ const getMostFundedPerson = (req, res) => {
 
 const getAverageFundReceived = (req, res) => {
   const query = `
-
-    
-  
+  WITH mostinv AS (
+    SELECT id, name, found_date, sum(amount) AS total
+    FROM Company c JOIN FinOrgInvestIn fi ON c.id = fi.c_id
+    WHERE found_date <> "0000-00-00"
+    GROUP BY id
+    ORDER BY total DESC
+    LIMIT 100000
+   ), ftime AS (
+    SELECT year(found_date) AS year, month(found_date) AS month, id, name, total
+    FROM mostinv
+    HAVING year >= 1985
+   ) , inv AS (
+    SELECT year(observation_date) AS year, month(observation_date) AS month
+    FROM YieldCurve
+    WHERE is_inverted = 1
+   ) , cominv AS (
+    SELECT id, name
+    FROM ftime
+    WHERE year IN (SELECT DISTINCT year FROM inv)
+   ), comreg AS (
+    SELECT id, name
+    FROM ftime
+    WHERE id NOT IN (SELECT id FROM cominv)
+   ), invinvs AS (
+    SELECT id, sum(amount) AS total
+    FROM cominv c JOIN FinOrgInvestIn fi ON c.id = fi.c_id
+    GROUP BY id
+   ), reginvs AS (
+    SELECT id, sum(amount) AS total
+    FROM comreg c JOIN FinOrgInvestIn fi ON c.id = fi.c_id
+    GROUP BY id
+   ), avginvs AS (
+    SELECT avg(total) AS average, 0 AS inverted FROM reginvs
+    UNION
+    SELECT avg(total) AS average, 1 AS inverted FROM invinvs
+   ), counts AS (
+    SELECT count(*) AS number, 0 AS inverted FROM comreg
+    UNION
+    SELECT count(*) AS number, 1 AS inverted FROM cominv
+   ) SELECT * 
+   FROM avginvs NATURAL JOIN counts;
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
