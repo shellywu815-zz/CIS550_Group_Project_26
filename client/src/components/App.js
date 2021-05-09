@@ -12,8 +12,6 @@ import StartupProfile from './StartupProfile'
 import IndustryProfile from './IndustryProfile'
 
 export default class App extends React.Component {
-vcpath = "/vc/:fid"	
-vcurl = new URLSearchParams(this.vcpath);
 
 	render() {
 		return (
