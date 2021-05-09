@@ -1,0 +1,15 @@
+.header-container, .results-container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .header-container .headers, .results-container .AverageInvestmentsFoundingTimeRow {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .AverageInvestmentsFoundingTimeRow .inverted, .AverageInvestmentsFoundingTimeRow .average_total_inv, .AverageInvestmentsFoundingTimeRow .num_founded, .headers .header {
+    flex: 1 0 25%;
+  }
