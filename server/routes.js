@@ -208,14 +208,21 @@ const selectIPO = (req, res) => {
   WITH fund_id AS
   (SELECT id FROM FinOrg WHERE name = "${inputcompany}"), 
   qualified_c_f AS
-  (SELECT c_id, f_id FROM FinOrgInvestIn JOIN fund_id ON 
+  (SELECT c_id, 
+	f_id 
+	FROM FinOrgInvestIn JOIN fund_id ON 
   FinOrgInvestIn.f_id = fund_id.id),
   temp AS
-  (SELECT qualified_c_f.c_id, qualified_c_f.f_id, IPO.raised_amount FROM qualified_c_f
-  INNER JOIN IPO ON qualified_c_f.c_id = IPO.c_id)
+  (SELECT qualified_c_f.c_id, 
+	qualified_c_f.f_id, 
+	IPO.raised_amount FROM qualified_c_f
+  INNER JOIN IPO 
+	ON qualified_c_f.c_id = IPO.c_id)
   SELECT Company.name AS title, FinOrg.name AS movie_id, raised_amount as rating FROM temp 
-  INNER JOIN Company on temp.c_id = Company.id 
-  INNER JOIN FinOrg ON temp.f_id = FinOrg.id
+  INNER JOIN 
+	Company on temp.c_id = Company.id 
+  INNER JOIN 
+	FinOrg ON temp.f_id = FinOrg.id
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
