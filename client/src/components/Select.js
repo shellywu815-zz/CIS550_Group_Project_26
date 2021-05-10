@@ -1,7 +1,7 @@
 import React from 'react';
 import PageNavbar from './PageNavbar';
-import BestMoviesRow from './BestMoviesRow';
-import '../style/BestMovies.css';
+//import BestMoviesRow from './BestMoviesRow';
+import '../style/Select.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class BestMovies extends React.Component {
