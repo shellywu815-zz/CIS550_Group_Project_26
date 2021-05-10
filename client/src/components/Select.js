@@ -191,7 +191,7 @@ export default class BestMovies extends React.Component {
 						<div className="jumbotron">
 							<div className="h5">Select Funds By Funding</div>
 							<div className="dropdown-container">
-								Startup that received funding between
+								Funds that gave funding between
 								<select value={this.state.selectedDecade} onChange={this.handleDecadeChange} className="dropdown" id="decadesDropdown">
 									{this.state.decades}
 								</select>
