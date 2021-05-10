@@ -38,7 +38,6 @@ app.get('/selectt', routes.selectIPO);
 
 
 
-
 /* ---- Search Routes ---- */
 
 //Searching by name
