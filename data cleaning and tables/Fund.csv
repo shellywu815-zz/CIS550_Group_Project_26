@@ -1,0 +1,979 @@
+f_id,id,name,funded_at,amount,source
+f:371,1,Second Fund,2008-12-16,300000000.0,http://www.pehub.com/26194/dfj-dragon-raising-second-fund/
+f:17,4,Sequoia Israel Fourth Fund,2008-12-17,200750000.0,http://www.pehub.com/26725/sequoia-israel-raises-fourth-fund/
+f:951,5,Tenth fund,2008-08-11,650000000.0,http://venturebeat.com/2008/08/11/interwest-closes-650m-fund/
+f:519,7,Third fund,2008-05-20,200000000.0,http://venturebeat.com/2008/05/20/disneys-steamboat-ventures-looking-to-raise-200m-fund/
+f:1811,8,Inventus Capital Partners Fund I LP,2007-11-30,51750000.0,http://venturebeat.com/2008/01/14/kanwal-rekhis-india-focused-firm-inventus-raises-442m/
+f:849,9,Unattributed,2008-04-16,512000000.0,http://venturebeat.com/2008/04/16/ftventures-raises-512m-fund-short-of-its-600m-target/
+f:1829,10,Sequoia Capital Investment,2007-09-23,5000000.0,http://venturebeat.com/2007/10/23/sequoia-capital-invests-in-noah-a-chinese-wealth-management-co/
+f:1846,11,Roll Up Strategy,2007-07-09,100000000.0,http://venturebeat.com/2007/07/09/bertram-capital-raises-100m-more-for-rollup-strategy/
+f:1857,13,Venture capital Funds,2007-10-04,250000000.0,http://venturebeat.com/2007/10/04/braemar-energy-ventures-raises-250-fund-one-of-largest-clean-tech-funds-yet/
+f:105,14,Balderton Capital IV,2009-01-12,430000000.0,http://www.techcrunch.com/?p=37231
+f:1868,17,Cisco-Pentagon-Intelsat communications,2007-04-01,200000000.0,http://venturebeat.com/2007/04/09/concerto-advisors-to-raise-200m-for-cisco-pentagon-intelsat-communications-deal/
+f:745,18,"Foundry Venture Capital 2007, L.P.",2007-09-20,225000000.0,http://venturebeat.com/2007/09/20/from-mobius-venture-capital-ashes-arises-foundry-group-with-160m-plus-fund/
+f:166,19,venture fund,2007-09-20,365000000.0,http://venturebeat.com/2007/09/20/lehman-brothers-raises-365m-venture-fund/
+f:1882,20,Exchange Traded Funds,2007-09-19,10000000.0,http://venturebeat.com/2007/09/19/xshares-raises-10m-for-exchange-traded-funds-despite-struggle/
+f:1914,21,Second Fund,2008-05-21,100000000.0,http://venturebeat.com/2008/05/21/canopy-ventures-raises-100m-second-fund-for-it-and-life-science/
+f:1924,22,Fund 1,2008-07-11,250000000.0,http://venturebeat.com/2008/07/11/deep-fork-ventures-raises-500m-fund/
+f:101,23,Fund 4,2010-08-30,250000000.0,http://venturebeat.com/2008/02/08/bluerun-ventures-raises-initial-200m-fund-for-consumer-and-mobile-investments/
+f:318,24,Fund 8,2008-02-04,303000000.0,http://venturebeat.com/2008/02/04/advanced-technology-ventures-closes-new-303m-fund/
+f:17,25,Sequoia India III,2007-08-17,300000000.0,http://venturebeat.com/2007/08/13/sequoia-india-about-to-finish-raising-280m-fund/
+f:123,26,"2007 ""Consumer"" Fund",2007-07-09,300000000.0,http://venturebeat.com/2007/07/09/highland-capital-launches-300m-consumer-vc-fund/
+f:137,27,Battery Fund,2007-07-06,750000000.0,http://venturebeat.com/2007/07/06/svb-capital-and-battery-raise-latest-vc-funds-battery-on-a-roll/
+f:1473,28,SVB July 2007 Fund,2007-07-06,255000000.0,http://venturebeat.com/2007/07/06/svb-capital-and-battery-raise-latest-vc-funds-battery-on-a-roll/
+f:568,29,DFJ Frontier Fund II,2009-04-18,55000000.0,http://www.marketwire.com/press-release/Dfj-Frontier-979884.html
+f:34,30,Spark Media Fund II,2007-07-18,360000000.0,http://venturebeat.com/2007/07/18/spark-capital-raises-360m-for-second-media-fund/
+f:484,31,IVP Fund -- May 2007,2007-05-18,600000000.0,http://venturebeat.com/2007/05/18/ivp-raises-600-million-fund-to-invest-in-late-stage-technology-companies/
+f:338,32,Artiman Ventures Fund II,2007-05-21,185000000.0,http://venturebeat.com/2007/05/21/artiman-ventures-raises-185m-fund/
+f:245,33,Carmel Ventures III,2008-02-05,235000000.0,http://venturebeat.com/2008/02/05/israeli-vc-firm-carmel-ventures-raises-235m-for-third-fund/
+f:174,34,second fund,2007-01-01,200000000.0,http://venturebeat.com/2007/05/22/emergence-finishes-raising-second-fund-at-200m/
+f:191,36,Venrock V,2007-04-25,600000000.0,http://venturebeat.com/2007/04/25/venrock-raises-600m-fund-for-early-stage-investing-hires-siminoff/
+f:26,37,Tenth Fund,2010-07-01,350000000.0,http://venturebeat.com/2007/03/22/dfj-raises-4345-million-venture-capital-fund/
+f:111,38,Fund VIII,2009-01-29,283000000.0,http://www.techcrunch.com/2009/01/29/atlas-closes-a-leaner-but-meaner-283-million-fund/
+f:521,39,India Investment,2007-07-17,189000000.0,http://venturebeat.com/2007/07/17/nea-indous-ventures-raises-189m-for-investing-in-india/
+f:13,40,Redpoint Omega,2007-03-13,250000000.0,http://venturebeat.com/2007/03/13/redpoint-ventures-raises-250-million-later-stage-fund/
+f:1989,41,January 2009,2009-02-02,865000000.0,http://dealbook.blogs.nytimes.com/2009/02/02/vision-capital-raises-865-million-for-new-fund-report-says/
+f:426,48,Epic Venture Fund IV,2009-03-09,35750000.0,http://www.socialmedian.com/story/3414090/epic-ventures-raising-fund-iv
+f:7,50,Charles River Partnership XIV,2009-03-30,320000000.0,http://www.techcrunch.com/2009/03/30/charles-river-ventures-raises-320-million-for-its-fourteenth-fund/
+f:7,51,Charles River Partnership XIII,2007-04-01,285000000.0,http://www.techcrunch.com/2009/03/30/charles-river-ventures-raises-320-million-for-its-fourteenth-fund/
+f:2196,52,Fund II,2009-03-30,140000000.0,http://www.pehub.com/35726/new-capital-partners-raises-second-fund/
+f:61,53,India Fund,2008-12-09,110000000.0,http://www.vccircle.com/500/news/mayfield-raises-110-million-india-fund
+f:1749,56,Eighth Fund,2009-04-08,0.0,http://www.pehub.com/36503/domain-associates-raising-fund-viii/
+f:2472,57,$550M HealthCare Fund,2007-03-05,550000000.0,http://venturebeat.com/2007/03/05/mpm-capital-raises-550m-healthcare-fund/
+f:2535,58,Silver Lake Sumeru,2007-08-30,726000000.0,http://venturebeat.com/2007/08/30/silver-lake-raises-726m-for-middle-market-fund/
+f:2263,60,Cleantech Fund,2008-05-23,191500000.0,http://deals.venturebeat.com/2008/05/23/craton-equity-partners-wraps-up-1915m-cleantech-fund/
+f:1866,61,Cleantech Fund,2008-05-05,75000000.0,http://deals.venturebeat.com/2008/05/05/israel-cleantech-ventures-raises-75m-fund/
+f:367,62,Intel Capital India Technology Fund,2005-12-01,250000000.0,http://dealbook.blogs.nytimes.com/2009/01/14/intel-capital-invests-23-million-in-india/
+f:2604,63,Debut Medical Device Fund,2008-01-09,143000000.0,http://sev.prnewswire.com/banking-financial-services/20080110/AQW11409012008-1.html
+f:2141,64,Life Sciences Fund,2007-10-10,450000000.0,http://deals.venturebeat.com/2007/10/10/new-leaf-raises-450m-life-sciences-fund/
+f:2867,65,Flexpoint Ford Fund II,2008-11-03,778437500.0,http://www.sec.gov/Archives/edgar/vprr/08/9999999997-08-044582
+f:2867,66,FLEXPOINT FORD OVERAGE FUND II,2008-11-03,467062500.0,http://www.sec.gov/Archives/edgar/vprr/08/9999999997-08-044583
+f:102,69,Third Fund,2007-04-11,82000000.0,http://deals.venturebeat.com/2007/04/11/catamount-raises-82m-fund-will-dabble-in-clean-tech/
+f:2820,70,Third Fund,2008-11-10,2800000000.0,http://www.equityhelpdesk.com/PrivateEquity/Towerbrook_Raises_2_8_Billion_for_Third_Fund/related_links
+f:286,72,Matrix IX,2009-07-24,600000000.0,"http://www.earthtimes.org/articles/show/matrix-partners-closes-new-600-million-matrix-ix-fund,903624.shtml"
+f:102,73,Early-Stage Fund (4th),2009-07-30,80000000.0,http://deals.venturebeat.com/2009/07/30/catamount-finalizes-80m-early-stage-fund/
+f:2739,76,First Fund,2009-08-04,200000000.0,http://www.fiercebiotech.com/story/200m-lilly-spins-out-venture-biz/2009-08-03?utm_medium=rss&utm_source=rss&cmp-id=OTC-RSS-FB0
+f:1902,77,Fund I,2009-09-11,127500000.0,http://www.gsjournal.com/2010/01/steve-westly-bullish-on-green-startups/
+f:3586,79,"Biotech, medical-device and drug-development startups",2008-03-03,95000000.0,http://deals.venturebeat.com/2008/03/03/life-sciences-fund-longitude-capital-raises-95m/
+f:130,80,Cleantech Infrastructure Fund,2007-06-22,300000000.0,http://deals.venturebeat.com/2007/06/22/vantagepoint-raising-300m-fund-for-green-project-finance/
+f:2253,81,Versant Ventures IV,2008-08-01,500000000.0,http://deals.venturebeat.com/2008/08/01/versant-ventures-raises-500m-for-life-sciences-investing/
+f:1793,82,energy fund,2007-08-28,75000000.0,http://deals.venturebeat.com/2007/08/28/enertech-capital-has-raised-75m-for-energy-fund-slow-going/
+f:2255,83,CalPERS,2007-09-10,700000000.0,http://venturebeat.com/2007/09/10/health-evolution-partners-outlines-its-plan-to-revolutionize-healthcare/
+f:2261,84,BioAsia Investments,2007-05-09,275000000.0,http://deals.venturebeat.com/2007/05/08/vivo-ventures-aims-for-asia-investment-with-275m-fund/
+f:3689,85,NEAS Power fund,2009-10-01,0.0,http://cleantechbrief.com/node/965
+f:3362,86,Ambienta I,2009-10-09,317000000.0,http://cleantechbrief.com/node/976
+f:733,88,New Atlantic Venture Fund III,2009-04-16,115000000.0,http://www.navfund.com/html/news_2009_0416.html
+f:733,89,Draper Atlantic Fund I,1999-01-01,72000000.0,http://washington.bizjournals.com/washington/stories/2006/09/18/story4.html
+f:733,90,Draper Atlantic Fund II,2000-01-01,70000000.0,http://washington.bizjournals.com/washington/stories/2006/09/18/story4.html
+f:733,91,DFJ New England Fund I,2001-01-01,45000000.0,http://www.accessmylibrary.com/coms2/summary_0286-27734344_ITM
+f:3522,94,Clean energy fund,2009-01-01,18000000.0,http://cleantechbrief.com/node/999
+f:806,95,NYC funds seed biotech projects,2009-01-01,5000000.0,http://www.fiercebiotech.com/story/big-apple-fund-seed-biotech-projects-5m-cash/2009-10-20?utm_medium=rss&utm_source=rss&cmp-id=OTC-RSS-FB0
+f:4,97,Accel Fund,2008-12-01,10000000000.0,http://stephenlaughlin.posterous.com/index-ventures-raises-440-mill
+f:2077,98,IPO,2009-10-01,2300000.0,http://cleantechbrief.com/node/1019
+f:1,99,Greylock Fund XIV,2013-09-10,1000000000.0,http://www.reuters.com/article/2013/09/10/us-venture-newfund-greylock-idUSBRE98910920130910
+f:260,100,TA XI,2009-08-12,4000000000.0,http://www.preqin.com/item/ta-associates-closes-4b-fund/101/1513
+f:3765,101,"Emerald Stage2 Ventures, LP",2008-03-05,15000000.0,http://philadelphia.bizjournals.com/philadelphia/stories/2008/07/07/story7.html
+f:62,104,Ignition Growth Capital Fund,2007-10-01,275000000.0,http://blog.seattlepi.com/venture/archives/122831.asp
+f:62,105,Ignition Ventures IV,2007-10-01,400000000.0,http://www.ignitionpartners.com/press/ignition_partne_1.php
+f:89,106,"Madrona Venture Fund IV, L.P.",2008-06-11,250000000.0,http://www.seattlepi.com/business/366573_madrona11.html
+f:97,107,Maveron IV,2008-04-01,240000000.0,http://blog.seattlepi.com/venture/archives/135535.asp
+f:3809,109,Founder Collective I,2009-11-09,40000000.0,http://www.masshightech.com/stories/2009/11/09/daily7-Founder-Collective-closes-40M-seed-stage-tech-fund.html
+f:3810,110,Seed Fund,2011-04-07,40000000.0,http://cleantechbrief.com/node/1110
+f:3824,111,Solamere Founders Fund I,2009-06-02,186000000.0,http://www.masshightech.com/stories/2009/06/01/daily12-Romney-rooted-Solamere-Capital-nears-200M-fund.html
+f:123,112,Highland Capital Partners VIII Limited Partnership,2009-11-12,400000000.0,http://www.hcp.com/news/newsdetails.php/id/79851
+f:3839,113,TBD,2009-11-12,100000000.0,http://www.altassets.com/private-equity-news/article/nz17273.html
+f:86,115,Norwest Venture Partners XI,2009-11-18,1200000000.0,http://www.altassets.com/private-equity-news/article/nz17325.html
+f:3869,116,Cleantech Fund,2009-11-16,4250000.0,http://cleantechbrief.com/node/1085
+f:79,119,Winch Capital 2,2009-11-25,376575000.0,http://www.altassets.com/private-equity-news/article/nz17396.html
+f:3954,120,Debut Venture fund,2009-12-02,151000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020091201e5c2000dx&r=Rss&s=DJFVW
+f:116,121,MDV VIII,2005-01-31,384500000.0,http://www.sec.gov/Archives/edgar/vprr/05/9999999997-05-003432
+f:116,122,MDV VIII,2009-05-22,25537791.0,http://www.sec.gov/Archives/edgar/data/1315917/000131591709000003/xslFormDX01/primary_doc.xml
+f:116,123,MDV VIII,2010-12-03,2374908.0,http://www.sec.gov/Archives/edgar/data/1315917/000131591709000004/xslFormDX01/primary_doc.xml
+f:116,124,MDV VII,2009-08-07,27063875.0,http://www.sec.gov/Archives/edgar/data/1129541/000112954109000003/xslFormDX01/primary_doc.xml
+f:116,125,MDV VII,2009-12-03,256336.0,http://www.sec.gov/Archives/edgar/data/1129541/000112954109000004/xslFormDX01/primary_doc.xml
+f:116,126,MDV IX,2007-08-24,580000000.0,http://www.sec.gov/Archives/edgar/vprr/07/9999999997-07-040374
+f:116,127,MDV IX,2009-05-22,45328890.0,http://www.sec.gov/Archives/edgar/data/1410787/000141078709000004/xslFormDX01/primary_doc.xml
+f:116,128,MDV IX,2009-12-03,26760466.0,http://www.sec.gov/Archives/edgar/data/1410787/000141078709000005/xslFormDX01/primary_doc.xml
+f:1407,129,Conor Technology Fund I Ky,2006-01-01,30000000.0,http://www.conor.vc/news.html
+f:2140,130,5AM Ventures III,2009-12-11,197835000.0,http://www.sec.gov/Archives/edgar/data/1456890/000145689009000004/xslFormDX01/primary_doc.xml
+f:2140,131,5AM Ventures II,2006-01-01,150000000.0,http://www.altassets.com/private-equity-news/article/nz17486.html
+f:2140,132,5AM Ventures I,2002-01-01,65000000.0,http://www.altassets.com/private-equity-news/article/nz17486.html
+f:2787,133,Debut Venture fund,2009-12-04,1000000000.0,http://cleantechbrief.com/node/1133?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+cleantechbrief%2Frss+(CleanTech+Brief)
+f:3259,138,Growth capital fund,2009-12-11,73600000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020091210e5cb000m9&r=Rss&s=DJFVW
+f:1569,139,Lowercase Angel Fund,2010-06-18,8500000.0,http://techcrunch.com/2010/06/18/chris-saccas-lowercase-capital-opens-for-business-with-8-5-million-angel-fund/
+f:905,140,"RPM Ventures II, L.P.",2009-12-11,60000000.0,http://www.freshnews.com/news/255429/rpm-ventures-successfully-closes-60-million-second-fund
+f:2140,142,5AM Co-Investors III,2009-12-17,2115000.0,http://www.sec.gov/Archives/edgar/data/1478660/000147866009000001/xslFormDX01/primary_doc.xml
+f:4066,144,Second Life Sciences Fund Of Funds,2009-12-17,58000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020091216e5ch0012x&r=Rss&s=DJFVW
+f:4063,145,Early Stage Venture Fund,2011-05-16,17500000.0,http://www.finsmes.com/2009/12/singapore-extream-ventures-to-set-up.html
+f:4075,146,Mezzanine Fund II,2009-12-12,140000000.0,http://www.finsmes.com/2009/12/syntaxis-capital-closes-central.html
+f:1284,149,Demeter 2,2009-12-21,292000000.0,http://cleantechbrief.com/node/1186?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+cleantechbrief%2Frss+(CleanTech+Brief)
+f:4120,150,Second China Fund,2009-12-23,146400000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020091222e5cn000rt&r=Rss&s=DJFVW
+f:17,151,China Fund,2009-12-21,1000000000.0,http://deals.venturebeat.com/2009/12/21/sequoia-charges-ahead-on-new-1b-fund/
+f:4141,154,Pacific Lake Partners Fund One,2009-12-24,24775000.0,http://www.sec.gov/Archives/edgar/data/1479479/000147947909000001/xslFormDX01/primary_doc.xml
+f:501,156,Venture Fund,2009-12-24,830000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020091223e5co00105&r=Rss&s=DJFVW
+f:4160,157,Riverside Fund IV Offshore LP,2010-01-05,406000000.0,http://www.masshightech.com/stories/2010/01/04/daily30-Update-Riverside-Partners-closes-406M-fourth-fund.html
+f:51,158,Cardinal Venture Partners II,2009-12-30,24962074.0,http://www.sec.gov/Archives/edgar/data/1479657/000147965709000001/xslFormDX01/primary_doc.xml
+f:2174,160,Ohio TechAngel Fund III,2010-01-05,2450000.0,http://www.sec.gov/Archives/edgar/data/1479319/000147931910000001/xslFormDX01/primary_doc.xml
+f:3231,161,New River Management VI,2010-01-05,100000000.0,http://www.sec.gov/Archives/edgar/data/1479808/000147980810000001/xslFormDX01/primary_doc.xml
+f:477,162,Flywheel II,2010-01-06,35000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100106e61600002&r=Rss&s=DJFVW
+f:2250,164,Fourth health care venture fund,2010-01-05,312000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100105e615000b6&r=Rss&s=DJFVW
+f:2640,165,River Fund VI,2010-01-06,100000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100106e61600004&r=Rss&s=DJFVW
+f:316,166,Thirteenth Fund,2010-01-06,2500000000.0,http://www.techcrunch.com/2010/01/06/new-enterprise-associates-fund-xiii/
+f:3897,171,BioMedInvest II L.P.,2010-01-12,104000000.0,http://www.finsmes.com/2010/01/switzerland-biomedpartners-closes.html
+f:4240,173,uardian Capital Partners Fund I,2010-01-14,50000000.0,http://www.finsmes.com/2010/01/guardian-capital-partners-closes-on-50m.html
+f:3780,176,Polish-American Enterprise Fund,1990-01-01,240000000.0,http://www.invest-iq.com/Enterprise-Investors
+f:73,179,Fund VII,2010-01-19,400000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020100119e61j00001&r=Rss&s=DJFVLS
+f:2064,180,Fund III,2010-01-19,100000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020100119e61j00004&r=Rss&s=DJFVLS
+f:564,181,Clean Tech Fund,2010-01-19,265000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100119e61j000dx&r=Rss&s=DJFVW
+f:4281,182,Prudential Capital Partners III,2010-01-20,965000000.0,http://www.finsmes.com/2010/01/prudential-capital-partners-closes-965m.html
+f:4282,183,Clearlake Capital Partners II,2010-01-20,410000000.0,http://www.finsmes.com/2010/01/private-equity-fund-clearlake-capital.html
+f:4286,184,Financial Services Fund,2010-01-20,85700000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100120e61k0008d&r=Rss&s=DJFVW
+f:122,185,Alsop Louie Capital 2,2010-10-11,98600000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101008e6ab001b9&r=Rss&s=DJFVW
+f:66,186,Khosla Ventures III,2009-09-08,770832226.0,http://www.sec.gov/Archives/edgar/data/1471809/000147180909000001/xslFormDX01/primary_doc.xml
+f:66,187,Khosla Ventures III,2010-01-21,229167774.0,http://www.sec.gov/Archives/edgar/data/1471809/000147180910000001/xslFormDX01/primary_doc.xml
+f:66,188,Khosla Ventures Seed,2010-01-22,36737655.0,http://www.sec.gov/Archives/edgar/data/1471810/000147180910000002/xslFormDX01/primary_doc.xml
+f:66,189,Khosla Ventures Seed,2009-09-08,263262345.0,http://www.sec.gov/Archives/edgar/data/1471810/000147181009000001/xslFormDX01/primary_doc.xml
+f:4322,192,Environmental Fund,2010-01-27,202000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100126e61r000jh&r=Rss&s=DJFVW
+f:4341,197,Axiom Asia Private Capital Fund II,2010-01-28,950000000.0,http://www.finsmes.com/2010/01/axiom-asia-completes-final-closing-on.html
+f:4351,198,SiVest Venture Partners,2010-01-28,500000.0,http://www.sec.gov/Archives/edgar/data/1481643/000148164310000001/xslFormDX01/primary_doc.xml
+f:518,200,Fund IV,2013-05-09,300000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130509e959pssvx&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130509e959pssvx%26from%3dalert%26pid%3d32
+f:426,201,Epic Venture Fund IV,2010-02-03,14300000.0,http://www.sec.gov/Archives/edgar/data/1456865/000145686510000003/xslFormDX01/primary_doc.xml
+f:13,202,Fund IV,2010-02-08,400100000.0,http://deals.venturebeat.com/2010/02/08/redpoint-ventures/
+f:4452,203,Longwood Founders Fund,2010-12-27,85000000.0,http://www.masshightech.com/stories/2010/12/27/daily7-Longwood-fund-capped-at-85M.html
+f:2472,205,MPM BioVentures V,2010-02-15,140000000.0,http://www.masshightech.com/stories/2010/02/15/daily3-MPM-BioVentures-ups-fund-to-140M.html
+f:262,206,DAG Ventures IV-QP,2010-02-22,451825000.0,http://www.sec.gov/Archives/edgar/data/1471985/000147198510000001/xslFormDX01/primary_doc.xml
+f:262,207,DAG Ventures IV,2010-02-22,47750000.0,http://www.sec.gov/Archives/edgar/data/1471986/000147198610000001/xslFormDX01/primary_doc.xml
+f:375,208,Greycroft Partners II,2010-04-01,130650000.0,http://www.sec.gov/Archives/edgar/data/1484529/000148452910000001/xslFormDX01/primary_doc.xml
+f:2954,209,Fjord Capital Partners I,2010-02-18,11825000.0,http://www.sec.gov/Archives/edgar/data/1484305/000148430510000001/xslFormDX01/primary_doc.xml
+f:2140,210,5AM Co-Investors III,2010-02-25,3370000.0,http://www.sec.gov/Archives/edgar/data/1478660/000147866010000001/xslFormDX01/primary_doc.xml
+f:3181,213,Angel Fund,2010-02-26,20000000.0,http://techcrunch.com/2010/10/15/ron-conway-sv-angel-9-million/
+f:4453,214,Harbor Pacific Capital Partners I,2010-03-01,32800000.0,http://www.sec.gov/Archives/edgar/data/1484744/000148474410000001/xslFormDX01/primary_doc.xml
+f:2975,219,ARPA-E 3rd round,2010-03-02,100000000.0,http://earth2tech.com/2010/03/02/arpa-e-third-round-100m-for-grid-storage-power-converters-building-cooling/
+f:2283,220,Gravity Ventures I,2008-12-11,0.0,http://findarticles.com/p/articles/mi_go1582/is_200903/ai_n32205405/
+f:137,223,Battery Ventures IX,2010-03-02,709600000.0,http://www.sec.gov/Archives/edgar/data/1485934/000148593410000001/xslFormDX01/primary_doc.xml
+f:569,226,DFJ Gotham Venture Fund II,2007-07-30,16400000.0,http://www.sec.gov/Archives/edgar/vprr/07/9999999997-07-035358
+f:569,227,DFJ Gotham Venture Fund II,2010-03-04,18650000.0,http://www.sec.gov/Archives/edgar/data/1408370/000140837010000002/xslFormDX01/primary_doc.xml
+f:2825,231,Column Group II,2010-03-10,65500000.0,http://www.sec.gov/Archives/edgar/data/1478715/000147871510000001/xslFormDX01/primary_doc.xml
+f:1199,233,mmgcppirviz,2005-06-09,3.0,http://iywysevlvvrc.com/
+f:4736,234,Lightbank,2010-03-15,200000000.0,http://www.freshnews.com/news/296993/chicago-based-fund-lightbank-invest-100-million-technology-start-ups
+f:3128,235,Seed,2010-03-01,0.0,http://labotec.com/2010/03/16/labotec-closes-an-important-round-of-funding/
+f:3819,236,InCube Ventures II,2011-03-08,38600000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110309e7390002t&r=Rss&s=DJFVW
+f:4691,237,Fund I,2010-02-01,8000000.0,http://mediamemo.allthingsd.com/20100202/a-father-and-son-team-that-founds-web-startups-wants-to-finance-them-too-ken-and-ben-lerer-get-their-own-fund/
+f:32,238,Venture Fund II,2010-03-21,165000000.0,http://paidcontent.org/article/419-skype-co-founders-raise-165-million-for-new-fund-short-of-initial-goal/
+f:3953,241,Bullet Time Ventures,2010-03-24,1850000.0,http://www.sec.gov/Archives/edgar/data/1464456/000146445610000001/xslFormDX01/primary_doc.xml
+f:3953,242,Bullet Time Ventures,2009-06-01,75000.0,http://www.sec.gov/Archives/edgar/data/1464456/000146445609000002/xslFormDX01/primary_doc.xml
+f:3953,243,Bullet Time Ventures,2009-05-21,2295000.0,http://www.sec.gov/Archives/edgar/data/1464456/000146445609000001/xslFormDX01/primary_doc.xml
+f:4915,244,BMV-I,2010-03-16,0.0,http://www.cleangreenguy.com/news/blue-marble-ventures-announces-investment-clean-green-guy
+f:4919,246,Allos I LP,2010-03-31,15470000.0,http://www.sec.gov/Archives/edgar/data/1473957/000147395710000002/xslFormDX01/primary_doc.xml
+f:17,256,Sequoia Capital US Venture 2010 Fund,2010-04-12,0.0,http://www.sec.gov/Archives/edgar/data/1488811/000148881110000001/xslFormDX01/primary_doc.xml
+f:322,257,Second Fund,2010-04-13,160500000.0,http://www.altassets.com/private-equity-news/article/nz18355.html
+f:3009,261,Fund II,2010-09-13,426000000.0,http://www.finsmes.com/2010/09/third-rock-ventures-closes-426m-venture.html
+f:146,262,Venture Fund,2010-04-13,100000000.0,http://www.prnewswire.com/news-releases/jafco-ventures-raises-new-fund-and-adds-to-team-former-veritasoracle-executive-90727944.html
+f:375,263,Greycroft Partners I,2006-01-01,75000000.0,http://www.greycroftpartners.com/about-us/
+f:1407,270,Conor Technology Fund II Ky,2010-05-05,60000000.0,http://www.conor.vc/news.html
+f:5401,276,2010 Jumpstart Fund,2010-01-01,120000.0,http://www.venturenashville.com/solidus-co-founders-launch-jumpstart-foundry-for-seed-stage-investing-cms-482
+f:3881,279,Technology Operators Fund 1,2008-10-10,30000000.0,http://atlanta.bizjournals.com/atlanta/stories/2008/10/13/story1.html
+f:3551,280,Javelin Venture Partners LP,2010-06-02,75000000.0,http://www.sec.gov/Archives/edgar/data/1493269/000149326910000001/xslFormDX01/primary_doc.xml
+f:903,283,DFJ Mercury Fund II,2010-06-25,70000000.0,http://www.freshnews.com/news/348154/dfj-mercury-raises-70-million-fund-ii
+f:2257,284,Life Sciences Fund V,2010-06-30,523000000.0,http://www.fiercebiotech.com/story/sv-life-sciences-flush-venture-cash-bullish-exit-deals/2010-06-30?utm_medium=rss&utm_source=rss
+f:2,285,Grant,2010-07-01,2300000.0,http://techcrunch.com/2010/07/01/omidyar-network-hands-2-3m-in-grants-to-global-voices-mysociety-and-the-xyz-show/
+f:191,287,Healthcare Growth Fund,2009-03-01,194000000.0,http://medcitynews.com/2009/03/california-vc-venrock-starts-194-million-health-care-fund/#ixzz2BaOACi4i
+f:1926,290,NV Partners IV LP,2006-06-06,275000000.0,http://www.nvpllc.com/NewsAndInfo/PressReleases
+f:5811,293,ENIAC I,2010-10-01,1600000.0,http://venturebeat.com/2010/10/01/eniac-ventures-raises-2m-fund-for-mobile-startups/
+f:446,295,Fund II,2010-08-16,41000000.0,http://www.prnewswire.com/news-releases/felicis-ventures-raises-first-institutional-fund-100754174.html
+f:1913,296,Health-Care Fund IV,2010-08-18,180000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020100818e68i0002t&r=Rss&s=DJFVLS
+f:484,298,later-stage venture capital and growth equity fund,2010-08-31,750000000.0,http://www.finsmes.com/2010/08/institutional-venture-partners-closes.html
+f:3954,299,Inaugural Fund,2010-09-01,250000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100901e6910008d&r=Rss&s=DJFVW
+f:2137,300,Life sciences investment fund,2010-09-07,313000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100903e697000xd&r=Rss&s=DJFVW
+f:4919,302,Debut Fund,2010-09-03,25000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100903e6930008d&r=Rss&s=DJFVW
+f:1846,304,Bertram Growth Capital II,2010-09-16,500000000.0,http://www.finsmes.com/2010/09/bertram-capital-closes-500m-private.html
+f:2350,305,Fourth Fund,2010-09-23,59200000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100922e69n000dy&r=Rss&s=DJFVW
+f:6233,307,Premier Fund,2010-09-22,11000000.0,http://www.finsmes.com/2010/09/calcef-clean-energy-angel-fund-closes.html
+f:6287,308,Hedge Fund I,2010-10-04,31000000.0,http://www.finalternatives.com/node/14040?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+cleantechbrief%2Frss+%28CleanTech+Brief%29
+f:4336,310,CMF II,2010-10-01,25000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101001e6a10002u&r=Rss&s=DJFVW
+f:113,311,Venture Fund VI,2010-09-29,200000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100928e69t001jl&r=Rss&s=DJFVW
+f:6321,312,Fund III,2010-10-07,200000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101007e6a700001&r=Rss&s=DJFVW
+f:745,313,"Foundry Venture Capital 2010, L.P.",2010-10-05,225000000.0,http://techcrunch.com/2010/10/05/foundry-group-launches-second-225-million-venture-fund/
+f:680,314,UCITS III,2010-10-11,250000000.0,http://www.finalternatives.com/node/14125?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+cleantechbrief%2Frss+%28CleanTech+Brief%29
+f:2369,322,hedge fund,2010-09-20,100000000.0,http://www.finalternatives.com/node/13891?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+cleantechbrief/rss+(CleanTech+Brief)
+f:130,323,Tianjin VantagePoint Hi-tech China FIVCE Fund,2010-09-15,100000000.0,http://www.finsmes.com/2010/09/vantagepoint-venture-partners-launches.html
+f:6390,324,Emerging India Fund,2010-09-24,50000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020100923e69o000xd&r=Rss&s=DJFVW
+f:34,325,Spark Capital Fund III,2010-10-14,360000000.0,http://bits.blogs.nytimes.com/2010/10/14/spark-capital-raises-a-new-fund/?scp=1&sq=spark%20capital&st=cse
+f:29,326,Fund III,2010-10-15,126000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101014e6af001b9&r=Rss&s=DJFVW
+f:6404,327,quantitative fund,2010-10-08,300000000.0,http://www.finalternatives.com/node/14114?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+cleantechbrief/rss+(CleanTech+Brief)
+f:134,329,Fund Eleven,2010-10-22,400000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101022e6am0005l&r=Rss&s=DJFVW
+f:5949,330,Second Midwest Venture Fund,2010-10-22,30000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020101022e6am00002&r=Rss&s=DJFVLS
+f:6433,331,Brynwood Partners VI,2010-10-04,305000000.0,http://www.finsmes.com/2010/10/brynwood-partners-vi-holds-final-close.html
+f:6126,332,Real Ventures,2010-10-27,45000000.0,http://www.jscournoyer.com/real-ventures-is-here/
+f:6500,333,Credostage 1,2011-10-31,22700000.0,http://www.altassets.net/private-equity-news/credo-holds-second-closing-of-czech-focused-venture-fund.html
+f:64,337,Flybridge Capital Partners III,2008-03-17,280000000.0,http://www.altassets.com/private-equity-knowledge-bank/private-equity-sector-focus/secondaries/article/nz12917.html
+f:3127,340,Fund II,2010-11-03,650000000.0,http://www.businessinsider.com/ben-howoritz-heres-why-andreessen-horowitz-just-raised-650000000-2010-11
+f:6180,342,CapStreet III,2010-11-09,178000000.0,http://www.finsmes.com/2010/11/capstreet-iii-closes-at-178m.html
+f:6602,346,Parkwalk UK Technology EIS Fund I,2010-06-01,0.0,http://www.parkwalkadvisors.com/pw_putf.html
+f:6602,349,Parkwalk UK Technology EIS Fund II,2010-12-01,0.0,http://www.parkwalkadvisors.com/pw_putf.html
+f:6602,350,Parkwalk UK Technology EIS Fund III,2012-04-01,0.0,http://www.parkwalkadvisors.com/pw_putf.html
+f:41,351,Fund XIV,1975-11-12,650000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020101112e6bc0002t&r=Rss&s=DJFVLS
+f:346,354,Life sciences fund I,2010-11-24,120000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101124e6bt000rt&r=Rss&s=DJFVW
+f:1127,356,Fund II,2010-11-24,40000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101123e6bo00231&r=Rss&s=DJFVW
+f:454,358,JMI Equity Fund VII,2010-11-30,875000000.0,http://www.prnewswire.com/news-releases/jmi-equity-closes-875-million-growth-equity-fund-111028999.html
+f:6713,359,Razor's Edge Fund LP,2011-09-26,50000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110926e79r001gt&r=Rss&s=DJFVW
+f:6727,360,Fund V,2010-12-07,100000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101207e6c700001&r=Rss&s=DJFVW
+f:31,361,OATV II LP,2010-12-21,59250000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101221e6cl0008d&r=Rss&s=DJFVW
+f:6801,363,Longwood Founders Fund,2010-12-27,85000000.0,http://www.pehub.com/91602/longwood-founders-mgmt-closes-first-fund-with-85m/
+f:1687,364,Health-Care Fund IV,2010-12-27,37000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101227e6cs000m9&r=Rss&s=DJFVW
+f:530,365,Vickers Venture Fund III,2010-12-22,65000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020101223e6cn000dx&r=Rss&s=DJFVW
+f:45,367,Latest Fund,2011-09-15,200000000.0,http://pevc.dowjones.com/Article?an=DJFVW00020110914e79f001e2&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2fArticle%3fan%3dDJFVW00020110914e79f001e2
+f:6815,371,Fourth fund of funds,2010-12-30,76500000.0,http://www.masshightech.com/stories/2010/12/27/daily37-Permal-raises-77M-for-secondary-VCPE-market.html
+f:2688,374,PLSG Accelerator Fund,2011-01-07,5000000.0,http://www.finsmes.com/2011/01/pittsburgh-life-sciences-greenhouse.html
+f:6835,375,Monomoy Capital Partners II,2011-01-07,400000000.0,http://www.finsmes.com/2011/01/monomoy-capital-partners-closes-400m.html
+f:737,376,SoftTech VC II,2007-09-15,15000000.0,http://techcrunch.com/2007/09/18/techcrunch40-jeff-clavier-launches-12-million-venture-fund/
+f:6842,377,Arctaris Income Fund,2011-01-10,19000000.0,http://www.masshightech.com/stories/2011/01/10/daily5-Arctaris-closes-18M-fund-eyes-225M-total.html
+f:730,379,New fund,2010-12-24,100000000.0,http://www.mediamughals.com/News/1/4/Article/6655/Merus_Capital_to_raise_$100_million_fund.htm
+f:663,380,Fund IX,2011-01-11,200000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020110111e71b00031&r=Rss&s=DJFVLS
+f:6866,381,Alpine Heritage II fund,2011-01-12,29400000.0,http://www.finalternatives.com/node/15170?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+cleantechbrief/rss+(CleanTech+Brief)
+f:6867,382,Braeside Capital II fund,2011-01-12,74000000.0,http://www.finalternatives.com/node/15171?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+cleantechbrief/rss+(CleanTech+Brief)
+f:563,384,Mezzanine Fund,2011-01-12,956000000.0,http://www.finsmes.com/2011/01/morgan-stanley-investment-management.html
+f:6880,385,PointState Fund,2011-01-14,1500000000.0,http://www.finalternatives.com/node/15199?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+cleantechbrief%2Frss+%28CleanTech+Brief%29
+f:2836,386,Capricorn Health-Tech Fund,2011-01-06,55200000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110105e716001md&r=Rss&s=DJFVW
+f:1104,388,Fund II,2011-01-13,90000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110113e71e0025u&r=Rss&s=DJFVW
+f:3551,389,Javelin Venture Fund II,2011-02-15,105000000.0,http://techcrunch.com/2011/02/15/javelin-venture-partners-closes-new-105-million-fund/
+f:2139,390,Fund VI,2011-01-12,66000000.0,http://www.masshightech.com/stories/2011/01/10/daily38-Oxford-Bioscience-reported-to-raise-66M-in-new-fund.html
+f:4032,392,Fund VI,2012-01-30,1250000000.0,http://www.businessinsider.com/chase-coleman-tiger-global-facebook-2011-1
+f:3544,393,HorizonTI,2009-11-01,15000000.0,http://readwriteweb.com.br/2009/12/16/o-fundo-horizonti-da-confrapar-20-milhoes-em-investimento-para-startups/
+f:6920,394,lower middle market buyout fund,2011-01-26,200000000.0,http://www.finsmes.com/2011/01/bunker-hill-capital-closes-200m-second.html
+f:6930,396,Fund I,2011-01-27,500000000.0,http://www.finsmes.com/2011/01/altamont-capital-partners-closes-first.html
+f:6941,397,Mezzanine debt and equity funds IV,2011-01-28,260000000.0,http://www.finsmes.com/2011/01/alpine-closes-4th-fund-at-260m.html
+f:6944,398,DBAG Expansion Capital Fund,2011-01-31,0.0,http://www.finsmes.com/2011/01/deutsche-beteiligungs-ag-holds-first.html
+f:6947,399,EnCap Energy Capital Fund VIII,2011-01-31,3500000000.0,http://www.finsmes.com/2011/01/encap-investments-l.html
+f:6952,400,Zadig Memnon Fund,2011-02-01,4100000000.0,http://www.finalternatives.com/node/15379?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+cleantechbrief/rss+(CleanTech+Brief)
+f:1855,401,San Francisco Equity Partners III LP,2011-02-02,100000000.0,http://www.bizjournals.com/sanfrancisco/news/2011/02/02/san-francisco-equity-partners-closes.html
+f:6970,402,Faering Capital India Evolving Fund,2011-02-01,182400000.0,http://www.business-standard.com/india/news/faering-capital-raises-rs-830-cr-via-pe-fund/124302/on
+f:5458,403,Baring Asia Private Equity Fund V,2011-02-02,2460000000.0,http://www.vccircle.com/500/news/baring-private-equity-asia-raises-246b-for-fund-v
+f:2928,404,Investment fund III,2011-02-10,129000000.0,http://www.emii.com/Articles/2764797/Hedge-Funds/Hedge-Funds-Articles/Signet-Closes-Third-Fund-At-129M.aspx
+f:2647,405,Fund III,2011-09-08,140000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020110908e7980002u&r=Rss&s=DJFVLS
+f:6535,408,Founding fund,2007-01-01,175000000.0,http://www.bizjournals.com/twincities/stories/2007/05/14/story1.html
+f:7075,409,Venture capital fund,2011-02-25,100000000.0,http://www.blogoup.com/
+f:497,410,Francisco Partners III,2011-02-28,2000000000.0,http://www.finsmes.com/2011/02/francisco-partners-closes-20bn-middle.html
+f:7099,414,Sharia-compliant technology fund,2011-03-04,0.0,http://www.prweb.com/releases/2011/03/prweb5126914.htm
+f:1,420,Greylock Fund XIII,2011-03-01,1000000000.0,http://venturebeat.com/2011/03/01/greylock-1-billion-fund/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals+%26+More%29
+f:7135,421,Fund I,2011-03-09,225000000.0,http://finance.yahoo.com/news/Aviator-Capital-Raises-up-to-prnews-269504362.html?x=0&.v=1
+f:2760,422,Second Life Science Fund,2011-09-13,133900000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110913e79e00105&r=Rss&s=DJFVW
+f:7216,435,Investment Fund I,2011-03-28,60000000.0,http://techcrunch.com/2011/03/28/passion-capital-emerges-in-london-with-60-million-to-seed-startups/
+f:1557,437,Venture Capital Fund II,2011-04-01,140000000.0,http://www.pehub.com/100639/dbl-investors-closes-fund-with-140m/
+f:42,438,Bessemer Venture Partners VIII,2011-04-01,1600000000.0,http://www.finsmes.com/2011/04/bessemer-venture-partners-closes.html
+f:47,440,Insight Venture Partners VII,2011-04-04,1570000000.0,http://techcrunch.com/2011/04/04/twitter-chegg-investor-insight-venture-partners-closes-2-billion-funds/
+f:47,441,Insight Venture Partners Coinvestment Fund II,2011-04-04,450000000.0,http://techcrunch.com/2011/04/04/twitter-chegg-investor-insight-venture-partners-closes-2-billion-funds/
+f:7261,443,Entrepreneurship fund,2011-04-06,113200000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110406e7470005l&r=Rss&s=DJFVW
+f:6566,444,Debut Fund,2011-04-04,35000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110404e74400005&r=Rss&s=DJFVW
+f:3127,445,Growth fund,2011-04-06,200000000.0,http://techcrunch.com/2011/04/06/andreessen-horowitz-announces-yet-another-growth-fund-of-200m/
+f:7270,446,CI Capital Investors II,2011-04-08,620000000.0,http://www.emii.com/Articles/2804170/Hedge-Funds/Hedge-Funds-Articles/CI-Capital-Raises-620M-PE-Fund.aspx
+f:2250,447,Biotech fund,2011-04-06,203000000.0,http://www.globes.co.il/serveen/globes/docview.asp?did=1000636826&fid=1725
+f:2997,448,HealthCap VI LP,2011-04-11,0.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020110409e74b0002t&r=Rss&s=DJFVLS
+f:1281,450,Fund I,2011-04-13,450000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020110413e74d0002t&r=Rss&s=DJFVLS
+f:7286,451,Waud Capital Partners III,2011-04-13,463000000.0,http://www.finsmes.com/2011/04/waud-capital-partners-closes-third-pe.html
+f:3854,456,Fund I,2011-08-31,180000000.0,http://techcrunch.com/2011/08/31/impressive-list-of-u-s-investors-drops-180-million-into-chinese-startup-incubator/
+f:5,457,Fund IV,2011-04-28,425000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110427e74s001e1&r=Rss&s=DJFVW
+f:286,458,Matrix Partners China II,2011-04-29,350000000.0,http://www.masshightech.com/stories/2011/04/25/daily68-Matrix-closes-650M-in-two-new-funds.html
+f:286,459,Matrix Partners India II,2011-04-29,300000000.0,http://www.masshightech.com/stories/2011/04/25/daily68-Matrix-closes-650M-in-two-new-funds.html
+f:3181,461,SV Angel III,2011-05-05,40000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110504e755001jl&r=Rss&s=DJFVW
+f:6140,463,Angel Round,2011-04-13,600000.0,http://www.investiere.ch/en/blog/investierech-raises-600-000-scale-its-startup-financing-platform
+f:1140,464,Tandem Fund II L.P.,2011-05-12,40000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110512e75d001e1&r=Rss&s=DJFVW
+f:66,466,Khosla Ventures IV,2011-06-19,1050000000.0,http://gigaom.com/cleantech/khosla-raising-1-05b-fourth-fund/
+f:4691,469,Fund II,2011-05-23,25000000.0,http://techcrunch.com/2011/05/23/lerer-ventures-raises-second-25m-seed-fund-for-nyc-startups/
+f:7466,470,Fund II,2011-05-24,125000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020110525e75p0002t&r=Rss&s=DJFVLS
+f:7469,471,Agility Fund lll,2011-05-25,0.0,http://www.businesswire.com/news/home/20110525005553/en/Agility-Ventures-Announces-Investment-Fund-Funds-Provide
+f:1241,474,Fund I,2011-05-31,14100000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110531e761001ba&r=Rss&s=DJFVW
+f:7518,478,Peterson Partners Fund VI,2011-06-06,50000000.0,http://www.finsmes.com/2011/06/peterson-partners-closes-private-equity-fund-50m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:2063,480,BlueCross BlueShield Venture Partners II,2011-06-09,176900000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020110609e7690002u&r=Rss&s=DJFVLS
+f:641,481,Sofinnova Capital V,2005-02-07,385000000.0,http://www.sofinnova.fr/sofinnova-partners-closes-fifth-fund-at-%80385-actu-269.php
+f:641,482,Sofinnova Capital IV,2001-04-26,330000000.0,http://www.sofinnova.fr/sofinnova-partners-raises-eur-330-million-for-its-news-77.php
+f:6604,483,Yuuwa Capital LP IIF,2009-11-07,40000000.0,http://minister.innovation.gov.au/Carr/MediaReleases/Pages/$40MILLIONTOBOOSTINNOVATIVESTART-UPSINWA.aspx
+f:4,484,Accel XI,2011-06-16,475000000.0,http://techcrunch.com/2011/06/16/accel-1-35-billion/
+f:4,485,Accel Growth Fund II,2011-06-16,875000000.0,http://techcrunch.com/2011/06/16/accel-1-35-billion/
+f:1430,487,Health-Care Fund V,2011-06-17,25000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110617e76h000b5&r=Rss&s=DJFVW
+f:7592,489,VMG Partners II,2011-06-22,375000000.0,http://www.finsmes.com/2011/06/vmg-partners-closes-pe-fund-375m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:3724,490,CincyTech Fund II,2011-06-22,4400000.0,http://www.finsmes.com/2011/06/cincytech-closes-fund-4-4m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:262,491,DAG Ventures V-QP,2011-06-24,500000000.0,http://venturebeat.com/2011/06/24/dag-ventures-fund-v/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals+%26+More%29
+f:1190,492,Harbert Venture Partners III,2011-06-28,56300000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110628e76t000p1&r=Rss&s=DJFVW
+f:890,494,Fund VII,2012-02-28,249000000.0,http://www.finsmes.com/2012/02/edison-ventures-closes-fund-vii-249m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:3258,495,China-focused investment fund IV,2011-07-06,350000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110706e7760005m&r=Rss&s=DJFVW
+f:7025,496,H.I.G. Growth Equity Fund II,2011-07-06,500000000.0,http://www.finsmes.com/2011/07/h-i-g-capital-closes-private-equity-fund-500m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:7687,497,Axxon Brazil Private Equity Fund II,2011-07-10,315000000.0,http://www.finsmes.com/2011/07/axxon-group-closes-private-equity-fund-315m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:1170,499,Fund VI,2011-07-11,405000000.0,http://techcrunch.com/2011/07/11/industry-ventures-closes-400-million-secondary-fund-exceeds-1b-of-capital/
+f:7696,500,Buyout and growth capital fund,2011-07-12,400000000.0,http://www.finsmes.com/2011/07/shamrock-capital-advisors-closes-400m-buyout-growth-capital-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:1316,501,Fund III,2012-04-05,282200000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120405e845r3vms&r=Rss&s=DJFVW
+f:173,502,Shasta Ventures III,2011-09-21,265000000.0,http://techcrunch.com/2011/09/21/shasta-ventures-closes-new-265-million-iii-fund/
+f:6337,507,Fund II,2011-07-19,0.0,http://www.finsmes.com/2011/07/rock-hill-capital-group-completes-initial-closing-fund-ii.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:6927,508,Private Equity Fund VIII,2011-07-21,4500000000.0,http://www.finsmes.com/2011/07/berkshire-closes-eighth-private-equity-fund-4-5bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:2263,511,Growth Equity Fund,2011-07-21,400000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110721e77l0002t&r=Rss&s=DJFVW
+f:174,516,Emergence Capital Partners III,2011-07-26,200000000.0,http://venturebeat.com/2011/07/26/emergence-200-million-fund/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals+%26+More%29
+f:1170,517,Fund V,2009-03-23,26500000.0,http://www.industryventures.com/Industry_Ventures_Closes_265_Million_Fund_V.html
+f:1330,518,Fund II,2011-07-28,300000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110728e77t0018i&r=Rss&s=DJFVW
+f:5928,519,Fund I,2011-08-01,30000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110801e782001e1&r=Rss&s=DJFVW
+f:2534,521,Tencent,2010-04-10,300000000.0,http://paidcontent.org/article/419-tencent-invests-300-million-in-digital-sky-technologies/
+f:2534,522,Naspers,2011-08-02,388000000.0,http://www.dailymarkets.com/stock/2010/07/13/naspers-to-buy-287-stake-in-digital-sky-technologies-update/
+f:269,523,Fund V,2011-08-03,230000000.0,http://www.xconomy.com/new-york/2012/11/02/rre-ventures-closes-230-million-fund/
+f:5957,524,Fund 1,2009-01-01,10000000.0,http://en.wikipedia.org/wiki/Joshua_Kushner
+f:2304,527,Fund,2011-08-09,170000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020110810e78a00002&r=Rss&s=DJFVLS
+f:367,529,Ultrabook Fund,2011-08-10,300000000.0,http://techcrunch.com/2011/08/10/intel-capital-launches-300m-ultrabook-fund-to-invest-invest-in-lightweight-personal-computing-technologies/
+f:2271,530,Waterland Private Equity Fund V,2011-08-12,1100000000.0,http://www.finsmes.com/2011/08/waterland-private-equity-investments-closes-fund-e1-1bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:1914,531,Signal Peak Technology Ventures,2011-08-12,24200000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110812e78f00105&r=Rss&s=DJFVW
+f:2489,532,Hatteras Venture Partners IV,2013-01-07,125000000.0,http://www.finsmes.com/2013/01/hatteras-venture-partners-closes-fourth-fund-125m.html
+f:648,534,Covera Ventures Fund II,2011-08-18,125000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110818e78i0002u&r=Rss&s=DJFVW
+f:443,535,DCM Fund VI,2010-07-21,400000000.0,http://deals.venturebeat.com/2010/07/21/dcm-fund-slingbo/
+f:5957,536,Fund II,2011-08-22,40000000.0,http://techcrunch.com/2011/08/22/thrive-capital-raises-new-40-million-scalable-fund/
+f:7932,537,SK Capital Partners III,2011-08-19,500000000.0,http://www.skcapitalpartners.com/content/sk-capital-partners-closes-first-institutional-fund-500-million-hard-cap
+f:244,538,MentorTech Ventures III LP,2011-08-23,40000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110823e78o000jh&r=Rss&s=DJFVW
+f:4769,539,Fund I,2011-08-25,47000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110825e78q0015q&r=Rss&s=DJFVW
+f:7977,541,Tennenbaum Opportunities Fund VI,2011-08-30,530000000.0,http://www.finsmes.com/2011/08/tennenbaum-capital-partners-closes-530m-fund-vi.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:2250,543,Health-Care royalties fund I,2011-08-31,600000000.0,http://www.fiercebiotech.com/story/orbimed-launches-600m-fund-royalty-debt-deals/2011-08-31?utm_medium=rss&utm_source=rss
+f:7999,544,CrunchFund I,2011-09-01,27000000.0,http://finance.fortune.cnn.com/2013/05/07/crunchfunds-future/
+f:379,545,WI Harper Fund VII,2011-09-01,110000000.0,http://www.finsmes.com/2011/09/wi-harper-group-closes-wih-fund-7-110m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:1334,547,JVP Opportunity VI,2011-09-07,80000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110907e798001md&r=Rss&s=DJFVW
+f:2737,550,Fund I,2011-09-12,27000000.0,http://techcrunch.com/2011/09/12/freestyle-capital/
+f:8061,551,FCP Fund II,2011-09-13,91000000.0,http://www.finsmes.com/2011/09/capital-partners-raises-91m-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:134,552,Menlo Talent Fund,2011-09-13,20000000.0,http://venturebeat.com/2011/09/13/menlo-talent-fund-disrupt/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals+%26+More%29
+f:7255,553,Maiden Fund,2011-09-14,100000000.0,http://www.finsmes.com/2011/09/renovus-capital-partners-raises-100m-maiden-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:3586,554,Health-Care Fund,2011-09-14,159300000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110914e79f000ul&r=Rss&s=DJFVW
+f:2759,557,Avrio Ventures LLP II,2011-09-22,50000000.0,http://www.finsmes.com/2011/09/avrio-ventures-holds-close-fund-50m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:7833,558,Debut Fund,2011-09-26,130000000.0,http://www.finsmes.com/2011/09/level-equity-closes-fund-130m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:49,562,Fund IV,2011-09-30,96000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110930e7a3000p2&r=Rss&s=DJFVW
+f:528,563,Fund II,2012-05-01,85000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110930e7a3000p1&r=Rss&s=DJFVW
+f:3609,564,Greener Capital Partners II,2011-10-05,33000000.0,http://www.finsmes.com/2011/10/greener-capital-holds-close-cleantech-fund-33m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:1280,567,Denominated Fund III,2011-10-10,400000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020111010e7ab000m9&r=Rss&s=DJFVW
+f:8136,568,CAP Ventures I,2007-01-01,16000000.0,http://www.cap.com.ar
+f:8221,571,Altus Capital Partners II,2011-10-14,200000000.0,http://www.finsmes.com/2011/10/altus-capital-partners-closes-fund-200m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:509,573,SVP Fund VIII,2011-10-17,440000000.0,http://www.finsmes.com/2011/10/sofinnova-ventures-closes-fund-440m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:4100,574,Fund VI,2011-10-18,4750000000.0,http://www.finsmes.com/2011/10/eqt-closes-fund-vi-e4-75bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:7814,577,BB&T Capital Partners Mezzanine Fund II,2011-10-18,227000000.0,http://www.finsmes.com/2011/10/bbt-capital-partners-closes-mezzanine-fund-ii-227m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:1056,578,Private Capital Funds,2011-10-19,1000000000.0,http://www.finsmes.com/2011/10/triplepoint-capital-raises-1bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:3366,580,maslinda binti abdul jamil,2011-10-21,1.0,http://www.petronas.com.my
+f:3127,584,Fund III,2012-01-31,1500000000.0,http://techcrunch.com/2012/01/31/andreessen-horowitz-closes-1-5-billion-in-new-funding/
+f:3130,588,Fund VII,2011-10-31,500000000.0,http://venturebeat.com/2011/10/31/abs-capital-partners-500-million-fund/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals+%26+More%29
+f:4,589,Sidecar funds,2011-10-31,94000000.0,http://www.finsmes.com/2011/10/accel-partners-raises-94m-sidecar-funds.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:41,591,KPBC China Fund II,2011-11-03,250000000.0,http://venturebeat.com/2011/11/03/kleiner-perkins-china-fun/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals+%26+More%29
+f:13,592,Redpoint Omega II,2011-11-04,400000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020111104e7b4l88o4&r=Rss&s=DJFVW
+f:7505,593,"Social Capital Partnership, L.P.",2011-08-02,450000000.0,http://www.sec.gov/Archives/edgar/data/1524805/000152480511000001/xslFormDX01/primary_doc.xml
+f:367,603,AppUpSM Fund,2011-11-15,100000000.0,http://www.freshnews.com/news/577668/intel-capital-unveils-100-million-intel-capital-appupsm-fund-announces-first-investment
+f:8375,604,PE Fund of Funds,2011-11-15,720000000.0,http://www.finsmes.com/2011/11/neuberger-berman-group-raises-720m-pe-fund-funds.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:4,605,Accel India Fund III,2011-11-16,155000000.0,http://techcrunch.com/2011/11/16/accel-launches-third-india-fund-will-invest-155m-in-early-stage-startups/
+f:5154,606,Biomed Fund III,2011-11-16,22000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020111116e7bgpw043&r=Rss&s=DJFVW
+f:8384,607,Private equity fund,2011-11-16,420000000.0,http://venturebeat.com/2011/11/16/panda-power-420-million/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals+%26+More%29
+f:8434,619,VPC Fund II,2011-11-28,480000000.0,http://www.finsmes.com/2011/11/victory-park-capital-holds-final-close-vpc-fund-ii-480m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:8421,622,212 Capital Partners,2011-12-02,30000000.0,http://www.212ltd.com/whats-new/detail/news-212CPI
+f:8446,623,Sixth Fund,2011-12-01,1300000000.0,http://www.finsmes.com/2011/12/tsg-consumer-partners-closes-sixth-fund-1-3bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:4692,624,Revolution Growth fund,2011-12-01,450000000.0,http://www.finsmes.com/2011/12/revolution-growth-raises-450m-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:8475,629,Excellere Fund II,2011-12-08,465000000.0,http://www.businessreel.com/news/view/excellere-partners-launches-465m-second-fund/
+f:2137,631,Second fund,2011-12-08,50000000.0,http://www.businessweek.com/news/2011-12-08/forbion-capital-raises-50-million-to-invest-in-health-companies.html
+f:8502,634,IIG Fund I,2011-12-13,2500000.0,http://techcrunch.com/2011/12/13/entrepreneurs-debut-2-5m-fund-to-invest-in-india-focused-startups/
+f:390,637,FirstMark II,2011-12-15,225000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020111215e7cfsoh3j&r=Rss&s=DJFVW
+f:309,638,Core Capital Partners III,2011-12-13,23900000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020111213e7cdrm1pu&r=Rss&s=DJFVW
+f:567,639,iNovia Fund III,2011-12-16,110000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020111216e7cgqqmov&r=Rss&s=DJFVW
+f:2219,640,Burrill Capital Fund IV,2012-08-02,505000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120802e882p0i2n&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120802e882p0i2n%26from%3dalert%26pid%3d32
+f:95,641,Partech International VI,2013-10-09,215000000.0,http://techcrunch.com/2013/10/09/partech-venture-and-seed/
+f:851,642,Fund IV,2011-12-20,125000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020111220e7ckqjn3p&r=Rss&s=DJFVW
+f:4917,643,Fund II,2011-12-20,26500000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020111220e7cks1eud&r=Rss&s=DJFVW
+f:4760,644,NewSchools Innovation Fund,2010-08-06,20000000.0,http://www.newschools.org/news/education-week-innovation
+f:452,648,Fund III,2013-02-11,100000000.0,http://techcrunch.com/2013/02/11/magma-iii/
+f:6013,653,Fund II,2012-01-03,150000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020111227e7crrpn9c&r=Rss&s=DJFVW
+f:507,654,Venture fund VI,2011-12-15,500000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120103e813qnzbo&r=Rss&s=DJFVW
+f:2261,655,Vivo Ventures VII,2012-01-03,375000000.0,http://www.finsmes.com/2012/01/vivo-ventures-holds-final-close-vivo-ventures-vii-375m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:8574,657,Cowen Healthcare Royalty Partners II,2012-01-06,1000000000.0,http://www.finsmes.com/2012/01/cowen-healthcare-royalty-partners-closes-fund-1bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:215,658,Fund IX,2012-01-09,600000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120109e819q5td4&r=Rss&s=DJFVW
+f:1017,659,Fund II,2012-01-06,8000000.0,http://www.xconomy.com/seattle/2012/01/06/founders-co-op-second-fund/
+f:1017,660,Fund I,2008-01-01,2500000.0,http://techcrunch.com/2008/10/07/seattles-top-entrepreneurs-band-together-to-invest/
+f:573,662,Flagship Ventures Fund IV,2012-01-11,270000000.0,http://www.finsmes.com/2012/01/flagship-ventures-closes-fund-270m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:2219,664,Burrill Brazil Fund I,2012-01-13,125000000.0,http://www.finsmes.com/2012/01/burrill-holds-close-brazil-fund-125m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:4017,665,TrueBridge-Kauffman Fellows Endowment Fund II,2012-01-13,342000000.0,http://www.finsmes.com/2012/01/truebridge-capital-partners-closes-venture-capital-growth-equity-fund-of-funds.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:7791,666,Fund I,2011-01-01,3000000.0,http://www.oregonlive.com/small-business/index.ssf/2012/01/portland_seed_fund_will_could.html
+f:6456,667,Fund I,2012-01-13,165000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120113e81dtevlz&r=Rss&s=DJFVW
+f:3063,669,Food Fund,2012-01-20,4900000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120120e81kr5ytk&r=Rss&s=DJFVW
+f:737,672,SoftTech VC III,2012-01-26,55000000.0,http://techcrunch.com/2012/01/26/jeff-clavier-softtech-vc-raises-55-fund-iii/
+f:636,673,Bain Capital Ventures Fund 2012,2012-01-30,600000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120130e81utt0v6&r=Rss&s=DJFVW
+f:8707,674,TSCP III,2012-02-03,350000000.0,http://www.tscp.com/documents/TSCP_FundIII_Closes.pdf
+f:4850,675,Fund III,2010-08-02,73500000.0,http://www.sec.gov/Archives/edgar/data/1497490/000149749010000002/xslFormDX01/primary_doc.xml
+f:4356,676,IA Venture Strategies Fund II,2012-02-08,105000000.0,http://techcrunch.com/2012/02/08/ia-ventures-105m-fund/
+f:776,677,Fund III,2012-02-09,17400000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120208e828kva94&r=Rss&s=DJFVW
+f:1033,680,Fund III,2012-02-10,219000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120210e82apik6i&r=Rss&s=DJFVW
+f:8746,682,Solis II,2013-05-02,61000000.0,http://www.finsmes.com/2013/05/solis-capital-partners-closes-fund-61m.html
+f:7653,684,Fund IV,2012-02-15,700000000.0,http://www.finsmes.com/2012/02/parthenon-capital-partners-closes-fund-iv-700m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:1793,685,Clean-tech fund,2012-02-16,51000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120216e82gs7y5k&r=Rss&s=DJFVW
+f:5233,686,ff Silver Venture Capital Fund,2011-11-30,27000000.0,http://techcrunch.com/2012/02/16/27-million-fund-ff-venture-capital/
+f:8756,687,Capital Dynamics Champion Ventures VII,2012-02-16,111000000.0,http://www.finsmes.com/2012/02/capital-dynamics-closes-fund-111m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:4607,688,NEW Capital Fund II,2012-02-01,25000000.0,http://www.ibwisconsin.com/In-Business-Wisconsin/February-2012/NEW-Capital-Fund-raises-25-million/
+f:8768,689,Dont Panic Labs,2010-09-30,0.0,http://www.nebraskaglobal.com/News
+f:8768,690,Icora,2011-03-30,0.0,http://www.nebraskaglobal.com/News
+f:8768,691,EC3H,2011-06-02,1500000.0,http://www.nebraskaglobal.com/News
+f:8768,692,Beehive Industries,2011-12-20,0.0,http://www.nebraskaglobal.com/News
+f:8768,693,EliteForm,2012-01-19,0.0,http://www.nebraskaglobal.com/News
+f:5633,695,"NextView Ventures, L.P.",2012-02-21,21000000.0,http://www.businessinsider.com/boston-based-vc-firm-nextview-ventures-raises-new-21-million-fund-2012-2
+f:8762,696,Hyde Park Venture Partners Fund I,2012-11-27,21500000.0,http://pevc.dowjones.com/article?an=DJFVW00020121127e8brqv3df&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020121127e8brqv3df%26from%3dalert%26pid%3d32
+f:3939,697,Citic Capital Venture Partners,2012-02-23,60000000.0,http://www.bloomberg.com/news/2012-02-23/citic-capital-raises-60-million-for-growth-investments-fund.html
+f:7,698,Charles River Partnership XV,2012-02-28,375000000.0,http://techcrunch.com/2012/02/28/charles-river-ventures-raises-375-million-for-its-15th-fund/
+f:4161,699,Thoma Bravo Fund X,2012-02-28,1250000000.0,http://www.finsmes.com/2012/02/thoma-bravo-closes-private-equity-fund-1-25bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:174,700,Emergence Capital Partners III,2012-01-01,250000000.0,http://www.emcap.com/thoughts/fundraising/ecp3/
+f:367,701,Intel Capital Connected Car Fund,2012-02-29,100000000.0,http://www.finsmes.com/2012/02/intel-capital-launches-100m-fund-dedicated-automotive-technology-innovation.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:6950,704,Fund 1,2010-11-01,10000000.0,http://news.cnet.com/8301-1023_3-20022875-93.html
+f:375,706,Annex Fund I,2012-03-07,12600000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120307e837qt9j9&r=Rss&s=DJFVW
+f:4341,708,Pan-Asia Fund Of Funds III,2012-03-19,1150000000.0,http://www.finsmes.com/2012/03/axiom-asia-closes-fund-us1-15bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:8890,720,Middle-Market Mezzanine Capital Investment Fund,2012-03-20,240000000.0,http://www.finsmes.com/2012/03/lakeside-capital-management-holds-final-close-middle-market-mezzanine-capital-investment-fund-240m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:542,721,OpenView Fund III,2012-03-21,206000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120321e83lalwjp&r=Rss&s=DJFVW
+f:1058,723,BlackBerry Partners Fund II,2012-03-21,150000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120321e83lalgd6&r=Rss&s=DJFVW
+f:8894,725,Fund I,2012-03-21,45000000.0,http://www.finsmes.com/2012/03/21180.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:8895,726,LongueVue Capital Partners II,2012-03-21,175000000.0,http://www.finsmes.com/2012/03/longuevue-capital-closes-175m-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:7017,727,i2a Fund,2007-02-26,10000000.0,http://www.prnewswire.com/news-releases/chicagos-business-leaders-collaborate-to-create-invest-and-manage-the-10-million-illinois-innovation-accelerator-i2a-fund-58077317.html
+f:3573,730,ronald gilman,2012-03-28,2500000.0,http://ronald.gilman.com
+f:4389,731,Tech-Focused Fund IV,2012-03-29,750000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120329e83tb0oyv&r=Rss&s=DJFVW
+f:7393,732,Lumira Capital ll,2012-03-26,100000000.0,http://www.newswire.ca/en/story/944017/teralys-capital-invests-in-two-new-lumira-capital-life-sciences-funds
+f:8940,733,The MaRS Cleantech Fund LP,2012-03-29,30000000.0,http://www.finsmes.com/2012/03/mars-launches-30m-early-stage-cleantech-venture-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:8869,734,DGF CAPITAL I (REIF),2002-06-01,13000000.0,http://www.dgf.com.br/index.php/pt/noticias/arquivo/146-solucao-entre-iguais
+f:8869,735,DGF Capital II (FIPAC),2007-06-01,60000000.0,http://www.dgf.com.br/index.php/en/portfolio2/growrh-and-consolidation
+f:8869,736,DGF Bioenergia I (Terra Viva),2009-01-01,175000000.0,http://www.dgf.com.br/index.php/en/news/file/167-fip-terra-viva-begins-its-operation
+f:7635,738,Cypress Growth Fund,2011-06-28,1500000.0,http://altitudedigitalpartners.com/about-us/press.html
+f:3413,739,Denham Commodity Partners Fund VI LP,2012-04-03,3000000000.0,http://www.finsmes.com/2012/04/denham-capital-management-closes-fund-vi-3bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:1622,740,Venture Fund 2012,2012-04-03,10000000000.0,http://techcrunch.com/2012/04/03/berlin-is-still-sexy-but-no-longer-poor-earlybird-raises-100m-for-a-200m-fund/
+f:4382,741,NYLCAP Mezzanine Partners III,2012-04-04,980000000.0,http://www.finsmes.com/2012/04/york-life-capital-partners-closes-mezzanine-fund-980m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:2250,742,Israeli biomedical fund,2012-04-04,222000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=29&aid=DJFVLS0020120404e844u90r5&r=Rss&s=DJFVLS
+f:3258,743,Opportunities Fund,2012-04-04,132000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120404e844rmqlp&r=Rss&s=DJFVW
+f:8964,744,Fund I,2012-04-04,860000000.0,http://www.finsmes.com/2012/04/searchlight-capital-partners-closes-fund-860m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:2246,745,Fund II,2012-04-05,60000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120405e845attqw&r=Rss&s=DJFVW
+f:712,746,Northgate Venture Partners VI,2012-04-05,275000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020120405e845au8b6&r=Rss&s=DJFVW
+f:6992,747,Aavishkaar II,2013-08-08,94000000.0,http://social.yourstory.in/2013/08/aavishkaar-ii-raises-us-94-million-announces-its-final-close/
+f:23,749,Foundation Capital VII,2013-04-10,282000000.0,http://techcrunch.com/2013/04/09/foundation-capital-raises-282m-for-seventh-fund-will-focus-mainly-on-early-stage-investments/
+f:7025,750,H.I.G. BioVentures II,2012-04-10,268000000.0,http://www.finsmes.com/2012/04/h-i-g-capital-closes-life-sciences-fund-268m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:8981,751,ronald gilman (personal Butler Assistant),2012-04-11,2500000.0,http://numisneetwork.com/numisprofits
+f:6677,752,Morgan Stanley Private Markets Fund V,2012-04-12,720000000.0,http://www.finsmes.com/2012/04/morgan-stanley-alternative-investment-partners-raises-720m-morgan-stanley-private-markets-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:9001,753,Mount Kellett Capital Partners II,2012-04-12,4000000000.0,http://www.finsmes.com/2012/04/mount-kellett-capital-management-closes-fund-4-0bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:29,756,First Round Capital IV,2012-04-16,135000000.0,http://techcrunch.com/2012/05/09/first-round-capital-bumps-up-phineas-barnes-kent-goldman-to-partner-level/
+f:1190,757,Harbert Venture Partners III,2012-04-16,77000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120416e84gr1yv4&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120416e84gr1yv4%26from%3dalert%26pid%3d32
+f:4122,760,Fund 2,2012-04-17,100000000.0,http://techcrunch.com/2012/04/16/euro-saas-startups-rejoice-notion-capital-closes-100m-for-its-2nd-fund/
+f:5733,762,Illuminate Ventures I,2012-04-18,8500000.0,http://pevc.dowjones.com/article?an=DJFVW00020120419e84jufoqn&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120419e84jufoqn%26from%3dalert%26pid%3d32
+f:7620,765,Klass Capital I,2012-04-24,50000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120424e84otdrgo&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120424e84otdrgo%26from%3dalert%26pid%3d32
+f:9068,766,WAMEX Private Equity Fund II,2012-04-25,160000000.0,http://www.finsmes.com/2012/04/wamex-private-equity-closes-growth-equity-fund-160m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:4066,768,Indiana Seed Fund II,2012-04-30,8250000.0,http://pevc.dowjones.com/article?an=DJFVW00020120430e84us6urh&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120430e84us6urh%26from%3dalert%26pid%3d32
+f:1857,774,Energy VC Fund III,2012-06-27,300000000.0,http://www.finsmes.com/2012/06/braemar-energy-ventures-closes-fund-300m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:7622,786,Fund I,2012-05-11,97500000.0,http://pevc.dowjones.com/article?an=DJFVW00020120511e85bied4y&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120511e85bied4y%26from%3dalert%26pid%3d32
+f:4160,787,Fund V,2012-05-14,561000000.0,http://www.finsmes.com/2012/05/riverside-partners-closes-fund-561m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:770,789,TVC Capital II,2012-01-01,75000000.0,http://www.pehub.com/165648/tvc-capital-closes-fund-ii-75m/
+f:493,790,Panorama I,2008-04-01,240000000.0,http://venturebeat.com/2008/04/29/panorama-capital-closes-240m-fund/
+f:2044,791,Peterson Ventures IV LP,2012-05-17,10250000.0,http://pevc.dowjones.com/article?an=DJFVW00020120518e85iuhe8j&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120518e85iuhe8j%26from%3dalert%26pid%3d32
+f:41,792,KPCB 15,2012-05-17,525000000.0,http://techcrunch.com/2012/05/17/kleiner-perkins-closes-on-525-million-kpcb-15/
+f:5775,793,Vista Equity Partners Fund IV,2012-05-17,3500000000.0,http://www.finsmes.com/2012/05/vista-equity-partners-closes-fourth-pe-fund-3-5bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:392,794,Focus Ventures III,2006-04-18,250000000.0,http://www.focusventures.com/docs/FVIII.pdf
+f:248,795,Morgenthaler Ventures IX,2008-11-01,400000000.0,http://www.crunchbase.com/financial-organization/morgenthaler-ventures/edit_funds
+f:99,798,Pitango Venture Capital Fund V,2007-01-01,330000000.0,http://www.pitango.com/history.asp
+f:4249,802,Pangaea Ventures Fund III,2012-05-23,50000000.0,http://www.finsmes.com/2012/05/pangaea-ventures-holds-close-fund-iii-50m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:9224,805,Think Big Ventures I,2012-05-25,0.0,http://www.finsmes.com/2012/05/big-partners-launches-venture-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:7393,813,Merck Lumira Biosciences Fund,2012-03-26,50000000.0,http://www.newswire.ca/en/story/944017/teralys-capital-invests-in-two-new-lumira-capital-life-sciences-funds
+f:189,814,Apax US VII,2006-01-01,856300000.0,http://www.apax.com/inside-apax/our-company/our-funds.aspx
+f:258,817,Spectrum Equity Investors VI,2008-11-28,1250000000.0,http://www.sec.gov/Archives/edgar/vprr/08/9999999997-08-046118
+f:5877,819,Healthcare Innovation Fund,2012-06-04,157000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120604e864rr14x&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120604e864rr14x%26from%3dalert%26pid%3d32
+f:89,820,"Madrona Venture Fund V, L.P.",2012-06-05,300000000.0,http://techcrunch.com/2012/06/05/madrona-fund-v-300-million/
+f:446,825,Fund III,2012-06-07,71000000.0,http://venturebeat.com/2012/06/07/felicis-ventures-70-million-fund/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals+%26+More%29
+f:6798,827,Fund II,2012-06-11,35000000.0,http://techcrunch.com/2012/06/11/bullpen-capital-35-million-fund-two/
+f:1140,829,Tandem Fund II,2012-06-14,32000000.0,http://techcrunch.com/2012/06/14/tandem-raises-second-fund/
+f:6720,830,DVC I,2010-11-01,2000000.0,http://www.siliconprairienews.com/2010/11/dundee-venture-capital-opens-with-2m-fund-interview-with-founder
+f:6720,831,DVC II,2012-06-01,15000000.0,http://www.siliconprairienews.com/2012/06/dundee-venture-capital-closes-15m-fund-moves-to-mastercraft
+f:9316,832,Fund I,2012-06-14,22000000.0,http://techcrunch.com/2012/06/14/akkadian-ventures-second-fund/
+f:4317,834,Central Valley Fund II,2012-06-17,100000000.0,http://www.finsmes.com/2012/06/cvf-capital-partners-closes-100m-mezzanine-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:2858,836,Frontier Fund III,2012-06-18,250000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120618e86im98lb&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120618e86im98lb%26from%3dalert%26pid%3d32
+f:1104,837,Blumberg Capital III,2013-11-07,150000000.0,http://www.finsmes.com/2013/11/blumberg-capital-closes-fund-150mv.html
+f:572,838,Ascent Venture Partners V,2012-06-21,81750000.0,http://pevc.dowjones.com/article?an=DJFVW00020120621e86lq9sir&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120621e86lq9sir%26from%3dalert%26pid%3d32
+f:6535,839,Health-Care Services Fund II,2012-06-22,150000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120622e86mqhrj5&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120622e86mqhrj5%26from%3dalert%26pid%3d32
+f:2157,840,health-care venture fund,2012-06-22,75000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120622e86mrco81&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120622e86mrco81%26from%3dalert%26pid%3d32
+f:484,844,IVP XIV,2012-06-28,1000000000.0,http://techcrunch.com/2012/06/28/institutional-venture-partners-raises-1-billion-for-fund-xiv-its-biggest-yet/
+f:6917,845,ARC Angel Fund,2012-08-24,3500000.0,http://pevc.dowjones.com/article?an=DJFVW00020120824e88oqwj9y&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120824e88oqwj9y%26from%3dalert%26pid%3d32
+f:8371,846,iTech Fund I,2011-07-01,120000000.0,http://www.ewdn.com/2012/02/08/itech-capital%E2%80%99s-gleb-davidyuk-the-russian-startup-scene-has-been-largely-spared-corruption/
+f:1170,849,Partnership Holdings II and II-A,2012-07-06,65000000.0,http://www.finsmes.com/2012/07/industry-ventures-closes-65m-fund-funds.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:9430,851,Debut Fund I,2012-07-09,100000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120709e879r9tgk&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120709e879r9tgk%26from%3dalert%26pid%3d32
+f:7490,852,Biotech Fund IV,2012-07-11,152000000.0,http://www.fiercebiotech.com/story/edmond-de-rothschild-scores-152m-its-fourth-biotech-fund/2012-07-11
+f:61,853,Fund XIV,2012-07-12,365000000.0,http://venturebeat.com/2012/07/12/mayfield-stuffs-365m-into-its-vc-warchest-in-just-3-months/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals+%26+More%29
+f:2228,856,The Dell Fluid Data Storage Fund,2012-07-18,60000000.0,http://www.finsmes.com/2012/07/dell-ventures-launches-60m-early-stage-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:2793,857,Venture Fund II,2012-07-18,53000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120718e87irlcxs&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120718e87irlcxs%26from%3dalert%26pid%3d32
+f:7897,858,BMW i Ventures Fund,2011-02-01,100000000.0,http://gigaom.com/cleantech/auto-vc-alert-bmw-launches-100m-fund/
+f:3570,860,K9 Ventures II,2012-07-19,40000000.0,http://techcrunch.com/2012/07/19/twilio-lytro-card-io-backtype-backer-k9-raises-new-40m-seed-fund/
+f:322,863,Fund Three,2012-07-20,33800000.0,http://pevc.dowjones.com/article?an=DJFVW00020120720e87kooh21&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120720e87kooh21%26from%3dalert%26pid%3d32
+f:3854,865,Fund II,2012-09-18,224000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120918e89iaq8kf&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120918e89iaq8kf%26from%3dalert%26pid%3d32
+f:184,866,Redpoint e.ventures Brazil Fund,2012-07-23,130000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120723e87narici&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120723e87narici%26from%3dalert%26pid%3d32
+f:2318,867,Tenaya Capital VI,2012-07-24,372000000.0,http://techcrunch.com/2012/07/24/tenaya-capital-closes-oversubscribed-372m-fund-seeks-a-new-kayak/
+f:316,869,NEA 14,2012-07-25,2600000000.0,http://techcrunch.com/2012/07/24/nea-has-closed-on-2-6-billion-for-its-14th-fund-perhaps-the-biggest-in-vc-history/
+f:7754,871,Fund I,2012-07-26,40000000.0,http://techcrunch.com/2012/07/26/e-commerce-focused-vc-forerunner-ventures-raises-40-million-for-its-first-institutional-fund/
+f:24,872,Fund VI,2012-07-26,550000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120726e87qaqady&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120726e87qaqady%26from%3dalert%26pid%3d32
+f:9530,873,The Resilience Fund III,2012-07-26,222500000.0,http://www.finsmes.com/2012/07/resilience-capital-partners-closes-fund-222-5m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:4850,874,Floodgate Fund IV,2012-07-30,75000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120730e87utybq9&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120730e87utybq9%26from%3dalert%26pid%3d32
+f:9543,875,Cowboy Capital Fund I,2012-07-30,40000000.0,http://techcrunch.com/2012/07/30/aileen-lee-has-nearly-finished-raising-40-million-for-new-seed-cowboy-ventures/
+f:1085,877,Credit Fund,2012-08-01,520000000.0,http://techcrunch.com/2012/08/01/summit-partners-raises-520-million-credit-fund-for-growth-companies/
+f:9581,885,Linsalata Capital Partners Fund VI,2012-08-07,427000000.0,http://www.finsmes.com/2012/08/linsalata-capital-partners-closes-427m-buyout-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:8325,887,Fund II,2012-08-09,150000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120809e889apmlz&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120809e889apmlz%26from%3dalert%26pid%3d32
+f:9594,888,Inaugural Fund,2012-08-09,25000000.0,http://www.reuters.com/article/2012/08/09/idUS164556+09-Aug-2012+PRN20120809
+f:1950,889,Glynn Partners III LP,2012-08-09,188000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120809e889oyl04&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120809e889oyl04%26from%3dalert%26pid%3d32
+f:6783,892,Catalyst Fund III,2012-08-14,213000000.0,http://venturebeat.com/2012/08/14/catalyst-third-fund/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals%29
+f:892,893,GGV Capital IV,2012-08-21,625000000.0,http://www.reuters.com/article/2012/08/21/idUS125337+21-Aug-2012+PRN20120821
+f:6737,894,China Clean Tech Fund,2012-08-15,200000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120815e88fanoef&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120815e88fanoef%26from%3dalert%26pid%3d32
+f:1617,895,Triangle Peak Partners II,2012-08-15,160000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120815e88fpvqh1&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120815e88fpvqh1%26from%3dalert%26pid%3d32
+f:8202,896,Alta Ventures Mexico I LP,2012-08-17,70000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120817e88haswse&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120817e88haswse%26from%3dalert%26pid%3d32
+f:9641,898,Ares Corporate Opportunities Fund IV,2012-08-22,4700000000.0,http://www.finsmes.com/2012/08/ares-management-closes-4-7bn-fourth-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:17,899,Israel-focused Fund V,2012-08-23,200000000.0,http://venturebeat.com/2012/08/23/sequoia-capital-israel-fund/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Venturebeat_deals+%28VentureBeat+%C2%BB+Deals%29
+f:99,900,Pitango Venture Capital Fund VI,2013-10-01,270000000.0,http://techcrunch.com/2013/10/01/pitango-closes-new-270m-fund-to-fuel-more-startups-coming-out-of-israel/?utm_source=twitterfeed&utm_medium=twitter&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29
+f:3819,901,Fund I,2012-08-30,50000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120830e88utbioj&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120830e88utbioj%26from%3dalert%26pid%3d32
+f:3181,902,SV Angel IV,2012-08-30,40000000.0,http://techcrunch.com/2012/08/30/sec-watch-sv-angel-raising-40-million/
+f:663,903,Avalon Ventures X,2012-08-30,200000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120830e88urmuua&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120830e88urmuua%26from%3dalert%26pid%3d32
+f:9681,904,Gridiron Capital Fund II,2012-08-31,425000000.0,http://www.finsmes.com/2012/08/gridiron-capital-closes-fund-425m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:9701,907,Fund III,2012-09-05,91000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120905e895sdryi&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120905e895sdryi%26from%3dalert%26pid%3d32
+f:719,909,Fund III,2012-09-06,270000000.0,http://techcrunch.com/2012/09/06/nexus-raises-a-third-fund-of-270m-to-find-the-next-killer-app-in-india/
+f:127,910,Fund VI,2012-09-10,150000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120910e89aammik&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120910e89aammik%26from%3dalert%26pid%3d32
+f:3809,912,Founder Collective II,2012-09-11,70000000.0,http://techcrunch.com/2012/09/11/founder-collective-raises-70-million-for-new-fund/
+f:4691,915,Fund III,2012-09-13,36500000.0,http://techcrunch.com/2012/09/13/nycs-lerer-ventures-closes-30m-third-fund-for-early-stage-investments/
+f:8053,916,Greenstart,2012-03-01,6000000.0,http://techcrunch.com/2012/03/05/cleantech-focused-incubator-greenstart-now-offering-startups-an-extra-100k/
+f:745,917,"Foundry Venture Capital 2012, L.P.",2012-09-14,225000000.0,http://techcrunch.com/2012/09/14/foundry-group-raises-another-225m-fund-recycles-last-225m-blog-post-to-announce-it/
+f:6973,918,Pilot Fund,2010-01-01,888000.0,http://thenextweb.com/la/2012/09/03/start-up-chiles-first-alumni-numbers-45-still-businesses-running-chile-stats/
+f:8913,920,Fund I,2012-09-19,3500000.0,http://techcrunch.com/2012/09/19/charlie-odonnells-brooklyn-bridge-ventures-raises-3-5m/
+f:195,921,Life Sciences Fund,2012-09-19,91000000.0,http://www.fiercebiotech.com/story/wellington-partners-rounds-91m-new-european-life-sciences-fund/2012-09-19?utm_source=rss&utm_medium=rss
+f:9796,922,"Harvest Partners VI, L.P.",2012-09-20,1100000000.0,http://www.finsmes.com/2012/09/harvest-partners-closes-1-1bn-fund.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:9763,926,IdeaSpace Incubator Fund,2012-03-01,12500000.0,http://www.techwireasia.com/2240/ideaspace-seed-fund-launched-for-philippine-technopreneurs/
+f:113,928,Crossover Fund VI,2012-09-26,320000000.0,http://www.finsmes.com/2012/09/crosslink-capital-closed-crossover-fund-vi-320m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:8157,930,Raptor Ventures I LP,2012-09-28,32200000.0,http://pevc.dowjones.com/article?an=DJFVW00020120928e89sojwee&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120928e89sojwee%26from%3dalert%26pid%3d32
+f:8003,931,Fund I,2012-10-03,100000000.0,http://techcrunch.com/2012/10/03/brandery/
+f:3544,932,NascenTI,2011-11-01,25.0,http://startups.ig.com.br/2011/nascenti-confrapar-lanca-fundo-para-investir-em-ti-no-rio-de-janeiro/
+f:9419,934,Roark Capital Partners III LP,2012-10-08,1500000000.0,http://www.finsmes.com/2012/10/roark-capital-group-closes-private-equity-fund-1-5bn.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:3586,935,Longitude Venture Partners II,2012-10-10,385000000.0,http://www.finsmes.com/2012/10/longitude-capital-closes-fund-385m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:903,936,DFJ Mercury Fund I,2005-03-20,20000000.0,http://www.bizjournals.com/houston/stories/2006/07/17/story7.html
+f:9615,938,Seed fund,2012-07-18,10000000.0,http://techcrunch.com/2012/10/18/mesa-early-stage-funds/
+f:5717,939,Greenspring Global Partners V,2012-10-21,356000000.0,http://www.finsmes.com/2012/10/greenspring-associates-closes-356m-fund-of-funds.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:32,941,Atomico III,2013-11-10,476630000.0,http://www.strictlyvc.com/2013/11/09/atomico-raises-476-6-million-third-fund/
+f:7095,944,Venture51 Capital Partners II,2013-07-13,25000000.0,http://www.finsmes.com/2013/07/venture51-raises-25m-vc-fund.html
+f:191,946,Venrock VI,2010-07-01,350000000.0,http://bits.blogs.nytimes.com/2010/07/06/a-new-smaller-fund-at-venrock/
+f:48,947,Benchmark Capital Partners VII LP,2011-01-14,425000000.0,https://www.fis.dowjones.com/article.aspx?ProductIDFromApplication=32&aid=DJFVW00020110114e71e00001&r=Rss&s=DJFVW
+f:1799,949,Starfish Technology Fund I,2004-01-01,0.0,http://www.starfishvc.com/news/starfish-ventures-announces-final-close-of-technology-fund-at-aud123-million-261104.html
+f:1799,950,Starfish Technology Fund II,2008-01-01,0.0,http://www.starfishvc.com/news/starfish-ventures-closes-australias-largest-venture-capital-fund-with-185-million-tech-fund-13112008.html
+f:1176,952,Fonsinnocat,2002-05-03,25000000.0,http://www.highgrowth.net/index.php/eng/en_fons_innocat.html
+f:1176,953,Highgrowth Innovation,2007-07-01,18000000.0,http://www.highgrowth.net/index.php/eng/en_highgrowth_innovation.html
+f:3738,956,Fund IV,2012-11-13,40000000.0,http://pevc.dowjones.com/article?an=DJFVW00020121113e8bdnhfqg&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020121113e8bdnhfqg%26from%3dalert%26pid%3d32
+f:31,961,OATV Fund III,2012-11-19,85000000.0,http://techcrunch.com/2012/11/19/seed-stage-vc-firm-oreilly-alphatech-ventures-raises-85m-new-fund/
+f:592,963,GRP IV,2012-10-31,200000000.0,http://www.socaltech.com/grp_partners_hits__48_6m_in_new_fund_grp_iv/s-0045973.html
+f:375,964,Greycroft III,2012-11-26,175000000.0,http://www.finsmes.com/2012/11/greycroft-partners-closes-vc-fund-175m.html
+f:8118,968,Fund I,2012-12-06,50000000.0,http://pevc.dowjones.com/article?an=DJFVW00020121206e8c6aqx08&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020121206e8c6aqx08%26from%3dalert%26pid%3d32
+f:17,975,Global Growth Fund,2012-12-17,700000000.0,http://techcrunch.com/2012/12/17/sequoia-raises-700m-for-global-growth-fund/
+f:4282,976,Clearlake Capital Partners III,2013-01-03,785000000.0,http://www.finsmes.com/2013/01/clearlake-capital-group-closes-private-equity-fund-785m.html
+f:8706,977,Unitus Seed Fund I,2013-01-03,8000000.0,http://techcrunch.com/2013/01/03/unitus-seed-fund/
+f:379,979,Innovation Works Development Fund,2011-08-21,180000000.0,http://www.prnewswire.com/news-releases/wi-harper-group-announces-closing-of-wih-fund-7--innovation-works-development-fund-128873133.html
+f:379,980,WI Harper Fund VI,2007-03-08,133000000.0,http://venturebeat.com/2007/03/08/wi-harper-raises-133-million-venture-fund/
+f:3854,981,Founding fund,2009-09-01,115000000.0,http://venturebeat.com/2009/09/06/q-a-with-kai-fu-lee-on-building-innovation-works-google-china/
+f:3836,982,CHV III LP,2013-01-07,225000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130107e917v93b8&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130107e917v93b8%26from%3dalert%26pid%3d32
+f:581,983,Fund VII,2013-01-09,375000000.0,http://www.finsmes.com/2013/01/western-technology-investment-closes-seventh-fund-375m.html
+f:4604,986,Wellington Financial Fund IV,2013-01-14,190000000.0,http://www.finsmes.com/2013/01/wellington-financial-holds-close-fourth-fund-190m.html
+f:1044,988,Emerald Cleantech Fund III,2013-01-15,0.0,http://pevc.dowjones.com/article?an=DJFVW00020130115e91fv3o58&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130115e91fv3o58%26from%3dalert%26pid%3d32
+f:3823,989,Medtech Fund,2013-01-15,225000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130115e91favxl2&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130115e91favxl2%26from%3dalert%26pid%3d32
+f:10358,990,Huron Fund IV,2013-01-15,500000000.0,http://www.finsmes.com/2013/01/huron-capital-closes-fourth-investment-fund-500m.html
+f:13,991,Redpoint V,2013-01-16,400000000.0,http://techcrunch.com/2013/01/16/redpoint-ventures-v-400-million/
+f:9913,993,Venture capital fund,2013-01-23,100000000.0,http://venturebeat.com/2013/01/22/ribbit-capital-100-million-fund/
+f:10437,1002,Lightspeed China Partners I,2013-01-29,168000000.0,http://www.finsmes.com/2013/01/lightspeed-china-partners-closes-168m-fund.html
+f:8154,1005,Serent Capital II,2013-01-30,350000000.0,http://www.finsmes.com/2013/01/serent-capital-closes-fund-350m.html
+f:1866,1006,Cleantech Fund II,2013-01-30,74000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130130e91uqo09u&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130130e91uqo09u%26from%3dalert%26pid%3d32
+f:7512,1007,Fulcrum Growth Fund II,2013-01-31,93000000.0,http://www.finsmes.com/2013/01/fulcrum-equity-partners-closes-fund-93m.html
+f:8875,1008,ebut Health-Care Fund,2013-01-31,100000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130131e91vs6co0&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130131e91vs6co0%26from%3dalert%26pid%3d32
+f:6947,1009,EnCap Energy Capital Fund IX,2013-02-03,5000000000.0,http://www.finsmes.com/2013/02/encap-investments-closes-fund-ix-5bn.html
+f:583,1011,Osage Venture Partners III,2013-02-05,66000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130204e924sio94&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130204e924sio94%26from%3dalert%26pid%3d32
+f:214,1012,SoftBank PrinceVille Investments,2013-02-07,250000000.0,http://www.finsmes.com/2013/02/softbank-capital-closes-250m-fund.html
+f:34,1013,Spark Capital Fund IV,2013-02-26,450000000.0,http://techcrunch.com/2013/02/25/boston-based-vc-firm-and-early-twitter-investor-spark-capital-raises-450m-for-fourth-fund/
+f:4,1014,Accel London IV,2013-03-21,475000000.0,http://techcrunch.com/2013/03/21/accel-closes-475m-fund-its-fourth-to-invest-mainly-in-europe-and-israel/
+f:10535,1016,DWHP III,2013-02-11,265000000.0,http://www.finsmes.com/2013/02/dw-healthcare-partners-closes-fund-265m.html
+f:9710,1020,phenomen II,2013-01-20,250000000.0,http://www.ewdn.com/2013/02/08/russia-s-phenomen-ventures-takes-part-in-hailo-s-round-along-with-top-international-investors/
+f:97,1021,Maveron III,2004-11-01,200000000.0,http://seattletimes.com/html/businesstechnology/2002094021_maveron18.html
+f:97,1022,Maveron II,2000-03-01,340000000.0,http://www.bizjournals.com/seattle/stories/2000/03/06/story1.html
+f:1823,1024,Lux Ventures III,2013-02-13,245000000.0,http://www.finsmes.com/2013/02/lux-capital-closes-fund-245m.html
+f:2737,1025,Fund II,2013-09-09,40000000.0,http://techcrunch.com/2013/09/09/micro-vc-freestyle-vc-raises-40-million-for-second-fund/
+f:6311,1027,Carlyle Peru Fund,2013-02-19,308000000.0,http://www.finsmes.com/2013/02/carlyle-group-raises-308m-peru-focused-fund.html
+f:1258,1030,Accelerator Venture Capital II,2013-02-20,25000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130221e92lt5rh4&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130221e92lt5rh4%26from%3dalert%26pid%3d32
+f:137,1034,Battery Ventures X,2013-02-21,650000000.0,http://www.finsmes.com/2013/02/battery-ventures-closes-funds-raising-900m.html
+f:137,1035,Battery Ventures X Side Fund,2013-02-21,250000000.0,http://www.finsmes.com/2013/02/battery-ventures-closes-funds-raising-900m.html
+f:9491,1036,Micro-VC fund,2013-02-24,19000000.0,http://www.finsmes.com/2013/02/version-ventures-closes-19m.html
+f:4919,1037,Allos II,2013-02-25,40000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130225e92pqkhdm&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130225e92pqkhdm%26from%3dalert%26pid%3d32
+f:1200,1040,Draper Triangle III,2013-02-28,40000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130301e931si7s0&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130301e931si7s0%26from%3dalert%26pid%3d32
+f:4878,1041,Seacoast Capital Partners III,2013-02-28,150000000.0,http://www.finsmes.com/2013/02/seacoast-capital-managers-closes-mezzanine-fund-150m.html
+f:7025,1043,H.I.G. Capital Partners V,2013-03-04,1100000000.0,http://www.bloomberg.com/news/2013-07-02/h-i-g-capital-raises-825-million-euros-for-private-equity-fund.html
+f:7518,1045,Peterson Partners VII,2013-03-06,140000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130306e936akpn1&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130306e936akpn1%26from%3dalert%26pid%3d32
+f:5474,1048,Arcus Ventures Fund II,2013-03-07,35600000.0,http://pevc.dowjones.com/article?an=DJFVW00020130307e937pa8lm&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130307e937pa8lm%26from%3dalert%26pid%3d32
+f:2677,1051,SJF Ventures III LP,2013-05-02,90000000.0,http://www.finsmes.com/2013/05/sjf-ventures-closes-fund-90m.html
+f:8375,1052,Private equity co-investment fund II,2013-03-12,1100000000.0,http://www.finsmes.com/2013/03/neuberger-berman-closes-private-equity-fund-1-1bn.html
+f:5893,1062,Fund VI,2013-03-15,300000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130315e93fs8t39&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130315e93fs8t39%26from%3dalert%26pid%3d32
+f:3009,1063,Fund III,2013-03-25,516000000.0,http://venturebeat.com/2013/03/25/third-rock-ventures-gets-its-hands-dirty-with-516m-for-healthcare-startups/
+f:1701,1064,Pelion Ventures V LP,2013-05-30,194000000.0,http://www.pehub.com/250553/utah-based-vc-pelion-venture-partners-raises-194m-fifth-fund/
+f:10792,1065,Fund II,2013-03-20,20000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130320e93kq25cd&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130320e93kq25cd%26from%3dalert%26pid%3d32
+f:1902,1066,Fund II,2013-03-22,160000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130322e93msey87&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130322e93msey87%26from%3dalert%26pid%3d32
+f:10827,1069,Primus Capital Fund VII,2013-03-16,353000000.0,http://www.finsmes.com/2013/03/primus-capital-partners-closes-seventh-fund-353m.html
+f:5935,1070,BOLDstart II,2013-02-01,10700000.0,http://www.pehub.com/192840/boldstart-raising-15m-ny-based-enterprise-fund/
+f:6225,1071,Cendana Capital,2013-03-29,88000000.0,http://venturebeat.com/2013/03/29/cendana-capital-gathers-88m-to-put-seeds-into-seed-funds/
+f:880,1074,KPCB iFund,2008-03-06,100000000.0,http://www.tuaw.com/2008/03/06/ifund-100m-for-iphone-ipod-touch-devs/
+f:5094,1078,Milestone Partners IV,2013-04-05,300000000.0,http://www.finsmes.com/2013/04/milestone-partners-closes-fund-300m.html
+f:62,1079,Ignition Venture Partners V,2013-04-04,150000000.0,http://www.ignitionpartners.com/IgnitionFundVReleaseFINAL.pdf
+f:4853,1085,SBI Jefferies Asia Fund,2010-06-01,150000000.0,http://www.avcj.com/avcj/news/1719815/japans-sbi-us-jeffries-form-joint-funds
+f:4853,1086,SBI FMO FInancial Services Fund,2012-08-01,150000000.0,http://www.sbivencapital.com.sg/admin/uploads/press_releases/13.pdf
+f:7444,1089,Ridgemont Equity Partners I,2013-04-12,735000000.0,http://www.finsmes.com/2013/04/ridgemont-equity-partners-closes-fund-735m.html
+f:5388,1095,StepStone Secondary Opportunities Fund II,2013-04-17,450000000.0,http://www.finsmes.com/2013/04/stepstone-closes-secondary-fund-450m.html
+f:10927,1096,Fund 1,2013-04-18,448000000.0,http://techcrunch.com/2013/04/18/formation-8/
+f:2535,1100,Silver Lake Partners IV,2013-04-19,10300000000.0,http://www.finsmes.com/2013/04/silver-lake-partners-closes-fourth-fund-10-3bn.html
+f:10222,1102,WI Harper Group,2012-02-01,0.0,http://www.wiharper.com/portfolio/
+f:10222,1103,Innovation Works (China),2012-02-01,0.0,http://en.techorange.com/taiwans-kaifu-lee-tmi-opens/
+f:10222,1104,ITIC,2012-02-01,0.0,http://en.techorange.com/taiwans-kaifu-lee-tmi-opens/
+f:5129,1105,Fund II,2013-04-23,26000000.0,http://www.businesswire.com/news/home/20130423005881/en/Kickstart-Seed-Fund-Raises-26-Million-Fund
+f:792,1106,Carlyle Peru Fund,2013-02-19,308000000.0,http://www.finsmes.com/2013/02/carlyle-group-raises-308m-peru-focused-fund.html
+f:1034,1110,Tribeca Venture Fund II LP,2012-09-28,64000000.0,http://pevc.dowjones.com/article?an=DJFVW00020120928e89spjs5j&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020120928e89spjs5j%26from%3dalert%26pid%3d32
+f:111,1114,Fund IX,2013-05-01,265000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130501e951qvika&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130501e951qvika%26from%3dalert%26pid%3d32
+f:2324,1115,Kohlberg Investors VII,2013-05-01,1600000000.0,http://www.finsmes.com/2013/05/kohlberg-closes-seventh-private-equity-fund-1-6-billion.html
+f:11144,1116,Bowery Capital I,2013-05-01,33000000.0,http://finance.fortune.cnn.com/2013/05/02/new-york-city-newest-vc/
+f:13,1117,Redpoint V,2013-01-16,400000000.0,http://blogs.wsj.com/digits/2013/01/16/redpoint-ventures-raises-new-400m-fund/?KEYWORDS=redpoint+venture
+f:11199,1118,Plexus Fund III,2013-05-03,150000000.0,http://www.finsmes.com/2013/05/plexus-capital-raises-150m-create-300m-sbic-fund.html
+f:1273,1121,NewSpring Growth Capital III,2013-05-06,250000000.0,http://www.finsmes.com/2013/05/newspring-capital-closes-fund-250m.html
+f:105,1124,Balderton Capital V,2013-05-08,0.0,http://www.finsmes.com/2013/05/balderton-capital-raise-fund.html
+f:518,1125,Fund III,2010-02-01,250000000.0,http://www.sec.gov/Archives/edgar/data/1482087/000148208710000001/xslFormDX01/primary_doc.xml
+f:286,1126,Matrix X,2013-05-09,450000000.0,http://www.marketwatch.com/story/matrix-partners-closes-450-million-fund-x-2013-05-09
+f:11145,1128,Seed Round,2013-02-01,15000.0,http://www.launchyourcity.com/2013/03/04/meet-a-founder-pam-cooper-of-boosterville/
+f:1747,1129,Frazier Healthcare VII LP,2013-10-01,377000000.0,http://www.finsmes.com/2013/10/frazier-healthcare-closes-seventh-fund-377m.html
+f:1312,1130,Grotech Ventures II,2013-05-13,225000000.0,http://techcrunch.com/2013/05/13/grotech-ventures-raises-225m-for-eighth-fund/#comments
+f:2241,1132,Petra Growth Fund III,2013-05-13,230000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130513e95dqbmlo&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130513e95dqbmlo%26from%3dalert%26pid%3d32
+f:11292,1133,Colorado State University,2013-05-13,1500000.0,http://www.coloradoan.com/article/20130513/NEWS01/305130036/CSU-System-launches-1-5M-venture-capital-fund-support-innovation
+f:3450,1134,Green Venture Capital Fund,2013-05-10,20000000.0,http://www.justmeans.com/Patagonia-Launches-20M-Green-Venture-Capital-Fund/59266.html
+f:571,1135,Warburg Pincus Private Equity XI,2013-05-13,11200000000.0,http://www.finsmes.com/2013/05/warburg-pincus-closes-global-fund-11-2bn.html
+f:11293,1136,Foley & Lardner,2013-05-13,2600000.0,http://www.pehub.com/201723/foley-lardner-raises-2-6m-second-venture-fund/
+f:8770,1137,Trilantic Capital Partners V,2013-12-09,2200000000.0,http://www.vcaonline.com/news/news.asp?ID=2013120922#.UqaT_ydE07A
+f:9998,1139,Bitcoin Fund,2013-05-14,15000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130514e95eb1thi&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130514e95eb1thi%26from%3dalert%26pid%3d32
+f:3433,1144,Fund III,2013-05-15,100000000.0,http://www.pehub.com/202167/spire-capital-closes-100-mln/?utm_source=dlvr.it&utm_medium=twitter
+f:8334,1145,Fund I,2013-05-15,50000000.0,http://www.sec.gov/Archives/edgar/data/1577040/000095013813000214/xslFormDX01/primary_doc.xml
+f:812,1147,Fund III,2013-05-13,11000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130516e95gr4yxr&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130516e95gr4yxr%26from%3dalert%26pid%3d32
+f:799,1148,Ridgewood Energy Oil & Gas Fund II,2013-05-17,450000.0,http://privatemarkets.thomsonreuters.com/ridgewood-eyes-$750m-for-fund-ii/21086467.article?utm_term=%23privateequity+SUBS+ONLY&utm_source=twitterfeed&utm_medium=twitter
+f:9779,1149,Athyrium Opportunities Fund,2013-05-20,507000000.0,http://www.pehub.com/203094/athyrium-opportunities-fund-closes-507-mln/
+f:11409,1150,Centerfield Capital Partners III,2013-05-20,171000000.0,http://www.pehub.com/203172/centerfield-capital-closes-fund-iii-171-mln/?utm_source=dlvr.it&utm_medium=twitter
+f:3824,1152,Solamere Capital Fund II,2013-05-23,250000000.0,http://www.finsmes.com/2013/05/romneys-solamere-capital-raises-250m-fund.html
+f:2011,1153,QS PEP 2012,2012-01-01,150000000.0,http://www.investmenteurope.net/investment-europe/news/2270121/quilvest-partners-raises-usd700m-as-three-funds-close
+f:2011,1154,QS REP II,2013-01-01,300000000.0,http://www.investmenteurope.net/investment-europe/news/2270121/quilvest-partners-raises-usd700m-as-three-funds-close
+f:2011,1155,QS Capital Strategies,2013-01-01,230000000.0,http://www.investmenteurope.net/investment-europe/news/2270121/quilvest-partners-raises-usd700m-as-three-funds-close
+f:1793,1160,EnerTech Capital Partners IV (Canada),2013-09-11,120000000.0,http://www.finsmes.com/2013/09/enertech-capital-raises-closes-fourth-venture-fund-120m.html
+f:47,1161,Insight Venture Partners VIII,2013-05-29,2570000000.0,http://techcrunch.com/2013/05/28/insight-venture-partners/
+f:5928,1162,Fund II,2013-10-02,44100000.0,http://techcrunch.com/2013/10/02/500-startups-fund-ii/
+f:214,1164,Yahoo! Japan Fund,2013-04-01,20000000.0,http://techcrunch.com/2013/05/30/softbank-capital-raises-50m-to-invest-exclusively-in-new-york-startups/
+f:214,1166,Invest in NYC-based Startups,2013-05-31,53000000.0,http://www.finsmes.com/2013/05/softbank-capital-raises-51m-invest-nyc-based-startups.html
+f:11591,1167,Channel Medsystems,2013-05-17,875000.0,http://www.cnbc.com/id/100747244
+f:1626,1168,Fund III,2013-06-03,40000000.0,http://www.newenergyworldnetwork.com/investor-news/renewable-energy-news/by-region/north-america/us-fund-manager-targets-cleantech-sector.html
+f:2929,1169,Paul Capital Partners X,2013-06-03,145000000.0,http://privatemarkets.thomsonreuters.com/paul-capital-raises-$145-mln-for-secondary-fund-target-$2-bln/21089268.article?utm_term=%23privateequity+SUBS+ONLY&utm_source=twitterfeed&utm_medium=twitter
+f:367,1170,Intel Capital Experiences and Perceptual Computing Fund,2013-06-04,100000000.0,http://www.finsmes.com/2013/06/intel-capital-launches-100m-fund.html
+f:2274,1171,TZP Capital Partners II LP,2013-08-09,370000000.0,http://www.finsmes.com/2013/08/tzp-group-closes-private-equity-fund-370m.html
+f:11652,1172,Bloomberg LP,2013-06-04,75000000.0,http://techcrunch.com/2013/06/04/bloomberg-beta/
+f:9838,1173,Vintage Investment Partners VI,2013-06-05,161000000.0,http://www.globes.co.il/serveen/globes/docview.asp?did=1000850073&fid=1725
+f:11573,1175,ACON Equity Partners III,2013-06-07,751000000.0,http://privatemarkets.thomsonreuters.com/acon-closes-fund-iii-sets-new-latin-fund/21090303.article?utm_term=%23privateequity+SUBS+ONLY&utm_source=twitterfeed&utm_medium=twitter
+f:11727,1176,Union Bay Capital Partners I,2013-06-07,88500000.0,http://pevc.dowjones.com/article?an=DJFVW00020130607e967pl8kd&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130607e967pl8kd%26from%3dalert%26pid%3d32
+f:214,1177,Early-Stage Technology Fund '10,2010-01-01,100000000.0,http://techcrunch.com/2013/04/24/yahoo-japan-injects-20m-into-softbank-capitals-early-stage-technology-fund-10/
+f:3885,1178,"Catterton Partners VII, L.P",2013-09-18,1680000000.0,http://www.pehub.com/2013/09/18/catterton/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pehub%2Fblog+%28PE+HUB+Blog%29
+f:1427,1180,Fund V,2013-06-10,75000000.0,http://www.mystatesman.com/news/business/austin-based-s3-ventures-launches-75-million-fund-/nYG3c/
+f:10638,1181,Morado Venture Partners II,2013-06-11,30000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130611e96brul0w&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%3a80%2farticle%3fan%3dDJFVW00020130611e96brul0w%26from%3dalert%26pid%3d32
+f:623,1182,Origin Ventures III LP,2013-11-20,47000000.0,http://originventures.com/origin-ventures-closes-fund-iii-with-47m/
+f:8818,1183,L Capital V,2013-06-12,1000000000.0,http://blogs.wsj.com/moneybeat/2013/06/12/lvmh-backed-l-capital-asia-raises-1-billion-fund/
+f:11823,1184,Fund I,2013-06-12,600000000.0,http://www.pehub.com/2013/06/12/amulet-capital-expected-seek-600-mln-fund-i/
+f:8762,1185,venture fund,2013-06-13,25000000.0,http://tech.co/hyde-park-venture-partners-2013-06
+f:4184,1188,Fund IV,2008-07-17,765000000.0,http://pevc.dowjones.com/article?pid=22&an=DJFPEP0020080716e47h0002t&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fpid%3d22%26an%3dDJFPEP0020080716e47h0002t
+f:11917,1189,Social Ventures Fund II,2013-06-17,75000000.0,http://startupcentral.in/2013/06/creation-investments-raises-75-mn-fund-ii-15142/
+f:3939,1190,Citic Capital China Retail Properties Investment Fund,2013-06-17,683000000.0,http://blogs.wsj.com/moneybeat/2013/06/17/chinas-citic-capital-raises-683-million-fund-for-retail-property/
+f:11933,1192,Fund I,2013-06-17,40000000.0,http://www.prweb.com/releases/ChicagoVentures/Launch/prweb10835908.htm
+f:1434,1193,power and energy fund V,2013-06-19,7700000000.0,http://www.pehub.com/2013/06/19/riverstone-closes-7-7-bln-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:4,1195,Big Data Fund 2,2013-06-17,100000000.0,http://techcrunch.com/2013/06/17/accel-closes-100m-for-big-data-fund-2-to-invest-in-the-second-wave-of-big-data-startups/
+f:11936,1196,Fund I,2013-06-17,30000000.0,http://www.vccircle.com/news/real-estate/2013/06/17/triveda-raises-30m-domestic-hnis-realty-project
+f:9371,1199,Huron River Ventures I,2013-06-18,11000000.0,http://techcrunch.com/2013/06/24/michigans-huron-river-ventures-partners-announces-11m-fund-for-energy-efficient-startups/?utm_source=dlvr.it&utm_medium=twitter&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29
+f:3579,1200,Fund III,2013-06-18,30000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130618e96iaze4f&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130618e96iaze4f%26from%3dalert%26pid%3d32
+f:11970,1202,Evercore Mexico Capital Partners III,2013-06-18,201000000.0,http://www.businesswire.com/news/home/20130618005251/en/Evercore-Mexico-Capital-Partners-Raises-201-Million?utm_source=dlvr.it&utm_medium=twitter
+f:567,1203,iNovia Fund II,2007-04-17,112000000.0,http://www.prnewswire.com/news-releases/inovia-capital-announces-launch-of-107-million-second-venture-capital-fund-57158732.html
+f:8325,1204,Cultivian Sandbox Food & Agriculture Fund II,2013-06-19,58400000.0,http://pevc.dowjones.com/article?an=DJFVW00020130619e96jsby2k&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130619e96jsby2k%26from%3dalert%26pid%3d32
+f:123,1206,Leap Fund,2013-06-20,25000000.0,http://finance.yahoo.com/news/highland-capital-partners-establishes-25-213400059.html
+f:1523,1207,AVI,2008-01-01,20000000.0,http://tech.mn/news/2013/06/20/arthur-ventures-fund-2/?in=1
+f:1523,1208,AVII,2013-07-17,45000000.0,http://www.finsmes.com/2013/07/arthur-ventures-closes-fund-45m.html
+f:12017,1209,Aksìa Capital IV fund,2013-06-21,0.0,http://news.silobreaker.com/aksa-group-seeks-150m-for-fourth-buyout-fund-5_2266905554041438219
+f:189,1210,Apax VIII,2013-06-21,7500000000.0,http://www.finsmes.com/2013/06/apax-partners-closes-pe-fund-7-5bn.html
+f:12031,1211,Affinity Equity Partners IV Fund,2013-06-21,2500000000.0,http://blogs.wsj.com/privateequity/2013/06/21/the-morning-leverage-affinitys-fourth-fund-nears-2-5b-second-close/?mod=WSJBlog
+f:7322,1220,FundIII,2013-06-24,325000000.0,http://www.finsmes.com/2013/06/clearview-capital-closes-fund-325m.html
+f:12114,1221,Owner Resources Group Fund II,2013-06-25,45000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/owner-resources-group-hits-45m-mark-for-second-fund.html?utm_source=twitterfeed&utm_medium=twitter
+f:12115,1222,Terranum Capital Fund I,2013-06-25,235000000.0,http://www.businesswire.com/news/home/20130625005151/en/Terranum-Capital%E2%80%99s-Fund-Closes-US235-Million?utm_source=dlvr.it&utm_medium=twitter
+f:4332,1223,Fund I,2013-06-25,31000000.0,http://dailynews.mcmaster.ca/article/mcmaster-receives-31m-commitment-from-heart-and-stroke-foundation/
+f:12136,1224,SEAVI Advent Equity Fund VI,2013-06-24,125000000.0,http://www.avcj.com/avcj/news/2276785/seavi-advent-reaches-usd125m-first-close-on-fund-vi
+f:10730,1225,Fund I,2013-06-25,115600000.0,http://pevc.dowjones.com/article?an=DJFVW00020130625e96ppbivg&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130625e96ppbivg%26from%3dalert%26pid%3d32
+f:12137,1226,Mangrove Equity Partners II Fund,2013-06-21,80700000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/mangrove-equity-partners-raises-80-7m-for-investors-ii-fund.html
+f:686,1227,Valor Equity Partners Fund III,2012-10-23,35000000.0,http://www.pehub.com/2012/10/23/tesla-spacex-backer-to-seek-350m-for-fund-iii/
+f:6,1228,Founders Fund IV,2011-12-02,625000000.0,http://www.finsmes.com/2011/12/founders-fund-closes-fourth-suite-funds-625m.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+finsmes%2FcNHu+%28FinSMEs%29
+f:1488,1229,HighBar Partners,2013-06-26,130000000.0,http://www.vcaonline.com/news/news.asp?ID=2013062623#.UcvLeNiBbIU
+f:7945,1230,Top Tier Venture Capital VI LP,2013-06-26,156000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130626e96qpe9nk&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130626e96qpe9nk%26from%3dalert%26pid%3d32
+f:7945,1231,Top Tier Venture Capital VI-B,2013-06-26,154200000.0,http://pevc.dowjones.com/article?an=DJFVW00020130626e96qpe9nk&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130626e96qpe9nk%26from%3dalert%26pid%3d32
+f:5875,1233,NCN Angel Fund II,2013-06-27,11000000.0,http://nashvillecapital.com/wp-content/uploads/2013/06/Press-release-for-June-27-2013-Angel-Fund-II-2.pdf
+f:12184,1234,Australian private equity VI fund,2013-06-28,185000000.0,http://blogs.wsj.com/moneybeat/2013/06/28/australias-advent-private-capital-raises-sixth-fund/
+f:12196,1235,CapitalWorks II fund,2013-06-28,150000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/capitalworks-raises-nearly-150m-for-second-fund.html?utm_source=twitterfeed&utm_medium=twitter
+f:12241,1237,Erhvervsinvest fund III,2013-07-01,770000000.0,http://realdeals.eu.com/article/42243-erhvervsinvest-attracts-770m-for-third-fund
+f:12247,1238,Stonepeak Infrastructure Fund I,2013-10-09,1650000000.0,http://www.pehub.com/2013/10/09/stonepeak-closes-1-65-bln-first-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:12255,1240,Fund VI,2013-07-01,804000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/vestar-capital-partners-raises-804m-for-sixth-fund-misses-target.html?utm_source=twitterfeed&utm_medium=twitter
+f:6677,1241,Morgan Stanley Global Secondary Opportunities Fund LP II,2013-07-01,770000000.0,http://newyork.citybizlist.com/article/morgan-stanley-alternative-investment-partners-raises-770m-fund
+f:1430,1243,Rolling Hills Ventures LP,2013-07-01,15000000.0,http://www.bizjournals.com/nashville/news/2013/07/01/clayton-associates-launches-15m-angel.html?ana=twt
+f:3939,1245,Debut fund,2013-07-02,113000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/citic-venture-arm-closes-debut-fund-on-113m.html?utm_source=twitterfeed&utm_medium=twitter
+f:12281,1246,Maiden Fund,2013-07-02,35000000.0,http://www.finsmes.com/2013/07/homebrew-closes-maiden-fund-35m.html
+f:12295,1249,Fund I,2013-07-03,3100000.0,http://pevc.dowjones.com/article?an=DJFVW00020130703e973aoys8&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130703e973aoys8%26from%3dalert%26pid%3d32
+f:12305,1250,Wing Venture fund,2013-07-03,111000000.0,http://www.finsmes.com/2013/07/wing-venture-partners-launch-111m.htmlom/sanjose/news/2013/07/03/sequoia-accel-duo-launch-111m-wing.html?ana=RSS&s=article_search&utm_source=twitterfeed&utm_medium=twitter&utm_campaign=Feed%3A+bizj_sanjose+%28Silicon+Valley+
+f:12310,1251,Fund I,2013-07-03,140000000.0,http://www.finsmes.com/2013/07/aleph-launches-140m-venture-capital-fund.html
+f:12315,1253,Pine Brook Fund II,2013-07-03,2000000000.0,http://www.pehub.com/2013/07/03/pine-brook-closes-more-1-bln-fund-ii/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pehub%2Fblog+%28PE+HUB+Blog%29
+f:7915,1254,mega-buyout fund,2013-08-08,8400000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/apollo-buyout-fund-surges-to-8-4bn-weeks-after-6-6bn-first-close.html
+f:5236,1255,Samridhi Fund,2013-07-05,58000000.0,http://www.vccircle.com/news/alternative-investment/2013/07/05/sidbi-ventures-makes-first-close-samridhi-fund-58m
+f:5727,1256,Cycle Capital Fund III,2013-07-05,108000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130705e975p5rat&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130705e975p5rat%26from%3dalert%26pid%3d32
+f:12372,1257,Hedge fund,2013-07-08,53500000.0,http://medcitynews.com/2013/07/investment-group-raises-53-5-million-for-health-it-and-life-science-hedge-fund/#.Uds08sBMu9M.twitter
+f:12374,1258,Fund IV,2013-07-08,1600000000.0,http://www.pehub.com/2013/07/08/marlin-management-closes-fund-iv-1-6-bln/?utm_source=dlvr.it&utm_medium=twitter
+f:2325,1259,Dawn Capital II Venture Capital Fund,2013-07-09,100000000.0,http://www.finsmes.com/2013/07/dawn-capital-raises-63m-fund.html
+f:982,1260,Clayton Dubilier & Rice Fund IX,2013-07-09,2500000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/clayton-dubilier-rice-nears-first-close-for-5bn-fund.html
+f:4216,1261,"Volition Capital Fund II, L.P.",2013-12-04,170000000.0,http://www.finsmes.com/2013/12/volition-capital-closes-fund-ii-170m.html
+f:12406,1262,New Heritage Capital Fund LP,2013-09-27,151700000.0,http://pevc.dowjones.com/article?an=DJFLBO0020130927e99rrfmgq&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020130927e99rrfmgq%26from%3dalert%26pid%3d22
+f:6602,1263,Parkwalk UK Technology EIS Fund IV,2013-04-01,0.0,http://www.parkwalkadvisors.com/pw_putf.html
+f:6602,1264,Parkwalk Cambridge Enterprise Fund I,2012-05-01,0.0,http://www.parkwalkadvisors.com/pw_uocef.html
+f:6602,1266,Parkwalk ZeroND Fund,2013-03-01,0.0,http://www.parkwalkadvisors.com/pw_zerond.html
+f:10962,1267,Patriot Capital III SBIC,2013-07-09,250000000.0,http://www.vcaonline.com/news/news.asp?ID=2013070922#.Ud0I5G1GzIU
+f:154,1268,Dover Street VIII L.P,2013-07-10,3600000000.0,http://www.pehub.com/2013/07/10/harbourvest-partners-raises-3-6-bln-secondary-fund/
+f:12430,1271,Grey Mountain Partners Fund III,2013-07-11,425000000.0,http://www.finsmes.com/2013/07/grey-mountain-partners-closes-pe-fund-425m.html
+f:5990,1272,Fund V,2013-07-11,65000000.0,http://pevc.dowjones.com/article?an=DJFLBO0020130710e97arepxs&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020130710e97arepxs%26from%3dalert%26pid%3d22
+f:11306,1273,Leopard Cambodia Fund,2008-04-01,34100000.0,http://dealbook.nytimes.com/2012/12/26/investing-in-asias-frontier-with-eyes-on-the-horizon/
+f:11306,1274,Leopard Haiti Fund,2012-07-01,20000000.0,http://dealbook.nytimes.com/2012/12/26/investing-in-asias-frontier-with-eyes-on-the-horizon/
+f:5020,1283,Plenus II,2004-01-01,56000000.0,http://www.plenus.co.il/index.aspx?id=4036&itemID=4075
+f:5020,1284,Plenus III,2007-01-01,120000000.0,http://www.plenus.co.il/index.aspx?id=4036&itemID=4066
+f:737,1286,Fund IV,2013-07-14,75000000.0,http://www.finsmes.com/2013/07/softtech-vc-raise-75m-fund.html
+f:11309,1287,Fund I,2013-07-12,800000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/golub-capital-partners-hits-800m-mark-for-latest-fund.html
+f:12497,1289,Fund II,2013-05-02,600000000.0,http://pevc.dowjones.com/Article?an=DJFLBO0020130502e952i4nld&cid=32135011&ctype=ts&pid=15&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2fArticle%3fan%3dDJFLBO0020130502e952i4nld%26cid%3d32135011%26ctype%3dts%26pid%3d15
+f:966,1290,Amadeus IV Digital Prosperity Fund.,2013-07-15,75000000.0,http://www.pehub.com/2013/07/15/amadeus-reaches-first-close-om/?utm_source=dlvr.it&utm_medium=twitter
+f:8728,1291,Advancit Capital fund II,2013-07-12,25000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/advancit-capital-hits-fundraising-trail-with-25m-targeting-vehicle.html
+f:12513,1292,LightCap I Fund,2013-07-15,0.0,http://www.pehub.com/2013/07/15/aston-capital-launches-new-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:12523,1293,Physician Fund,2013-07-16,5100000.0,http://www.exceleratehealth.com/blog/
+f:123,1295,Highland's IX fund,2013-10-13,400000000.0,http://finance.fortune.cnn.com/2013/10/11/exclusive-highland-capital-raises-400-million-fund/
+f:12569,1296,J-Star fund II,2013-07-17,201000000.0,http://privateequityinternational.com/Article.aspx?aID=0&article=73613
+f:3726,1297,Lexington Co-Investment Partners III,2013-07-17,1570000000.0,http://www.pehub.com/2013/07/17/lexington-partners-raises-1-57-bln-fund/
+f:12596,1298,Bonnefield Canadian Farmland LP III,2013-07-16,100000000.0,http://www.pehub.com/2013/07/16/exclusive-bonnefield-raises-100m-first-close-fund-iii/?utm_source=dlvr.it&utm_medium=twitter
+f:4184,1299,Sentinel Capital Investors V LP,2013-07-17,1100000000.0,http://www.law360.com/articles/458096/sentinel-to-raise-1-1b-for-5th-private-equity-fund
+f:12613,1304,Redevelopment Fund,2013-06-01,80000000.0,http://frrole.com/o/indiareit-closes-mumbai-redevelopment-fu-vccircle-mumbai
+f:8565,1305,Blue Wolf Capital Fund III LP,2013-07-18,300000000.0,http://www.finsmes.com/2013/07/blue-wolf-capital-partners-closes-fund-iii-300m.html
+f:12625,1306,Trive Capital Fund I LP,2013-07-18,300000000.0,http://www.pehub.com/2013/07/18/trive-capital-holdings-closes-300-mln-debut-fund/
+f:12677,1308,Fulcrum Venture India Fund II,2013-10-31,10000000.0,http://www.vccircle.com/news/alternative-investment/2013/10/31/fulcrum-venture-india-makes-first-close-second-fund-just
+f:12704,1311,Fund II,2013-07-22,324000000.0,http://www.vcaonline.com/news/news.asp?ID=2013072221#.Ue4GfqzcvIU
+f:12707,1312,Maiden Fund,2013-10-16,4900000.0,http://www.vccircle.com/news/technology/2013/10/16/india-quotient-closes-maiden-fund-invests-social-wishlist-startup
+f:12714,1314,"BLACKROCK PRIVATE EQUITY PARTNERS VI US, L.P.",2013-07-05,50000000.0,http://www.sec.gov/Archives/edgar/data/1581884/000158151913000001/xslFormDX01/primary_doc.xml
+f:1622,1315,Fund IV,2013-07-23,200000000.0,http://techcrunch.com/2013/07/31/as-earlybird-closes-new-e150m-fund-lps-warm-to-european-tech-valuations/
+f:12738,1316,Generation Growth Capital Fund II,2013-09-18,37000000.0,http://www.jsonline.com/business/generation-growth-capital-raises-37-million-for-investment-fund-b99101130z1-224246781.html
+f:5128,1317,global real-estate fund,2013-07-23,4400000000.0,http://pevc.dowjones.com/article?an=DJFLBO0020130723e97nia4qq&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020130723e97nia4qq%26from%3dalert%26pid%3d22
+f:3802,1319,Russia Fund II,2013-07-24,102000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/russias-almaz-capital-raises-more-than-100m-for-latest-fund.html?utm_source=twitterfeed&utm_medium=twitter
+f:443,1320,DCM Fund VII,2013-07-24,250000000.0,http://pevc.dowjones.com/article?an=DJFLBO0020130724e97oqwfw7&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020130724e97oqwfw7%26from%3dalert%26pid%3d32
+f:12762,1322,African Development Partners II (ADP II),2013-11-28,400000000.0,http://www.privateequityafrica.com/analysis/dpi-fund-crosses-400m-in-first-close/
+f:10100,1323,second venture capital fund,2013-07-26,6000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/militello-capital-raises-nearly-6m-for-second-venture-capital-fund.html?utm_source=twitterfeed&utm_medium=twitter
+f:1404,1324,mezzanine debt II fund,2013-07-25,30000000.0,http://news.silobreaker.com/claritas-shoots-for-100m-again-in-second-mezzanine-fundraise-5_2266985294404255786
+f:4318,1326,NCT Ventures Fund II,2013-07-12,50000000.0,http://www.bizjournals.com/columbus/print-edition/2013/07/12/nct-to-launch-50m-fund.html?ana=twt
+f:2883,1327,Fourth Formal Investment Fund,2013-07-26,26000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130726e97qrgt1i&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130726e97qrgt1i%26from%3dalert%26pid%3d32
+f:12830,1328,Fund II,2013-07-26,500000000.0,http://www.penews.com/today/index/rss/content/4072419980/restricted
+f:1140,1329,Tandem Habit Fund,2013-07-29,100000000.0,http://www.sec.gov/Archives/edgar/data/1570147/000157014713000001/xslFormDX01/primary_doc.xml
+f:2750,1330,Fund III,2013-07-29,310000000.0,http://www.finsmes.com/2013/07/telegraph-hill-partners-closes-fund-iii-310m.html
+f:611,1332,YLV II,2013-07-30,27500000.0,http://techcrunch.com/2013/07/30/yl-ventures-raises-27-5m-second-fund/
+f:6253,1333,Initial Fund,2010-09-21,150000000.0,http://info.singtel.com/node/7499
+f:10043,1335,Fund I,2013-07-30,75000000.0,http://skift.com/2013/07/30/room-77-founder-starts-75-million-venture-capital-fund-for-travel-and-internet-startups/
+f:6186,1336,Private Debt Fund IV LP,2013-10-07,387000000.0,http://www.pehub.com/2013/10/07/toronto-based-iam-closes-387-mln-fourth-private-debt-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:12859,1337,Levine Leichtman Capital Partners V LP,2013-07-29,1270000000.0,http://pevc.dowjones.com/Article?an=DJFLBO0020130729e97tpgczb&cid=32135028&ctype=ts&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2fArticle%3fan%3dDJFLBO0020130729e97tpgczb%26cid%3d32135028%26ctype%3dts
+f:874,1338,Fund III,2013-07-31,750000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/w-capital-closes-third-direct-secondaries-fund-on-750m-hard-cap.html?utm_source=twitterfeed&utm_medium=twitter
+f:8810,1339,NXT Capital Senior Loan Fund II,2013-07-31,783000000.0,http://www.pehub.com/2013/07/31/nxt-capital-closes-783-million-leveraged-loan-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:12860,1340,Found VIII,2013-07-31,248000000.0,http://news.silobreaker.com/private-equity-veteran-rfe-pulls-in-248m-for-biggestever-small-cap-vehicle-5_2266997954894102602
+f:874,1341,Fund II,2008-03-07,700000000.0,http://www.altassets.net/private-equity-news/w-capital-partners-closes-second-fund-on-700m.html
+f:6337,1342,"Rock Hill Capital II, LP",2013-08-01,87700000.0,http://www.pehub.com/2013/08/01/rock-hill-closes-second-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:3724,1343,CincyTech Fund III,2013-08-01,10900000.0,http://www.finsmes.com/2013/08/cincytech-closes-fund-iii-10-9m.html
+f:5957,1345,Fund III,2012-09-06,150000000.0,http://techcrunch.com/2012/09/06/thrive-capital-kushner/
+f:10808,1346,Fund I,2012-02-07,7000000.0,http://techcrunch.com/2013/08/01/initialized-capital-39m/
+f:10808,1347,Fund II,2013-08-01,39150000.0,http://techcrunch.com/2013/08/01/initialized-capital-39m/
+f:12877,1348,RCP Secondary Opportunity Fund II,2013-08-01,425000000.0,http://www.pehub.com/2013/08/01/rcp-advisors-raises-425-mln-secondary-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:6153,1353,FCA Venture Partners V,2013-08-02,53000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130802e982qo5ap&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130802e982qo5ap%26from%3dalert%26pid%3d32
+f:745,1354,Foundry Venture Capital Fund IV,2013-10-25,225000000.0,http://techcrunch.com/2013/10/25/foundry-group-raises-fourth-225m-fund-to-make-late-stage-growth-investments-in-the-firms-portfolio-companies/
+f:12949,1357,Fund VI,2013-08-06,2200000000.0,http://privatemarkets.thomsonreuters.com/olympus-up-to-$22b-on-fund-vi-close-to-finish/21100750.article?utm_term=%23privateequity+SUBS+ONLY&utm_source=twitterfeed&utm_medium=twitter
+f:12950,1358,Crescent Mezzanine Partners VI,2013-08-06,3400000000.0,http://www.businesswire.com/news/home/20130806005405/en/Crescent-Mezzanine-Fund-VI-Closes-3.4-Billion?utm_source=dlvr.it&utm_medium=twitter
+f:12957,1359,SBIC Fund LP,2013-08-06,230000000.0,http://www.pehub.com/2013/08/06/freeport-financial-direct-lending-fund-closes-230-mln/?utm_source=dlvr.it&utm_medium=twitter
+f:5599,1360,Cultivian Sandbox Food and Agriculture Fund II,2013-08-06,150000000.0,http://www.chicagobusiness.com/article/20130806/BLOGS11/130809891/sandbox-partners-up-on-a-150-million-ag-tech-fund
+f:12666,1363,Fund I,2013-08-07,181000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130807e987pptf2&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130807e987pptf2%26from%3dalert%26pid%3d32
+f:3040,1364,Resource Partners LP,2013-08-07,1500000000.0,http://www.pehub.com/2013/08/07/oregon-taps-reservoir-capital-for-new-1-5b-energy-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:10715,1366,Fund II,2013-08-08,107000000.0,http://www.finsmes.com/2013/08/sightline-partners-closes-107m-secondary-fund.html
+f:13000,1367,Onex Partners III,2013-08-08,4700000000.0,http://www.pehub.com/2013/08/08/onex-launches-4-5-billion-onex-partners-iv/?utm_source=dlvr.it&utm_medium=twitter
+f:13000,1368,Onex Partners IV,2013-08-08,1200000000.0,http://www.pehub.com/2013/08/08/onex-launches-4-5-billion-onex-partners-iv/?utm_source=dlvr.it&utm_medium=twitter
+f:3652,1369,Fund VI,2013-08-08,160000000.0,http://www.pedaily.cn/Item.aspx?id=219419
+f:12990,1372,DLM Brazil IT Fund,2012-11-01,100000000.0,http://www.valor.com.br/financas/2951440/gestora-capta-fundo-com-foco-no-setor-de-tecnologia
+f:13031,1374,fund I,2013-08-12,1250000.0,http://www.finsmes.com/2013/08/wiser-capital-raises-1-25m-financing.html
+f:13041,1375,Fund II,2013-08-13,0.0,http://canadianprivateequity.com/waterton-holds-initial-close-for-wateron-precious-metals-fund-ii/2013/08/12/?utm_content=buffer84b25&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer
+f:13048,1376,Fund V,2013-08-13,575000000.0,http://www.pehub.com/2013/08/13/atalaya-capital-management-raises-575-mln-fifth-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:13058,1377,Fund III,2013-08-14,301000000.0,http://www.finsmes.com/2013/08/incline-equity-partners-closes-fund-iii-301m.html
+f:563,1387,pan-Asian fund IV,2013-08-13,1500000000.0,http://www.penews.com/today/index/rss/content/4072486315/restricted
+f:7784,1391,Fund II,2013-08-19,116000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130819e98jssqwy&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130819e98jssqwy%26from%3dalert%26pid%3d32
+f:2250,1392,Asia Life Science Fund,2013-08-18,0.0,http://www.bioportfolio.com/news/article/1602994/Week-in-Review-OrbiMed-Announces-300-Million-Asia-Life-Science-Fund.html?utm_source=dlvr.it&utm_medium=twitter
+f:1619,1395,Fund III,2013-08-20,20000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130820e98kr1nzw&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130820e98kr1nzw%26from%3dalert%26pid%3d32
+f:2535,1396,"Silver Lake Kraftwerk Fund, L.P.",2013-08-20,653500000.0,http://www.pehub.com/2013/08/20/silver-lake-kraftwerk-raises-653-5m-for-its-cleantech-fund/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pehub%2Fblog+%28PE+HUB+Blog%29
+f:5128,1398,Brookfield Timberlands Fund V L.P.,2013-08-21,1000000000.0,http://www.pehub.com/2013/08/21/brookfields-fifth-timberlands-fund-raises-1-bln/?utm_source=dlvr.it&utm_medium=twitter
+f:13155,1399,"Seattle Angel Conference I, LLC",2012-03-08,100000.0,http://ceklog.kindel.com/2012/06/01/congrats-to-the-seattle-angel-conference-and-illumagear/
+f:13155,1400,"Seattle Angel Conference II, LLC",2012-12-13,150000.0,http://www.seattleangelconference.com/2012/12/exo-labs-winner-of-2nd-seattle-angel.html
+f:13155,1401,"Seattle Angel Conference III, LLC",2013-05-16,165000.0,http://www.seattleangelconference.com/2013/05/startup-dailydollar-winner-of-third.html
+f:122,1408,Alsop Louie Partner Funnd III,2013-08-22,100000000.0,http://www.pehub.com/2013/08/22/alsop-louie-raising-100m-fund-iii/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pehub%2Fblog+%28PE+HUB+Blog%29
+f:13212,1410,Asia Capital Fund I,2013-08-23,263000000.0,http://www.finsmes.com/2013/08/kv-asia-capital-closed-pe-fund-us263m.html
+f:13213,1411,Small-Cap Fund,2013-08-22,63200000.0,http://pevc.dowjones.com/article?an=DJFLBO0020130822e98mj6khu&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020130822e98mj6khu%26from%3dalert%26pid%3d22
+f:1190,1413,"Harbert Power Fund V, LLC",2013-08-23,200000000.0,http://www.pehub.com/2013/08/23/harbert-power-fund-v-targets-500-mln/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pehub%2Fnews%2Fall+%28PEHub+News%29
+f:13271,1414,AMP Capital Infrastructure Debt Fund II,2013-08-26,300000000.0,http://blogs.wsj.com/moneybeat/2013/08/26/amp-capital-raises-300-million-for-infrastructure-debt-fund/
+f:6885,1415,GenNx360 Capital Partners II LP,2013-08-26,346900000.0,http://pevc.dowjones.com/article?an=DJFLBO0020130826e98qo0rgj&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020130826e98qo0rgj%26from%3dalert%26pid%3d22
+f:2429,1416,Fund-II,2013-09-04,155000000.0,http://www.vccircle.com/news/alternative-investment/2013/09/04/motilal-oswal-pe-makes-final-close-second-fund-155m
+f:13132,1418,Cultivation Capital,2013-08-01,0.0,http://blogs.wsj.com/venturecapital/2013/08/26/square-co-founder-mckelvey-starts-st-louis-financial-services-accelerator-sixthirty/
+f:13358,1420,Armstrong South East Asia Clean Energy Fund,2013-09-02,130000000.0,http://www.pehub.com/2013/09/02/armstrong-fund-raises-130m-third-closing/?utm_source=dlvr.it&utm_medium=twitter
+f:2345,1422,Pharos Capital Partners III LP,2013-09-03,400000000.0,http://blogs.wsj.com/privateequity/2013/09/03/the-morning-leverage-pharos-passes-400m-goal-for-fund-iii/?mod=WSJBlog
+f:4116,1423,GSO Capital Solutions Fund II LP,2013-09-03,5000000000.0,http://www.pehub.com/2013/09/03/blackstones-gso-capital-partners-raises-5-bln-second-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:3881,1424,TechOperators II,2013-03-29,100000000.0,http://www.bizjournals.com/atlanta/print-edition/2013/03/29/techoperators-aims-at-100m-venture-fund.html
+f:9506,1426,Investment Fund,2013-09-02,6000000.0,http://upstart.bizjournals.com/money/loot/2013/09/02/monday-former-moneyball-analyst.html
+f:13402,1428,Mining Fund,2013-09-04,85000000.0,http://www.pehub.com/2013/09/04/resources-capital-partners-raises-85-mln-mining-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:4153,1430,WestView Capital Partners III LP,2013-09-04,430000000.0,http://privatemarkets.thomsonreuters.com/buyouts/westview-capital-oversubscribed-on-$430m-fund-iii/21105496.article
+f:13425,1432,Energy Trust Partners Fund IV,2013-09-05,600000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/energy-trust-partners-passes-25-mark-raising-600m-fund-iv.html?utm_source=twitterfeed&utm_medium=twitter
+f:29,1433,Dorm Room Fund,2013-09-05,2000000.0,http://techcrunch.com/2013/09/05/first-rounds-student-run-dorm-room-fund-has-backed-20-startups-adds-entrepreneur-ras-as-advisors/
+f:13434,1434,Hamilton Lane Secondary Fund III LP,2013-09-05,900000000.0,http://www.pehub.com/2013/09/05/hamilton-lane-raises-900-mln-third-secondary-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:2468,1435,Sanderling Ventures VII Fund,2013-09-05,30000000.0,http://canadianprivateequity.com/bdc-and-fonds-de-solidarite-commit-to-sanderling-ventures-vii/2013/09/05/?utm_source=buffer&utm_campaign=Buffer&utm_content=bufferb845f&utm_medium=twitter
+f:8852,1436,BSP Fund,2013-09-05,20000000.0,http://www.nextbillion.net/newspost.aspx?newsid=4863
+f:12706,1437,Quadria Capital Fund II,2013-09-06,107000000.0,http://www.pehub.com/2013/09/06/quadria-capital-fund-ii-so-far-raises-107-mln/?utm_source=dlvr.it&utm_medium=twitter
+f:11990,1439,Natural resources-focused fund,2013-09-05,507000000.0,http://pevc.dowjones.com/article?an=DJFLBO0020130905e995nd76q&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020130905e995nd76q%26from%3dalert%26pid%3d22
+f:518,1440,Fund II,2007-03-08,400000000.0,http://www.venturedeal.com/News/2007/3/8/Scale%20VP%20Closes%20Fund%20II%20At%20$400%20Million
+f:13458,1441,Buenaventura Fund LP,2013-09-06,3000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130906e996nq0xp&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130906e996nq0xp%26from%3dalert%26pid%3d32
+f:13468,1442,Drug Royalty III private equity fund,2013-09-09,1450000000.0,http://www.pehub.com/2013/09/09/dri-raises-1-45-bln-third-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:13484,1444,Lombard Asia IV L.P,2013-09-10,350000000.0,http://www.pehub.com/2013/09/10/lombard-closed-fourth-asia-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:1,1446,Greylock Fund XII,2005-11-14,500000000.0,http://www.bizjournals.com/boston/blog/mass-high-tech/2005/11/greylock-locks-up-12th-fund-at-500m.html
+f:7436,1447,Fund II,2011-06-10,150000000.0,http://pevc.dowjones.com/article?pid=32&an=DJFVW00020110531e7610015p&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fpid%3d32%26an%3dDJFVW00020110531e7610015p
+f:13497,1448,Fund I,2013-09-09,720000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130909e999asdmg&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130909e999asdmg%26from%3dalert%26pid%3d22
+f:12809,1450,Napier Park Railcar Lease Fund,2013-09-11,370000000.0,http://www.pehub.com/2013/09/11/napier-park-closes-370mln-railcar-lease-fund/
+f:1928,1451,FUND III,2013-09-11,31500000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/cdh-venture-partners-raises-31-5m-for-third-fund.html?utm_source=twitterfeed&utm_medium=twitter
+f:13540,1454,Fund I,2013-09-12,175000000.0,http://dealbook.nytimes.com/2013/09/12/morgenthaler-partners-hang-out-a-shingle-with-175-million-fund/?smid=tw-dealbook&seid=auto&_r=0
+f:2178,1456,FUND II,2013-09-12,37000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130912e99cszppm&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130912e99cszppm%26from%3dalert%26pid%3d32
+f:13552,1457,Debut buyout fund,2013-09-12,400000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/koreas-anchor-equity-raised-rapid-400m-for-debut-fund.html
+f:792,1458,Carlyle Partners VI,2013-11-25,13000000000.0,http://www.businesswire.com/news/home/20131125005375/en/Carlyle-Group-Closes-Carlyle-Partners-VI-13
+f:1834,1462,Fund VII,2013-09-16,47000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130916e99gsnacn&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130916e99gsnacn%26from%3dalert%26pid%3d32
+f:13628,1463,IPCP Florida Realty Value Fund I,2013-09-16,22000000.0,http://www.dailybusinessreview.com/PubArticleDBR.jsp?id=1202619428011&IP_Capital_Partners_Raises_More_Than_22_Million&slreturn=20130817030138
+f:3691,1464,Health-Care Fund,2013-09-16,80000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130916e99gqrbue&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130916e99gqrbue%26from%3dalert%26pid%3d32
+f:2623,1465,India Infrastructure Fund II,2013-09-17,644000000.0,http://www.dealcurry.com/20130917-IDFC-Alternative-Raises-Funds-For-Its-IIF-II.htm
+f:12535,1467,Woodward Corridor Investment Fund,2013-09-17,30250000.0,http://www.mlive.com/business/detroit/index.ssf/2013/09/kresge_foundation_announces_30.html
+f:13660,1468,Bison Capital Partners IV,2013-09-18,218000000.0,http://www.pehub.com/2013/09/18/bison-capital-reaches-final-close-fund-iv/
+f:3885,1469,Catterton Growth Partners II,2013-09-18,400000000.0,http://www.pehub.com/2013/09/18/catterton-partners-closes-2-1-bln-total-two-funds/?utm_source=dlvr.it&utm_medium=twitter
+f:13667,1470,Fund I,2013-09-18,50000000.0,http://pevc.dowjones.com/article?an=DJFVW00020130918e99iqm24y&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020130918e99iqm24y%26from%3dalert%26pid%3d32
+f:13676,1471,Accolade Partners IV,2013-09-19,150000000.0,http://www.finsmes.com/2013/09/accolade-partners-closes-fourth-fund-funds-150m.html
+f:12709,1472,"Tricon XI, L.P",2013-09-19,0.0,http://canadianprivateequity.com/tricon-secures-additional-135m-for-tricon-xi/2013/09/19/?utm_content=buffer75827&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer
+f:13726,1477,Imperial Capital Acquisition Fund V,2013-09-23,250000000.0,http://canadianprivateequity.com/imperial-capital-raises-over-250m-for-5th-fund/2013/09/23/?utm_source=buffer&utm_campaign=Buffer&utm_content=buffere3b20&utm_medium=twitter
+f:11437,1478,Peak Rock Capital Fund LP,2013-09-24,700000000.0,http://www.pehub.com/2013/09/24/peak-rock-capital-raises-700-mln-initial-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:5775,1479,Foundation Fund II,2013-09-24,1000000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/vista-equity-partners-set-to-close-foundation-fund-ii-on-nearly-1bn.html
+f:1964,1480,CTV Fund V,2013-09-24,90000000.0,http://www.finsmes.com/2013/09/chevron-technology-ventures-launches-90m-venture-capital-fund.html
+f:13747,1481,"Mill Road Capital II, L.P",2013-12-04,420000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/mill-road-capital-raises-420m-for-second-fund.html
+f:6433,1484,Seventh FundBrynwood Partners VII LP,2013-09-25,400000000.0,http://privatemarkets.thomsonreuters.com/buyouts/consumer-shop-brynwood-partners-vii-fund-reaches-$400m-hard-cap-in-one-close/21109671.article?utm_term=%23privateequity+SUBS+ONLY&utm_source=twitterfeed&utm_medium=twitter
+f:13729,1488,Stonehenge Growth Equity Fund I,2013-09-25,40000000.0,http://www.pehub.com/2013/09/25/stonehenge-growth-equity-partners-receives-40-mln-new-vc-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:5811,1489,ENIAC II: Mobile Focused Fund,2013-09-26,12900000.0,http://techcrunch.com/2013/09/26/eniac-ventures-debuts-second-12-9m-fund-to-back-mobile-first-startups/
+f:3738,1490,Birchmere Ventures High Yield Fund,2013-09-26,3000000.0,http://www.bizjournals.com/pittsburgh/news/2013/09/26/birchmere-advisors-closes-on-3m.html?ana=twt
+f:13818,1492,Fund II,2013-09-27,40000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/cotton-creek-chugs-to-82m-for-second-fund-still-well-short-of-200m-target.html
+f:979,1496,"PEER Ventures Group IV, L.P.",2013-05-30,36647200.0,http://www.sec.gov/Archives/edgar/data/1587813/000158781313000002/xslFormDX01/primary_doc.xml
+f:1747,1498,Frazier Healthcare VI,2007-11-29,600000000.0,http://www.altassets.net/private-equity-news/life-science-fund-frazier-healthcare-vi-closes-on-600m.html
+f:13895,1499,Adveq Secondaries II fund,2013-10-01,175000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/adveq-secondary-fund-closes-on-175m-hard-cap.html
+f:155,1500,SAP Ventures Fund I,2013-10-02,353000000.0,http://news.yahoo.com/sap-launches-650-million-fund-highlights-corporate-venture-080348270--sector.html?utm_source=twitterfeed&utm_medium=twitter
+f:155,1501,SAP Ventures Fund II,2013-10-02,650000000.0,http://www.finsmes.com/2013/10/sap-ventures-raises-650m-fund.html
+f:13906,1502,"Leeds Novamark Capital I, L.P.",2013-10-02,130000000.0,http://www.pehub.com/2013/10/02/leeds-novamark-raises-130m/?utm_source=dlvr.it&utm_medium=twitter
+f:13908,1503,Fund I,2013-10-01,1000000000.0,http://realdeals.eu.com/article/44753-pai-raises-1bn-towards-latest-fund
+f:13927,1506,Agribusiness & Food Fund,2013-10-03,173400000.0,http://www.pehub.com/2013/10/03/aqua-capital-closes-173-4-mln-agribusiness-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:13956,1507,"Origin Capital Fund II, LLC",2013-10-04,100000000.0,http://www.pehub.com/2013/10/04/origin-capital-launches-100-mln-fund-ii/?utm_source=dlvr.it&utm_medium=twitter
+f:2174,1508,Ohio TechAngel Fund IV,2013-09-19,1710000.0,http://www.sec.gov/Archives/edgar/data/1588290/000158829013000001/xslFormDX01/primary_doc.xml
+f:13995,1510,Catalyst Fund Limited Partnership IV,2013-10-07,812000000.0,http://www.pehub.com/2013/10/07/catalyst-fund-limited-partnership-iv-reaches-final-close/?utm_source=dlvr.it&utm_medium=twitter
+f:8881,1512,BVIP Fund VIII LP,2013-10-07,208900000.0,http://pevc.dowjones.com/article?an=DJFLBO0020131007e9a7pscgf&from=alert&pid=15&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020131007e9a7pscgf%26from%3dalert%26pid%3d15
+f:14017,1514,32 Degrees Diversified Energy Fund II,2013-10-07,84600000.0,http://www.prnewswire.com/news-releases/32-degrees-capital-announces-final-close-of-diversified-energy-fund-ii-226786201.html
+f:6855,1515,Pamlico Capital III,2013-10-08,650000000.0,http://www.businesswire.com/news/home/20131008005499/en/Pamlico-Capital-Closes-650-Million-Pamlico-Capital
+f:5832,1516,"Lime Rock Resources III, L.P.",2013-10-08,750000000.0,http://www.pehub.com/2013/10/08/lime-rock-raises-750-mln-third-resources-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:1973,1518,Abingworth Bioventures VI,2013-10-10,205000000.0,http://pevc.dowjones.com/article?an=DJFVW00020131009e9a9rx6yg&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020131009e9a9rx6yg%26from%3dalert%26pid%3d32
+f:14077,1521,Crow Holdings Realty Partners Fund Vi,2013-10-10,1067000000.0,http://www.pehub.com/2013/10/10/crow-holdings-capital-partners-closes-1-bln-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:14081,1522,Catalyst Fund Limited Partnership IV,2013-10-07,812000000.0,http://www.ivcpost.com/articles/16085/20131007/atlantic-pacific-capital-closes-catalyst-fund-iv.htm
+f:14092,1525,Quantum Valley Fund,2013-03-19,100000000.0,http://quantumvalleyinvestments.com/media/
+f:12715,1528,Inaugural fund,2013-10-11,540000000.0,http://www.pehub.com/2013/10/11/mithril-capital-management-closes-540-mln-debut-fund-wsj/?utm_source=dlvr.it&utm_medium=twitter
+f:13232,1529,Pomona Capital VIII,2013-10-14,1140000000.0,http://pevc.dowjones.com/article?an=DJFLBO0020131011e9aboxp7z&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020131011e9aboxp7z%26from%3dalert%26pid%3d22
+f:7625,1533,Fund III,2013-10-14,20000000.0,http://www.finsmes.com/2013/10/fenox-venture-capital-holds-close-fund-20m.html
+f:131,1536,CommonAngels Ventures Fund IV,2013-10-15,11200000.0,http://pevc.dowjones.com/article?an=DJFVW00020131015e9afrxleu&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020131015e9afrxleu%26from%3dalert%26pid%3d32
+f:5928,1537,"500 Startups III, L.P.",2013-10-15,0.0,http://www.sec.gov/Archives/edgar/data/1588078/000158807813000002/xslFormDX01/primary_doc.xml
+f:3551,1538,Javelin Venture Partners Fund III,2013-10-16,125000000.0,http://techcrunch.com/2013/10/16/early-stage-vc-firm-javelin-venture-partners-raises-125m-for-third-fund/
+f:6330,1540,ASF V,2013-10-17,750000000.0,http://www.avcj.com/avcj/news/2301154/alpinvest-holds-usd750m-final-close-on-secondaries-fund-v
+f:14186,1541,Debut Private Equity Fund,2013-10-17,200000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/consonance-capital-moves-to-200m-mark-for-debut-private-equity-fundraise.html
+f:2140,1542,"5AM Ventures IV, L.P.",2013-12-03,250000000.0,http://5amventures.com/press/5am-ventures-raises-250-million-life-science-venture-capital-fund/
+f:14177,1543,Vermont Seed Capital Fund,2010-05-10,5000000.0,http://vermonttechnologies.com/capital/
+f:446,1546,Clover Fund LP,2013-10-21,7000000.0,http://pandodaily.com/news/felicis-ventures-raises-new-7m-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:2253,1547,Versant Venture Capital V,2013-10-21,250000000.0,http://newsle.com/article/0/98869202/
+f:8506,1549,Fund II,2013-10-22,550000000.0,http://privatemarkets.thomsonreuters.com/aurora-resurgence-raises-$550-mln-for-fund-ii/21114708.article?utm_term=%23privateequity+SUBS+ONLY&utm_source=twitterfeed&utm_medium=twitter
+f:1469,1553,Growth Equity Fund II,2013-10-23,580000000.0,http://www.finsmes.com/2013/10/north-bridge-growth-equity-closes-fund-580m.html
+f:2853,1554,PTV Special Opportunities I,2013-10-23,24700000.0,http://www.bizjournals.com/austin/blog/techflash/2013/10/ptv-sciences-raises-247m-fund.html?ana=twt
+f:14313,1556,SparkLabs Global Seed-Stage Fund,2013-10-24,30000000.0,http://techcrunch.com/2013/10/24/sparklabs-launches-30m-global-seed-stage-fund-with-ex-facebooker-net-jacobsson-and-former-horizons-vc-frank-meehan/
+f:3169,1558,Crescent III,2013-10-25,0.0,http://www.crescentcapital.co.uk/2013/10/23/crescents-third-vc-fund-ready-to-fly/
+f:14373,1561,Resolute Fund III,2013-10-25,1100000000.0,http://www.pehub.com/2013/10/25/the-jordan-company-hits-1-1-bln-first-close-fund-iii/
+f:14381,1565,Samara Capital Fund II,2013-10-28,150000000.0,http://pevc.dowjones.com/article?an=DJFLBO0020131028e9asbxsxv&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020131028e9asbxsxv%26from%3dalert%26pid%3d22
+f:14382,1566,Fund I,2013-10-28,650000000.0,http://www.pehub.com/2013/10/28/pe-fund-manager-grove-street-advisors-raises-650-mln/?utm_source=dlvr.it&utm_medium=twitter
+f:14386,1569,Real Estate Fund,2013-10-29,716000000.0,http://www.pehub.com/2013/10/29/gtis-partners-closes-residential-real-estate-fund-716-mln/?utm_source=dlvr.it&utm_medium=twitter
+f:14387,1570,Vopne Capital Fund I,2013-10-29,20000000.0,http://www.pehub.com/2013/10/29/vopne-capital-raises-20-mln-fund-i/?utm_source=dlvr.it&utm_medium=twitter
+f:14411,1571,Fund IV,2013-10-30,1025000000.0,http://in.reuters.com/article/2013/10/30/idINL3N0IK0J820131030
+f:5128,1572,Brookfield Infrastructure Fund II,2013-10-30,7000000000.0,http://www.pehub.com/2013/10/30/brookfield-asset-management-closes-7-billion-second-infrastructure-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:13274,1577,Gobi ASEAN Fund,2010-01-01,0.0,http://www.gobivc.com/funds#gobi_asean fund
+f:13274,1578,Gobi Fund I,2005-01-01,51750000.0,http://www.gobivc.com/funds#gobi_fund i
+f:13274,1579,Gobi Fund II,2008-01-01,151000000.0,http://www.gobivc.com/funds#gobi_fund ii
+f:13274,1580,Gobi HiTech Fund,2007-01-01,0.0,http://www.gobivc.com/funds#gobi_hitech fund
+f:13274,1581,Gobi Yingzhi Fund,2012-01-01,0.0,http://www.gobivc.com/funds#gobi_yingzhi fund
+f:13725,1582,NovaQuest Pharma Opportunities Fund III,2013-10-31,459000000.0,http://www.pehub.com/2013/10/31/novaquest-closes-third-pharma-fund-459-mln/?utm_source=dlvr.it&utm_medium=twitter
+f:12639,1583,FLAG Private Equity V LP,2013-10-30,217300000.0,http://pevc.dowjones.com/article?an=DJFLBO0020131030e9aunnz2v&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020131030e9aunnz2v%26from%3dalert%26pid%3d22
+f:4220,1584,Maranon Senior Credit Fund II,2013-10-31,330000000.0,http://www.pehub.com/2013/10/31/maranon-capital-closes-330-mln-second-credit-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:903,1586,DFJ Mercury Fund III,2013-10-31,125000000.0,http://pevc.dowjones.com/article?an=DJFVW00020131031e9avotunk&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020131031e9avotunk%26from%3dalert%26pid%3d32
+f:2250,1587,"OrbiMed Private Investments V, LP",2013-11-01,735000000.0,http://www.pehub.com/2013/11/01/orbimed-closes-fund-v-735-mln/?utm_source=dlvr.it&utm_medium=twitter
+f:6566,1592,Fund II,2013-11-05,35000000.0,http://pandodaily.com/news/pivotnorth-raise-35m-second-fund-to-target-early-stage-deals/?utm_source=dlvr.it&utm_medium=twitter
+f:12720,1593,Fund II,2013-11-06,11400000.0,http://oresundstartups.com/spintop-ventures-secures-second-round-financing-100-million-dollars/
+f:13408,1594,Icon Venture Partners I,2013-11-06,100000000.0,http://www.finsmes.com/2013/11/icon-venture-partners-closes-100m-inaugural-fund.html
+f:244,1595,MentorTech Ventures III,2013-11-06,24235000.0,http://www.sec.gov/Archives/edgar/data/1524124/000114420413057995/xslFormDX01/primary_doc.xml
+f:5095,1596,Secondaries Fund,2013-11-06,206000000.0,http://www.pehub.com/2013/11/06/toronto-based-northleaf-capital-partners-raises-206-mln-secondaries-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:6877,1597,Fund III,2013-11-07,50000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/hastings-equity-partners-raises-50m-for-third-fund.html?utm_source=twitterfeed&utm_medium=twitter
+f:1368,1598,Silverton Partners IV,2013-11-07,75000000.0,http://pevc.dowjones.com/article?an=DJFVW00020131107e9b7arcmz&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020131107e9b7arcmz%26from%3dalert%26pid%3d32
+f:7915,1600,Fund VIII,2013-11-07,12000000000.0,http://privatemarkets.thomsonreuters.com/buyouts/apollo-investment-fund-viii-confirmed-at-$12b-no-detail-on-target/21118116.article?utm_term=%23privateequity+SUBS+ONLY&utm_source=twitterfeed&utm_medium=twitter
+f:13898,1602,debut fund,2013-11-08,540000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/kedaara-capital-closes-debut-fund-on-540m-hard-cap.html?utm_source=twitterfeed&utm_medium=twitter
+f:6719,1605,Pure Michigan Venture Development Fund,2013-11-10,2250000.0,http://www.semichiganstartup.com/InTheNews/detroitventurepartnerspuremichigan102913.aspx?utm_source=VerticalResponse&utm_medium=Email&utm_term=Detroit+Venture+Partners+scores+$2.25M+from+Pure+Michigan&utm_content={Email_Address}&utm_campaign=Community+Inv
+f:14587,1606,Maiden Investment Fund,2013-11-11,8000000.0,http://www.vccircle.com/news/alternative-investment/2013/11/11/unicap-eyes-first-close-maiden-msme-focused-fund-8m-four
+f:8375,1608,NB Secondary Opportunities Fund III LP,2013-11-11,2000000000.0,http://www.pehub.com/2013/11/11/neuberger-berman-closes-2-bln-third-pe-secondary-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:14605,1610,Merced Partners IV,2013-11-12,800000000.0,http://www.finsmes.com/2013/11/ebf-associates-closes-fund-800m.html
+f:390,1611,FirstMark III,2013-11-12,225000000.0,http://techcrunch.com/2013/11/12/early-aereo-pinterest-backer-firstmark-capital-raises-225m-for-its-third-fund/
+f:6242,1613,Panther II,2013-11-12,205000000.0,http://www.altassets.net/private-equity-news/by-news-type/deal-news/kayne-anderson-invests-205m-in-oil-and-gas-group-panther-ii.html
+f:1811,1617,Inventus Capital Partners Fund II,2013-11-13,100000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/inventus-capital-partners-nears-final-close-for-100m-second-fund.html
+f:10566,1618,Vine Street Ventures Fund I,2012-09-01,0.0,http://www.bizjournals.com/cincinnati/news/2012/12/12/brandery-founders-raise-14m-to.html
+f:14643,1619,Asia Japan-Focused Real Estate Fund,2013-11-14,1500000000.0,http://blogs.wsj.com/moneybeat/2013/11/15/pag-capital-raises-1-5-billion-asia-fund/
+f:12305,1621,Wing Strategic Partners,2013-11-17,12900000.0,http://www.sec.gov/Archives/edgar/data/1579716/000157971613000001/xslFormDX01/primary_doc.xml
+f:7430,1622,Romulus Capital II,2013-11-15,42235000.0,http://www.sec.gov/Archives/edgar/data/1562213/000156221713000001/xslFormDX01/primary_doc.xml
+f:510,1623,Own Venture Fund,2013-11-18,40000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/hummer-winblad-md-gorenberg-launches-40m-venture-fund.html?utm_source=twitterfeed&utm_medium=twitter
+f:14694,1626,Zetta Venture Partners I,2013-11-18,0.0,http://www.sec.gov/Archives/edgar/data/1592109/000157311913000001/xslFormDX01/primary_doc.xml
+f:7833,1629,second growth fund,2013-11-19,255000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/level-equity-raises-255m-for-second-growth-fund.html?utm_source=twitterfeed&utm_medium=twitter
+f:5733,1639,Micro VC Fund,2013-11-20,20000000.0,http://vator.tv/news/2013-11-20-illuminate-ventures-raises-20m-for-new-fund
+f:14727,1640,Mines And Minerals Private Equity Fund,2013-11-20,200000000.0,http://www.pehub.com/2013/11/20/exhilway-global-raises-200-mln-mines-mineral-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:13155,1641,"Seattle Angel Conference IV, LLC",2013-11-20,205000.0,http://www.seattleangelconference.com/2013/11/startup-booktrope-is-winner-of-fourth.html
+f:7137,1646,Fund I,2011-03-11,20000000.0,http://www.sec.gov/Archives/edgar/data/1459390/000145939011000001/xslFormDX01/primary_doc.xml
+f:14759,1647,Nexxus Capital VI,2013-11-21,550000000.0,http://pevc.dowjones.com/article?an=DJFLBO0020131121e9blifma4&from=alert&pid=15&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFLBO0020131121e9blifma4%26from%3dalert%26pid%3d15
+f:7364,1648,Atlas Capital Resources II LP,2013-11-22,900000000.0,http://pevc.dowjones.com/Article?an=DJFLBO0020131122e9bmbh72d&cid=32135011&ctype=ts&pid=15&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2fArticle%3fan%3dDJFLBO0020131122e9bmbh72d%26cid%3d32135011%26ctype%3dts%26pid%3d15
+f:45,1649,USV 2014 LP,2013-11-21,150000000.0,http://blogs.wsj.com/venturecapital/2013/11/21/the-daily-startup-union-square-ventures-raises-pair-of-new-funds/
+f:45,1650,USV Opportunity 2014 LP,2013-11-21,150000000.0,http://blogs.wsj.com/venturecapital/2013/11/21/the-daily-startup-union-square-ventures-raises-pair-of-new-funds/
+f:5233,1651,ff Rose Venture Capital Fund,2013-11-25,31335000.0,http://pevc.dowjones.com/article?an=DJFVW00020131125e9bposn62&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020131125e9bposn62%26from%3dalert%26pid%3d32
+f:2186,1653,Capital Factory IV,2013-11-26,550000.0,http://www.sec.gov/Archives/edgar/data/1592303/000159230313000001/xslFormDX01/primary_doc.xml
+f:1399,1654,Fund I,2013-11-27,145000000.0,http://www.techcentral.co.za/convergence-launches-145m-telecoms-fund/45293/
+f:2418,1655,FTV IV LP,2013-11-27,365000000.0,http://pevc.dowjones.com/article?an=DJFVW00020131127e9bro25n7&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020131127e9bro25n7%26from%3dalert%26pid%3d32
+f:5544,1656,GTCR FUND XI/B LP,2013-11-27,2672560000.0,http://www.sec.gov/Archives/edgar/data/1591435/000159143513000001/xslFormDX01/primary_doc.xml
+f:118,1657,Artis Ventures II,2013-11-27,0.0,http://pevc.dowjones.com/article?an=DJFVW00020131127e9brnumcj&from=alert&pid=22&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020131127e9brnumcj%26from%3dalert%26pid%3d22
+f:6338,1658,Omnivore Capital 1,2010-01-01,40.0,http://www.business-standard.com/article/companies/omnivore-capital-fund-raising-on-track-for-december-closure-112102100055_1.html
+f:6338,1659,Omnivore Capital 1,2010-01-01,40000000.0,http://articles.economictimes.indiatimes.com/2012-10-21/news/34627733_1_venture-fund-godrej-agrovet-portfolio-companies
+f:9768,1662,Fund I,2011-01-13,350000.0,http://www.sec.gov/Archives/edgar/data/1508701/000150870111000001/xslFormDX01/primary_doc.xml
+f:14506,1663,The Vantage GreenX Fund,2013-12-02,215000000.0,http://www.ventures-africa.com/2013/12/vantage-capital-launches-215m-fund-for-green-energy-investment/?utm_campaign=business&utm_medium=twitter&utm_source=twitter
+f:14935,1669,"WindSail Credit Fund, L.P.",2013-12-02,20415000.0,http://www.sec.gov/Archives/edgar/data/1591566/000159156613000002/xslFormDX01/primary_doc.xml
+f:14936,1670,Energy Fund XVI,2013-12-02,6000000000.0,http://www.pehub.com/2013/12/eig-raises-6-bln-for-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:1170,1672,Industry Ventures Secondary VII,2013-12-04,425000000.0,http://www.pehub.com/2013/12/industry-ventures-closes-425-mln-secondary-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:8590,1673,Hoxton Ventures Fund I,2013-12-04,40000000.0,http://techcrunch.com/2013/12/04/hoxton-ventures/
+f:1170,1675,Special Opportunities Fund,2013-12-04,200000000.0,http://www.altassets.net/private-equity-news/by-news-type/fund-news/industry-ventures-raises-625m-for-two-funds.html?utm_source=twitterfeed&utm_medium=twitter
+f:9084,1676,Vitruvian Investment Partnership II,2013-12-05,1600000000.0,http://techcrunch.com/2013/12/05/just-eat-investor-vitruvian-raises-1-billion-for-second-fund-to-further-focus-on-growth-tech/
+f:14995,1680,Tank Stream Ventures Fund I,2013-10-01,20000000.0,http://www.startupsmart.com.au/financing-a-business/tank-stream-ventures-raising-20-million-fund-to-invest-in-over-30-start-ups/2013102210990.html
+f:48,1681,Benchmark Capital Partners VIII LP,2013-12-06,425000000.0,http://techcrunch.com/2013/12/06/uber-and-twitter-backer-benchmark-closes-eighth-425m-fund/
+f:14245,1685,High Road Capital Partners Fund II,2013-12-09,320000000.0,http://www.pehub.com/2013/12/286625/?utm_source=dlvr.it&utm_medium=twitter
+f:12856,1686,Partners Capital Condor Fund VII,2013-12-09,300000.0,http://www.sec.gov/Archives/edgar/data/1588933/000158893313000002/xslFormDX01/primary_doc.xml
+f:6384,1687,Novacap TMT IV LP,2013-12-09,250000000.0,http://www.pehub.com/canada/2013/12/09/riding-high-novacap-technologies-raises-north-of-250-mln-for-first-close-of-fund-iv/?utm_source=buffer&utm_campaign=Buffer&utm_content=bufferd7ac7&utm_medium=twitter
+f:2711,1690,Actis Energy 3,2013-12-09,1150000000.0,http://www.pehub.com/2013/12/actis-raises-over-1-bln-for-third-energy-fund/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pehub%2Fblog+%28PE+HUB+Blog%29
+f:15046,1691,CCP Fund I LLC,2013-12-09,40000000.0,http://www.pehub.com/2013/12/convergent-capital-partners-closes-40-mln-for-fund/?utm_source=dlvr.it&utm_medium=twitter
+f:15050,1692,SJC II,2013-12-10,1500000000.0,http://www.pehub.com/2013/12/czech-asset-management-closes-second-direct-lending-fund/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pehub%2Fblog+%28PE+HUB+Blog%29
+f:7025,1695,H.I.G. Middle Market LBO Fund II LP,2013-12-10,1600000000.0,http://pevc.dowjones.com/Article?an=DJFLBO0020131210e9cabjj0x&cid=32135028&ctype=ts&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2fArticle%3fan%3dDJFLBO0020131210e9cabjj0x%26cid%3d32135028%26ctype%3dts
+f:15068,1696,Fund II,2013-12-11,350000000.0,http://www.altassets.net/private-equity-news/by-news-type/deal-news/south-koreas-vogo-raises-350m-for-fund-ii-eyes-final-close-next-year.html?utm_source=twitterfeed&utm_medium=twitter
+f:101,1697,Fund V,2013-12-11,150000000.0,http://pevc.dowjones.com/article?an=DJFVW00020131211e9cbaojpt&from=alert&pid=32&ReturnUrl=http%3a%2f%2fpevc.dowjones.com%2farticle%3fan%3dDJFVW00020131211e9cbaojpt%26from%3dalert%26pid%3d32
+f:7331,1698,JANVEST Technologies LP I,2013-03-19,5.0,http://www.globes.co.il/serveen/globes/docview.asp?did=1000830978
+f:7791,1699,Fund II,2013-12-11,5000000.0,http://www.bizjournals.com/portland/blog/2013/12/portland-seed-fund-has-5m-and-ready.html?ana=twt
+f:15091,1700,Fund I,2013-12-11,1100000.0,http://bizbeatblog.dallasnews.com/2013/12/dallas-angel-network-closes-1-million-investment-fund-and-inks-first-deal.html/
+f:5920,1701,Rochester Angel Fund,2013-12-12,2300000.0,http://www.rbjdaily.com/article.asp?aID=204869
