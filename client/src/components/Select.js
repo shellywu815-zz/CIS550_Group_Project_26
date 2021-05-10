@@ -14,7 +14,7 @@ export default class BestMovies extends React.Component {
 			decades: [],
 			genres: [],
 			movies: [],
-			selectedFund: "",
+			selectedFund: "Sequoia",
 			funds: [],
 			btn: ""
 		};
@@ -26,7 +26,6 @@ export default class BestMovies extends React.Component {
 		this.submitFund = this.submitFund.bind(this);
 	};
 
-	/* ---- Q3a (Best Movies) ---- */
 	componentDidMount() {
 		fetch("http://localhost:8081/amounts",
 		{
@@ -94,7 +93,6 @@ export default class BestMovies extends React.Component {
 
 	};
 
-	/* ---- Q3a (Best Movies) ---- */
 	handleDecadeChange(e) {
 		this.setState({
 			selectedDecade: e.target.value
@@ -112,7 +110,7 @@ export default class BestMovies extends React.Component {
 			selectedFund: e.target.value
 		});
 	}
-	/* ---- Q3b (Best Movies) ---- */
+
 	submitDecadeGenre() {
 		
 	const myUrlWithParams = new URL("http://localhost:8081/select/");
