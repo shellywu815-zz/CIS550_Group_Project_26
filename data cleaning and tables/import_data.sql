@@ -15,26 +15,26 @@ ipo_id VARCHAR(16),
 val_amount INT, 
 raised_amount INT, 
 ipo_date DATE, 
-stock_symbol VARCHAR(32)
-PRIMARY KEY(ipo_id)),
+stock_symbol VARCHAR(32), 
+PRIMARY KEY(ipo_id),
 FOREIGN KEY (c_id) REFERENCES Company(id));
 
 CREATE TABLE Closed(
 c_id VARCHAR(16),   
-PRIMARY KEY(c_id)),
+PRIMARY KEY(c_id),
 FOREIGN KEY (c_id) REFERENCES Company(id));
 
 CREATE TABLE Operating(
 c_id VARCHAR(16),   
-PRIMARY KEY(c_id)),
+PRIMARY KEY(c_id),
 FOREIGN KEY (c_id) REFERENCES Company(id));
 
 CREATE TABLE Acquired(
 acquirer_id VARCHAR(16), 
-acquired_id VARCHAR(16), sele
+acquired_id VARCHAR(16), 
 price_amount int(64),
-PRIMARY KEY(acquired_id)),
-FOREIGN KEY (acquired_id) REFERENCES Company(id)),
+PRIMARY KEY(acquired_id),
+FOREIGN KEY (acquired_id) REFERENCES Company(id),
 FOREIGN KEY (acquirer_id) REFERENCES Company(id));
 
 CREATE TABLE Milestone (
@@ -64,7 +64,6 @@ PRIMARY KEY (f_id, id),
 FOREIGN KEY (f_id) REFERENCES FinOrg(id));
 
 
-
 CREATE TABLE FinOrgInvestIn(
 c_id varchar(16), 
 f_id varchar(16), 
@@ -85,6 +84,16 @@ PRIMARY KEY (investor_id , invested_id, round),
 FOREIGN KEY (investor_id) REFERENCES Company(id),
 FOREIGN KEY (invested_id) REFERENCES Company(id));
 
+#JOIN full_normalized_name = object[normalized_name]
+CREATE TABLE Person(
+	id varchar(16),
+	first_name varchar(255),
+	last_name varchar(255),
+birthplace varchar(255),
+	full_normalized_name varchar(255),
+	PRIMARY KEY (id)
+);
+
 CREATE TABLE PersonInvestIn(
 invested_id varchar(16), 
 investor_id varchar(16), 
@@ -95,15 +104,7 @@ PRIMARY KEY (investor_id , invested_id, round),
 FOREIGN KEY (investor_id) REFERENCES Person(id),
 FOREIGN KEY (invested_id) REFERENCES Company(id));
 
-#JOIN full_normalized_name = object[normalized_name]
-CREATE TABLE Person(
-	id varchar(16),
-	first_name varchar(255),
-	last_name varchar(255),
-birthplace varchar(255),
-	full_normalized_name varchar(255),
-	PRIMARY KEY (id)
-);
+
 
 CREATE TABLE Affiliates(
 	p_id varchar(16),
