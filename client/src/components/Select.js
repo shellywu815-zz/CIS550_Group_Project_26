@@ -9,8 +9,8 @@ export default class BestMovies extends React.Component {
 		super(props);
 
 		this.state = {
-			selectedDecade: "",
-			selectedGenre: "",
+			selectedDecade: "3000000",
+			selectedGenre: "4000000",
 			decades: [],
 			genres: [],
 			movies: [],
