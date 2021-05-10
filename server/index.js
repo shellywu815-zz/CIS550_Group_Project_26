@@ -20,7 +20,6 @@ app.get('/topStartups', routes.getTopStartups);
 app.get('/topInvestors', routes.getTopInvestors);
 
 
-app.get('/mostFundedPerson', routes.getMostFundedPerson);
 
 app.get('/averageFundReceived', routes.getAverageFundReceived);
 
@@ -46,9 +45,9 @@ app.get('/searchStartup/:name', routes.searchStartup);
 app.get('/searchIndustry/:keyword', routes.searchIndustry);
 
 //Getting information about one VC/Startup/Industry
-app.get('/VcInfo/:id', routes.getVcInfo);
+//app.get('/VcInfo/:id', routes.getVcInfo);
 app.get('/VcInvests/:id', routes.getVcInvests);
-app.get('/StartupInfo/:id', routes.getStartupInfo);
+//app.get('/StartupInfo/:id', routes.getStartupInfo);
 app.get('/StartupFunds/:id', routes.getStartupFunds);
 app.get('/IndustryVC/:name', routes.getIndustryVC);
 app.get('/IndustryStartup/:name', routes.getIndustryStartup);

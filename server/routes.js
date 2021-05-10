@@ -10,19 +10,6 @@ const connection = mysql.createPool(config);
 
 
 /* ---- Summary Queries ---- */
-const getMostFundedPerson = (req, res) => {
-  const query = `
-
-    
-  
-  `;
-  connection.query(query, function(err, rows, fields) {
-    if (err) console.log(err);
-    else {
-      res.json(rows);
-    }
-  });
-};
 
 
 const getAverageFundReceived = (req, res) => {
@@ -279,29 +266,6 @@ const selectYearVC = (req, res) => {
   });
 };
 
-const selectYearStartup = (req, res) => {
-  const query = `
-
-  `;
-  connection.query(query, function(err, rows, fields) {
-    if (err) console.log(err);
-    else {
-      res.json(rows);
-    }
-  });
-};
-
-const selectYearIndustry = (req, res) => {
-  const query = `
-
-  `;
-  connection.query(query, function(err, rows, fields) {
-    if (err) console.log(err);
-    else {
-      res.json(rows);
-    }
-  });
-};
 
 
 /* ---- Search Queries ---- */
@@ -429,17 +393,7 @@ LIMIT 100;
 };
 
 //Getting information about one VC/Startup/Industry
-const getVcInfo = (req, res) => {
-  const query = `
 
-  `;
-  connection.query(query, function(err, rows, fields) {
-    if (err) console.log(err);
-    else {
-      res.json(rows);
-    }
-  });
-};
 
 const getVcInvests = (req, res) => {
   const fid = req.params.id;
@@ -457,17 +411,6 @@ const getVcInvests = (req, res) => {
   });
 };
 
-const getStartupInfo = (req, res) => {
-  const query = `
-
-  `;
-  connection.query(query, function(err, rows, fields) {
-    if (err) console.log(err);
-    else {
-      res.json(rows);
-    }
-  });
-};
 
 const getStartupFunds = (req, res) => {
   const cid = req.params.id;
@@ -558,7 +501,6 @@ LIMIT 200;
 
 
 module.exports = {
-  getMostFundedPerson: getMostFundedPerson,
   getAverageFundReceived: getAverageFundReceived,
 	getTopInvestors: getTopInvestors,
   getTopStartups: getTopStartups,
@@ -573,11 +515,10 @@ module.exports = {
   searchVC: searchVC,
   searchStartup: searchStartup,
   searchIndustry: searchIndustry,
-  getVcInfo: getVcInfo,
-  getStartupInfo: getStartupInfo,
+  //getVcInfo: getVcInfo,
+  //getStartupInfo: getStartupInfo,
   getIndustryVC: getIndustryVC,
   getIndustryStartup: getIndustryStartup,
   getVcInvests: getVcInvests,
   getStartupFunds: getStartupFunds
-  //TODO: Finish this
 };
