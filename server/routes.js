@@ -98,12 +98,7 @@ FROM Company c JOIN CompanyInvestIn i ON c.id=i.invested_id
 WHERE c.id NOT IN 
 (SELECT acquired_id FROM Acquired)
 GROUP BY c.name ORDER BY SUM(i.amount) DESC
-LIMIT 10;
-
-  
-  
-
-  
+LIMIT 10; 
   `;
   connection.query(query, function(err, rows, fields) {
     if (err) console.log(err);
@@ -254,17 +249,6 @@ const selectIPO = (req, res) => {
 };
 
 
-const selectYearVC = (req, res) => {
-  const query = `
-
-  `;
-  connection.query(query, function(err, rows, fields) {
-    if (err) console.log(err);
-    else {
-      res.json(rows);
-    }
-  });
-};
 
 
 
@@ -515,8 +499,6 @@ module.exports = {
   searchVC: searchVC,
   searchStartup: searchStartup,
   searchIndustry: searchIndustry,
-  //getVcInfo: getVcInfo,
-  //getStartupInfo: getStartupInfo,
   getIndustryVC: getIndustryVC,
   getIndustryStartup: getIndustryStartup,
   getVcInvests: getVcInvests,

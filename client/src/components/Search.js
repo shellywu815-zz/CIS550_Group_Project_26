@@ -2,11 +2,9 @@ import React from 'react';
 import '../style/Search.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PageNavbar from './PageNavbar';
-//import KeywordButton from './KeywordButton';
 import SearchVCRow from './SearchVCRow';
 import SearchComRow from './SearchComRow';
 import SearchIndsRow from './SearchIndsRow';
-//import Switch from "react-switch";
 import Select from 'react-select';
 
 const options = [

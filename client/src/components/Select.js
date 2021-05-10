@@ -1,6 +1,5 @@
 import React from 'react';
 import PageNavbar from './PageNavbar';
-//import BestMoviesRow from './BestMoviesRow';
 import '../style/Select.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

@@ -1,3 +1,6 @@
+CREATE DATABASE investments;
+USE investments;
+
 CREATE TABLE Company(
 id VARCHAR(16), 
 name VARCHAR(255),
